@@ -1,0 +1,39 @@
+*
+*---- LEnuSTORM magnet models regions  ----
+*
+MB150Env 5
+    +mb150vol -mb150fe -mb150vac
+MB150Fe 5
+    +mb150fe -mb150vac
+MB150Vac 5
+    +mb150vac
+QM80Env 5
+    +qm80vol -qm80fe -qm80vac
+QM80Fe 5
+    +qm80fe -qm80vac
+QM80Vac 5
+    +qm80vac 
+MB138Env 5
+    +mb138vol -mb138fe -mb138vac
+MB138Fe 5
+    +mb138fe -mb138vac
+MB138Vac 5
+    +mb138vac
+QM12Env 5
+    +qm12vol -qm12fe -qm12vac
+QM12Fe 5
+    +qm12fe -qm12vac
+QM12Vac 5
+    +qm12vac 
+QM25Env 5
+    +qm25vol -qm25fe -qm25vac
+QM25Fe 5
+    +qm25fe -qm25vac
+QM25Vac 5
+    +qm25vac 
+MB50Env 5
+    +mb50vol -mb50fe -mb50vac
+MB50Fe 5
+    +mb50fe -mb50vac
+MB50Vac 5
+    +mb50vac

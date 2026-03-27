@@ -1,0 +1,91 @@
+TITLE
+
+*Set the defaults for precision simulations
+DEFAULTS                                                              PRECISIO
+#define ppion 0.7
+!@what.1=75*100
+#define ring_straight 7500
+!@what.1=5*1000*100
+#define muon_decay 500000
+!@what.1=ring_straight + muon_decay
+#define decay_tunnel 507500
+#define decay_rad 3000
+*Define the beam characteristics
+BEAM          $ppion         0                -5.0      -5.0       1.0PION+
+DISCARD     -NEUTRIE  -NEUTRIM -ANEUTRIM
+*Define the beam position
+BEAMPOS            0         0         0
+GEOBEGIN                                                              COMBNAME
+    0    0          
+*Black body
+!@what.4=decay_tunnel + 20000
+SPH blkbody    0.0 0.0 0.0 527500
+*Void sphere
+!@what.4=decay_tunnel + 9000
+SPH void       0.0 0.0 0.0 516500
+*Pion decay tube
+ZCC pdecay     0.0 0.0 $decay_rad
+XYP sossec     1.0
+!@what.1=ring_straight
+XYP eossec     7500
+!@what.1=decay_tunnel
+XYP eomdec1    507500
+!@what.1=decay_tunnel+10
+XYP eomdec2    507510
+!@what.3=decay_tunnel+20
+RCC neardet    0 0 507520 0 0 10.0 10000
+END
+*Black hole
+BLKBODY      5 +blkbody -void
+*Void around
+VOID         5 +void -(+pdecay -sossec +eomdec2) -neardet
+*Pion decay
+PIDEC        5 +pdecay -sossec +eossec
+MUDEC        5 +pdecay -eossec  +eomdec1
+ENDDET       5 +pdecay -eomdec1 +eomdec2
+LEMOND       5 +neardet
+END
+GEOEND
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA    BLCKHOLE   BLKBODY
+ASSIGNMA      VACUUM      VOID
+ASSIGNMA      VACUUM     PIDEC
+ASSIGNMA      VACUUM     MUDEC
+ASSIGNMA      VACUUM    ENDDET
+ASSIGNMA      HELIUM    LEMOND
+*Set the random number seed
+RANDOMIZ         1.0
+*Set the number of primary histories to be simulated in the run
+START         100000
+USRBDX            98     PION+       -21      VOID     PIDEC          SoSSPi
+USRBDX           1.0     0.500       100                               &
+USRBDX            98     PION+       -22     PIDEC     MUDEC          EoSSPi
+USRBDX          1.00     0.500       100                               &
+USRBDX            99     MUON+       -23     PIDEC     MUDEC          EoSSMu
+USRBDX           1.5     0.050       100                               &
+USRBDX            99   NEUTRIM       -24     PIDEC     MUDEC          EoSSNuMu
+USRBDX           1.5     0.050       100                               &
+USRBDX            99     MUON+       -25     MUDEC    ENDDET          NSTMu
+USRBDX           1.5     0.050       100                               &
+USRBDX            99  ELECTRON       -26     MUDEC    ENDDET          NSTEl
+USRBDX           1.5     0.050       100                               &
+USRBDX            99   NEUTRIM       -27     MUDEC    ENDDET          NSTNuMu
+USRBDX           1.5     0.050       100                               &
+USRBDX            99  ANEUTRIM       -28     MUDEC    ENDDET          NSTANuMu
+USRBDX           1.5     0.050       100                               &
+USRBDX            99   NEUTRIE       -29     MUDEC    ENDDET          NSTNuE
+USRBDX           1.5     0.050       100                               &
+USRBDX            98   NEUTRIE       -30      VOID    LEMOND          NDNue
+USRBDX           1.5     0.050       100                               &
+USRBDX            98  ANEUTRIM       -31      VOID    LEMOND          NDANuMu
+USRBDX           1.5     0.050       100                               &
+!@what.6=decay_tunnel
+USRBIN            10   NEUTRIM       -97       300       300    507500NuMu
+USRBIN          -300      -300         0       100       100       100 &
+!@what.6=ring_straight+100
+USRBIN            10     PION+       -98       100       100      7600Pions
+USRBIN          -100      -100         0       100       100       100 &
+!@what.6=decay_tunnel
+USRBIN            10     MUON+       -99       100       100    507500Muons
+USRBIN          -100      -100         0       100       100       100 &
+STOP

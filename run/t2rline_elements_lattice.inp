@@ -1,0 +1,18 @@
+*
+*---- TT line element lattice ----
+*
+LATTICE, TLMB1, , , TLMB1, , ,t2rtr0
+LATTICE, TLMQ1, , , QM80Env, , ,t2rtr2
+LATTICE, TLMQ2, , , QM80Env, , ,t2rtr4
+LATTICE, TLMQ3, , , QM80Env, , ,t2rtr6
+LATTICE, TLMB2, , , TLMB2, , ,t2rtr8
+LATTICE, TLMQ4, , , QM80Env, , ,t2rtr10
+LATTICE, TLMQ5, , , QM80Env, , ,t2rtr12
+LATTICE, TLMQ6, , , QM80Env, , ,t2rtr14
+LATTICE, TLMQ7, , , QM80Env, , ,t2rtr16
+LATTICE, TLMQ8, , , QM80Env, , ,t2rtr18
+LATTICE, TLMB3, , , TLMB3, , ,t2rtr21
+LATTICE, TLMQ9, , , QM80Env, , ,t2rtr23
+LATTICE, TLMQ10, , , QM80Env, , ,t2rtr25
+LATTICE, TLMQ11, , , QM80Env, , ,t2rtr27
+LATTICE, TLMB4, , , TLMB4, , ,t2rtr29

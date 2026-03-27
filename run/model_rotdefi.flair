@@ -1,0 +1,52 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 74b31bc8d09378c8d975ea7485a19ebf
+Input:
+*Define the transformations from the replicas to the models
+*           rot.numb.    theta    phi       dx        dy        dz
+ROT-DEFI trttl 200 0.0 -$d1_adeg 0 0.0 =-(s_d1+d1_pivot)
+*# ---- D1
+ROT-DEFI trd1 0,,, =-1000+d1_defl/2,, -$s_d1
+*# ---- D2
+ROT-DEFI trd2,,,, =-1000+d1_defl/2+s_d2*sin(d1_arad),, =-(s_d1+d1_pivot)-s_d2*cos(d1_arad)
+*# ---- Q1
+ROT-DEFI trq1 0,,, =s_q1*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q1*cos(d1_arad)
+ROT-DEFI trq1 200,, -$d1_adeg
+ROT-DEFI trq1 300,,, -1500
+*# ---- Q2
+ROT-DEFI trq2 0,,, =s_q2*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q2*cos(d1_arad)
+ROT-DEFI trq2 200,, -$d1_adeg
+ROT-DEFI trq2 300,,, -1500
+*# ---- Q3
+ROT-DEFI trq3 0,,, =s_q3*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q3*cos(d1_arad)
+ROT-DEFI trq3 200,, -$d1_adeg
+ROT-DEFI trq3 300,,, -1500
+*# ---- Q4
+ROT-DEFI trq4 0,,, =s_q4*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q4*cos(d1_arad)
+ROT-DEFI trq4 200,, -$d1_adeg
+ROT-DEFI trq4 300,,, -1500
+*# ---- Q5
+ROT-DEFI trq5 0,,, =s_q5*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q5*cos(d1_arad)
+ROT-DEFI trq5 200,, -$d1_adeg
+ROT-DEFI trq5 300,,, -1500
+*# ---- Q6
+ROT-DEFI trq6 0,,, =s_q6*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q6*cos(d1_arad)
+ROT-DEFI trq6 200,, -$d1_adeg
+ROT-DEFI trq6 300,,, -1500
+*# ---- Q7
+ROT-DEFI trq7 0,,, =s_q7*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q7*cos(d1_arad)
+ROT-DEFI trq7 200,, -$d1_adeg
+ROT-DEFI trq7 300,,, -1500
+*
+*! - ROTDEFI for element QDS2A2.0 at s=0.9944096426539861
+ROT-DEFI frtr1 0,,, 995.7722955833584,, -1599.35105379108
+ROT-DEFI frtr1 200,, 2.4366482
+ROT-DEFI frtr1 300,, 0 -1000 0 -1150
+EndInput
+
+Page: Flair
+
+# Run information
+Run: <default>
+End

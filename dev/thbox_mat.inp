@@ -1,0 +1,13 @@
+*
+*---- Target & Horn Materials  ----
+*
+MATERIAL         22.                  3.                              TITAN60
+ASSIGNMA     TITAN60    TARGET
+ASSIGNMA    TITANIUM   CANIBOX
+ASSIGNMA      HELIUM  CANICOOL
+ASSIGNMA      HELIUM    TGTBOX
+ASSIGNMA      HELIUM     THBOX
+ASSIGNMA    ALUMINUM    RHALUP
+ASSIGNMA      HELIUM      RHBF                            1.
+ASSIGNMA      HELIUM      RHIN
+

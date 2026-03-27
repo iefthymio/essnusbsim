@@ -1,0 +1,147 @@
+TITLE
+ESSnuSB -T2R nad low-energy nuSTORM Simulation
+#define primary 0
+*
+* General Parameters
+*   beamrad : nominal beam radius to calculate apertures
+#define pbeam 0.7
+#define ptline 0.7
+#define beam_rad 20
+#define clight 29979245800
+*
+* Facility
+*    target chamber : 3m x 5m
+*    shielding : 4m width
+#define tcc_len 300
+#define tcc_width 350
+#define tcc_shield 400
+!@what.1=tcc_width+tcc_shield
+#define tcc_o 750
+*
+* Decay pipe
+*	length = 80m
+*	radius = 1m
+*	shielding = 4m
+#define tdec_len 8000
+#define tdec_rad 250
+#define tdec_shield 400
+!@what.1=tdec_rad+tdec_shield
+#define tdec_wid 650
+*
+* Beam dump
+*	length 	= 5m
+*	width 	= 3m
+#define bdump_len 500
+#define bdump_wid 300
+*
+* ESSnuSB near detector
+*	distance (from target) = 250m
+#define ndet_dis 25000
+#define ndet_wid 500
+*
+* Target & Horn
+#define thbox_rad 100
+#define thbox_zmax 100
+#define thbox_zmin -10
+*
+* Target
+#define tgt_rad 1.5
+#define tgt_len 78
+*
+*Set the defaults for precision simulations
+DEFAULTS                                                              PRECISIO
+FREE
+*
+*Define the beam characteristics
+#ifdef primary
+BEAM      , -2.5, 0, 0, 2.5, 2.5,  ,MUON+
+#else
+BEAM      , $pbeam, 0, 0, 2.5, 2.5,  ,MUON+
+#endif
+*Define the beam position
+BEAMPOS   , 0, 0, 0
+GEOBEGIN   ,  ,  ,  ,  ,  ,  , COMBNAME
+0,0,100000
+*
+* --- global structures
+#include glob_bodies.inp
+#if 0
+YZP ttline_u   -$tdec_rad
+#endif
+#if 0
+!@what.1=-tdec_wid-1000
+YZP ttline_d   0.0
+#endif
+*
+* --- Target and Horn
+#include thbox_bodies.inp
+*
+* --- LEMOND detector
+RCC lemond     0 0 25000 0 0 500 500
+*
+* --- Magnet models
+#include magnet_models_bodies.inp
+RCC mparkin    0 0 -11900 0 0 2100 1000
+RCC mparkout   0 0 -12100 0 0 2700 1100
+*
+* --- Replicats
+#include t2rline_elements_replicas.inp
+#include lenustorm_elements_replicas.inp
+END
+*
+* --- Global Regions
+#include glob_regions.inp
+*
+LEMOND       5 +lemond
+*
+* --- Regions
+#include thbox_regions.inp
+#include magnet_models_regions.inp
+#include t2rline_elements_regions.inp
+#include lenustorm_elements_regions.inp
+END
+*
+* --- ROT-DEFI and LATTICE
+#include glob_rotdefi.inp
+#include t2rline_elements_rotdefi.inp
+#include t2rline_elements_lattice.inp
+#include lenustorm_elements_rotdefi.inp
+#include lenustorm_elements_lattice.inp
+GEOEND
+#if 0
+Black     , -, size,  , , , ,body
+#endif
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA  , BLCKHOLE, BLKBODY
+ASSIGNMA  , VACUUM, VOID
+ASSIGNMA  , BLCKHOLE, MODELS
+ASSIGNMA  , VACUUM, MODAIR
+ASSIGNMA  , IRON, SHIELD
+ASSIGNMA  , HELIUM, TCC_CAV
+ASSIGNMA  , VACUUM, THBOX
+ASSIGNMA  , VACUUM, TARGET
+ASSIGNMA  , IRON, BDUMP
+ASSIGNMA  , CARBON, BDUMPC
+ASSIGNMA  , TUNGSTEN, LEMOND
+ASSIGNMA  , HELIUM, TTMBEnv, BEnv, 3
+ASSIGNMA  , IRON, TTMBFe, BFe, 3
+ASSIGNMA  , VACUUM, TTMBVac, BVac, 3, 1
+MGNCREAT  , 2,  , , , , ,D1
+MGNFIELD  , $d1_b0, , 2, BEND0,  , ,D1
+MGNFIELD  , -$d1_b0, , 2, BEND1,  , ,D1
+*
+* --- Beam line element ROT-DEFI from the replicas to the models  -----
+*
+* --- Scoring
+*USRBIN    , 10, MUON+, -21, 100, 10, 1300, Beam
+*USRBIN    , -1000, -10, 0, 100, 20, 500,  &
+USRBIN    , 10, BEAMPART, -21, 400, 100, 1400, Beampart
+USRBIN    , -800, -100, -200, 400, 100, 600,  &
+USRBIN    , 10, BEAMPART, -22, 100, 10, 1300, Beampar1
+USRBIN    , -1000, -10, 0, 400, 20, 500,  &
+*
+*Set the random number seed
+RANDOMIZ  , 1.0
+*Set the number of primary histories to be simulated in the run
+START     , 500
+STOP

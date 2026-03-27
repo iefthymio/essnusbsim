@@ -1,0 +1,32 @@
+*
+*---- Target & Horn Assembly  ----
+*
+THBOX        5 +thbox
+               -h00 -h01 -h02 -h03 -h04 -h05 -h06 -h07 -h08 -h09-tgtbox
+RHALUP       5 +h00-h20 -h30 -h10-target |+h30 -h10-tgtbox
+               |+h01-h21 -h31 -h11-target |+h31 -h11-tgtbox
+               |+h02-h22 -h32 -h12-target |+h32 -h12-tgtbox
+               |+h03-h23 -h33 -h13-target |+h33 -h13-tgtbox
+               |+h04-h24 -h34 -h14-target |+h34 -h14-tgtbox
+               |+h05-h25 -h35 -h15-target |+h35 -h15-tgtbox
+               |+h06-h26 -h36 -h16-target |+h36 -h16-tgtbox
+               |+h07-h27 -h37 -h17-target |+h37 -h17-tgtbox
+               |+h08-h28 -h38 -h18-target |+h38 -h18-tgtbox
+               |+h09-h29 -h39 -h19-target |+h39 -h19-tgtbox
+RHBF         5 +h20-h30-tgtbox
+               |+h21-h31-tgtbox
+               |+h22-h32-tgtbox
+               |+h23-h33-tgtbox
+               |+h24-h34-tgtbox
+               |+h25-h35-tgtbox
+               |+h26-h36-tgtbox
+               |+h27-h37-tgtbox
+               |+h28-h38-tgtbox
+               |+h29-h39-tgtbox
+RHIN         5 +h10-tgtbox   |+h11-tgtbox   |+h12-tgtbox   |+h13-tgtbox  |+h14-tgtbox
+               |+h15-tgtbox  |+h16 -tgtbox |+h17 -tgtbox |+h18 -tgtbox  |+h19-tgtbox
+TGTBOX       5 +tgtbox -CaniSup
+CANIBOX      5 +CaniSup -CaniInf | +CaniSkin -target
+CANICOOL     5 +CaniInf -CaniSkin
+TARGET       5 +target
+

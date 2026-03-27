@@ -1,0 +1,298 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 66d8dfe8b81ca727bbdc3317965e1ddf
+Input:
+TITLE
+*Set the defaults for precision simulations
+DEFAULTS PRECISIO
+#define ppion 0.7
+#define ring_straight =75*100
+#define muon_decay =5*1000*100
+#define decay_tunnel '=ring_straight + muon_decay'
+#define decay_rad 3000
+*Define the beam characteristics
+BEAM PION+ =ppion 0,, -5.0 -5.0 1.0
+DISCARD , -NEUTRIE -NEUTRIM -ANEUTRIM
+*Define the beam position
+BEAMPOS , 0 0 0
+GEOBEGIN COMBNAME
+*Black body
+SPH blkbody 0.0 0.0 0.0 '=decay_tunnel + 20000'
+*Void sphere
+SPH void 0.0 0.0 0.0 '=decay_tunnel + 9000'
+*Pion decay tube
+ZCC pdecay 0.0 0.0 =decay_rad
+XYP sossec 1.0
+XYP eossec =ring_straight
+XYP eomdec1 =decay_tunnel
+XYP eomdec2 =decay_tunnel+10
+RCC neardet 0 0 =decay_tunnel+20 0 0 10.0 10000
+END
+*Black hole
+REGION BLKBODY 5
+	+blkbody -void
+*Void around
+REGION VOID 5
+	+void -(+pdecay -sossec +eomdec2) -neardet  
+*Pion decay
+REGION PIDEC
+	+pdecay -sossec +eossec 
+	@select=1
+REGION MUDEC
+	+pdecay -eossec  +eomdec1 
+REGION ENDDET
+	+pdecay -eomdec1 +eomdec2 
+REGION LEMOND
+	+neardet 
+END
+GEOEND
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA , BLCKHOLE BLKBODY
+ASSIGNMA , VACUUM VOID
+ASSIGNMA , VACUUM PIDEC
+ASSIGNMA , VACUUM MUDEC
+ASSIGNMA , VACUUM ENDDET
+ASSIGNMA , HELIUM LEMOND
+*Set the random number seed
+RANDOMIZ , 1.0
+*Set the number of primary histories to be simulated in the run
+START , 100000
+USRBDX SoSSPi 98 PION+ -21 VOID PIDEC,, 1.0 0.500 100
+USRBDX EoSSPi 98 PION+ -22 PIDEC MUDEC,, 1.00 0.500 100
+USRBDX EoSSMu 99 MUON+ -23 PIDEC MUDEC,, 1.5 0.050 100
+USRBDX EoSSNuMu 99 NEUTRIM -24 PIDEC MUDEC,, 1.5 0.050 100
+USRBDX NSTMu 99 MUON+ -25 MUDEC ENDDET,, 1.5 0.050 100
+USRBDX NSTEl 99 ELECTRON -26 MUDEC ENDDET,, 1.5 0.050 100
+USRBDX NSTNuMu 99 NEUTRIM -27 MUDEC ENDDET,, 1.5 0.050 100
+USRBDX NSTANuMu 99 ANEUTRIM -28 MUDEC ENDDET,, 1.5 0.050 100
+USRBDX NSTNuE 99 NEUTRIE -29 MUDEC ENDDET,, 1.5 0.050 100
+USRBDX NDNue 98 NEUTRIE -30 VOID LEMOND,, 1.5 0.050 100
+USRBDX NDANuMu 98 ANEUTRIM -31 VOID LEMOND,, 1.5 0.050 100
+USRBIN NuMu 10 NEUTRIM -97 300 300 =decay_tunnel -300 -300 0 100 100 100
+USRBIN Pions 10 PION+ -98 100 100 =ring_straight+100 -100 -100 0 100 100 100
+USRBIN Muons 10 MUON+ -99 100 100 =decay_tunnel -100 -100 0 100 100 100
+STOP
+EndInput
+
+Page: Input
+plotengine: Gnuplot
+
+# Run information
+Run: <default>
+	Status:   3
+	StartRun: 1738752809.558165
+	open:     1
+End
+
+# Plots information
+Plot: Red
+	Type: Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	coord: Z-X
+	extends: 345.29855595265803 245.35555801068924
+	group: Geometry
+	layer: Media
+	origin: 23.7092 0 -10.6591
+End
+Plot: Green
+	Type: Geometry
+	basisu: 0.836516 0.0173376 0.547668
+	basisv: 0.224144 0.901221 -0.370891
+	extends: 100.0 71.14882506527414
+	group: Geometry
+	layer: 3D
+	origin: -0.897858 0.777568 1.34679
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 84.59558823529412 60.0
+	group: Geometry
+	layer: Media
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 100.0 71.01827676240208
+	group: Geometry
+	layer: Media
+End
+Plot: lenustorm_fast_21_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_21_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 21
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_22_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_22_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 22
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_23_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_23_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 23
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_24_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_24_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 24
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_25_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_25_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 25
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_26_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_26_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 26
+	x.0: 2
+	xlog: 1
+	y.0: 0
+	ylog: 1
+End
+Plot: lenustorm_fast_27_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_27_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 27
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_28_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_28_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 28
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_29_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_29_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 29
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_30_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_30_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 30
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_31_plot
+	Type: USR-1D
+	file.0: lenustorm_fast_31_tab.lis
+	grid: 0
+	lc.0: red
+	lw.0: 2
+	name.0: Detector 1
+	ndetectors: 1
+	title: USR-1D lenustorm fast 31
+	x.0: 2
+	y.0: 0
+End
+Plot: lenustorm_fast_97_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_fast_97.bnn
+	geo: -No-
+	grid: 0
+	hist: 2D Projection
+	int: 2699.4397635250957
+	max: 2.88919796E-06
+	min: 8.14521627E-13
+	proj: Y
+	title: USRBIN lenustorm fast 97
+End
+Plot: lenustorm_fast_98_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_fast_98.bnn
+	geo: -No-
+	grid: 0
+	hist: 2D Projection
+	int: 3353.8079788460541
+	max: 8.10964033E-04
+	min: 1.99999999E-08
+	proj: Y
+	title: USRBIN lenustorm fast 98
+End
+Plot: lenustorm_fast_99_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_fast_99.bnn
+	geo: -No-
+	grid: 0
+	hist: 2D Projection
+	int: 3220.2489822995899
+	max: 2.90882999E-05
+	min: 1.31732597E-13
+	proj: Y
+	title: USRBIN lenustorm fast 99
+End

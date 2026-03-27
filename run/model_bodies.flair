@@ -1,0 +1,68 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 306ba8dc1f7b72a3d931a5bb5bdc7907
+Input:
+*
+*---- Magnet Models -----
+$start_translat -1000 0 0
+RPP mbhavol =-d1_xsiz/2-0.1 =d1_xsiz/2+0.1 =-d1_ysiz/2-0.1 =d1_ysiz/2+0.1 -0.1 \
+	 =d1_len+0.1
+RPP mbhafe =-d1_xsiz/2 =d1_xsiz/2 =-d1_ysiz/2 =d1_ysiz/2 0 $d1_len
+RPP mbhavac =-d1_apx/2 =d1_apx/2 =-d1_apy/2 =d1_apy/2 0 $d1_len
+$end_translat
+$start_translat -1500 0 0
+RCC mqavol 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+RCC mqafe 0 0 0 0 0 $q1_len $q1_rad
+RCC mqavac 0 0 -0.05 0 0 =q1_len+0.1 $q1_ap
+$end_translat
+*
+* --- insert lenustorm_models.bodies
+*
+$start_translat -1000 0 -400
+RPP qfavol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qfafe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qfavac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -550
+RPP qdavol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qdafe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qdavac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -700
+RPP qfsvol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qfsfe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qfsvac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -850
+RPP qdsvol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qdsfe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qdsvac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -1000
+RPP qdsa1vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qdsa1fe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qdsa1vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -1150
+RPP qdsa2vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qdsa2fe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qdsa2vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -1300
+RPP qfsa1vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+RPP qfsa1fe -78.0 78.0 -78.0 78.0 0 25.0
+RCC qfsa1vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+$end_translat
+$start_translat -1000 0 -1450
+RPP bvol -45.1 45.1 -40.1 40.1 -0.1 60.1
+RPP bfe -45.0 45.0 -40.0 40.0 0 60.0
+RPP bvac -25.0 25.0 -20.0 20.0 -0.1 60.1
+$end_translat
+EndInput
+
+Page: Flair
+
+# Run information
+Run: <default>
+End

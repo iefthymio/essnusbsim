@@ -1,0 +1,15 @@
+*
+*---- General regions  ----
+*
+
+BLKBODY 5
+  +blkbody -void
+VOID    5
+  +void -tcco -tdeco -mparko -nsto -t2rto
+SHIELD  5
+  (+tcco -tcci)
+  | (+tdeco -tdeci)
+HEVOL  5
+  +tcci
+  | +tdeci
+

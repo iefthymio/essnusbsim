@@ -1,0 +1,102 @@
+#
+# -Configuration file for FLUKA Simulation
+#
+# Units in:  m s
+#
+# Note: the {0,0,0} point for the simulation corresponds to the target upstream
+
+trg_to_lblnd    : 320     # = 250+60 in Nicks last drawing he claims 338 m from the decay tunnel start to ND front face, add 10m for nuSTORM clearance
+ss_to_lemmond   : 50
+#
+target_len      : 0.78
+target_radious  : 0.015
+thbox_x         : [-1, 1]
+thbox_y         : [-1, 1]
+thbox_z         : [-0.1, 1]
+#
+z_target_cavern : [-1, 4]       # start/end of the target cavern
+w_target_cavern : [-3.5, 3.5]   # 2*3.5
+h_target_cavern : [-3.5, 3.5]   # 2*3.5
+#
+l_decay_tunnel  : 60
+w_decay_tunnel  : [-7, 7]       # = 2*7.0
+r_decay_pipe    : 2.5
+h_decay_tunnel  : [-6.5, 6.5]  # = 2*6.5
+#
+d_shield        : 4.0   # thickness of the shielding
+#
+w_ring_tunnel   : 2
+h_ring_tunnel   : 4
+ring_walls      : 2
+w_tline_tunnel  : 5
+h_tline_tunnel  : 4
+t_tline_tunnel  : 2
+
+mparking_start  : [0, 0, -101]  # x,y,z coordinates 
+mparking_radious: 10
+
+# trg_to_d1pivot  : 2.5             # from targed front to D1 pivot point
+# d2pivot_to_inj  : [-2, 6.0]       # D2 pivot to LEnuSTORM injection point in (xz) coordinates 
+t2r_start         : [0, 2.0]        # start of T2R line from target start 
+t2rend_to_inj     : [-2, 6.0]       # m T2R end projected to ring production straight in (xz) coordinates 
+t2rstart_to_inj   : [-9.08278251237319, 23.1539181004073] # {x,z} coordinates
+
+beam_size     : 0.10                 # +10 cm beam size
+qaperture_x   : 0.15                # 30cm diameter 
+qaperture_y   : 0.15
+magnet_width  : 0.8    # default lateral magnet dimension from beam axis
+d1_aperture_margin : 1.2    # factor to multiply the needed aperture for the D1 dipole (20%)
+
+t2r: # T2R line specific (obsolete, will be read from the input file)
+  # l_bend      : 2.0             # arc length of the dipoles
+  l_bend_end  : 0.35
+  l_bend_woke : 0.50
+
+  # l_quad      : 0.80
+  l_quad_end  : 0.20
+  l_quad_w    : .60
+  l_quad_h    : .60
+  # l_qfl       : 0.80
+  l_qfl_end   : 0.20
+  l_qfl_w     : .90
+  l_qfl_h     : .90
+  l_vac       : 0.10
+
+################################
+##### Target/Canister/Horn #####
+########## UNIT: [cm] ##########
+
+Horn :
+    # R_box x L_box is the global volume englobing the Horn, the Canister and the Target
+    R_box : 70.44
+    L_box : 305.112
+    z : [ 6.1, 71.08, 117.88, 178.18, 225.68, 226.76, 232.2, 237.64, 243.08, 248.52,
+          6.1, 71.08, 117.88, 178.18, 225.68, 226.76, 232.2, 237.64, 243.08, 248.52,
+          7.1, 71.08, 117.88, 178.18, 225.68, 226.76, 232.2, 237.64, 243.08, 248.52,
+          7.1, 71.08, 117.88, 178.18, 225.68, 226.76, 232.2, 237.64, 243.08, 248.52]    
+    dz : [  64.98, 46.8, 60.3, 47.5, 1.08, 5.44, 5.44, 5.44, 5.44, 5.74,
+            64.98, 46.8, 60.3, 47.5, 1.08, 5.44, 5.44, 5.44, 5.44, 5.74,
+            63.98, 46.8, 60.3, 47.5, 1.08, 5.44, 5.44, 5.44, 5.44, 5.44,
+            63.98, 46.8, 60.3, 47.5, 1.08, 5.44, 5.44, 5.44, 5.44, 5.44]
+    R0 : [58.7, 58.7, 58.7, 58.7, 58.7, 58.0, 57.46, 55.76, 52.63, 47.32,
+          4.2, 4.2, 23.3, 23.3, 4.2, 4.2, 3.54, 5.24, 8.37, 13.68,
+          57.7, 57.7, 57.7, 57.7, 57.7, 57.7, 57.15, 55.43, 52.26, 46.82,
+          4.5, 4.5, 23.6, 23.6, 4.5, 4.5, 3.85, 5.57, 8.74, 14.18]
+    Rf : [  58.7, 58.7, 58.7, 58.7, 58.0, 57.46, 55.76, 52.63, 47.32, 30.5,
+            4.2, 23.3, 23.3, 4.2, 4.2, 3.54, 5.24, 8.37, 13.68, 30.5,
+            57.7, 57.7, 57.7, 57.7, 57.7, 57.15, 55.43, 52.26, 46.82, 30.5,
+            4.5, 23.6, 23.6, 4.5, 4.5, 3.85, 5.57, 8.74, 14.18, 30.5]    
+Canister:
+    R_sup : 3.9
+    L_sup : 78.2
+    R_inf : 3.8
+    L_inf : 78
+    R_skin: 1.6
+    L_skin: 78
+    w_skin: 0.1
+Target: 
+    R : 1.5
+    L : 78
+
+### end Target/canister/Horn ###
+################################

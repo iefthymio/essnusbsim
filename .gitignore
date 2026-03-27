@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-#
-*.*~
-
-myanal/
-run/
-
-**/.vscode/
-=======
 
 *.exe
 *.out
@@ -15,4 +6,27 @@ run/
 *.log
 *.o
 *.err
->>>>>>> 1d4c892 (add gitignore)
+*.png
+*.lis
+*.bnx
+*.eps
+
+*.*~
+*.pickle
+*.bnn
+*.jpg
+myfluka
+ran*
+
+**/.vscode/
+run/
+# fastsim/
+src/fluka_*
+src/obs/
+dev/*.flair
+dev/*.regions
+dev/*.rotdefi
+dev/*.bodies
+dev/*.replicas
+dev/zzobs
+dev/__pycache__/

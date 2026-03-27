@@ -1,0 +1,5 @@
+*
+*---- Target & Horn Assembly  ----
+*
+RPP thbox      -100 100 -100 100 -10.0 100.0
+RCC target     0 0 0 0 0 78.0 1.5

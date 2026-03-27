@@ -1,0 +1,34 @@
+*
+*---- T2R line element regions  ----
+*
+ 
+TLMB1    5
+    +tlmb1
+TLMQ1    5
+    +tlmq1
+TLMQ2    5
+    +tlmq2
+TLMQ3    5
+    +tlmq3
+TLMB2    5
+    +tlmb2
+TLMQ4    5
+    +tlmq4
+TLMQ5    5
+    +tlmq5
+TLMQ6    5
+    +tlmq6
+TLMQ7    5
+    +tlmq7
+TLMQ8    5
+    +tlmq8
+TLMB3    5
+    +tlmb3
+TLMQ9    5
+    +tlmq9
+TLMQ10   5
+    +tlmq10
+TLMQ11   5
+    +tlmq11
+TLMB4    5
+    +tlmb4

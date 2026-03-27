@@ -1,0 +1,64 @@
+*
+*---- T2R line element ROT-DEFI  ----
+*
+
+* - ROTDEFI for element TLmb1 at s=0.75
+ROT-DEFI  , 0, , ,-0.0, -0.0, -200.0, t2rtr0
+ROT-DEFI  , 200, , 0, , , , t2rtr0 
+ROT-DEFI  , 300, , 0, 0, 0, -10100, t2rtr0 
+* - ROTDEFI for element TLmq1 at s=2.4
+ROT-DEFI  , 0, , ,52.398374012505066, -0.0, -390.94034103779416, t2rtr2
+ROT-DEFI  , 200, , -24.5386, , , , t2rtr2 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr2 
+* - ROTDEFI for element TLmq2 at s=3.7
+ROT-DEFI  , 0, , ,106.38827694386667, -0.0, -509.19891527857453, t2rtr4
+ROT-DEFI  , 200, , -24.5386, , , , t2rtr4 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr4 
+* - ROTDEFI for element TLmq3 at s=5.0
+ROT-DEFI  , 0, , ,160.37817987522826, -0.0, -627.4574895193549, t2rtr6
+ROT-DEFI  , 200, , -24.5386, , , , t2rtr6 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr6 
+* - ROTDEFI for element TLmb2 at s=6.65
+ROT-DEFI  , 0, , ,214.36808280658988, -0.0, -745.7160637601352, t2rtr8
+ROT-DEFI  , 200, , -24.5386, , , , t2rtr8 
+ROT-DEFI  , 300, , 0, 0, 0, -10100, t2rtr8 
+* - ROTDEFI for element TLmq4 at s=8.41021790993768
+ROT-DEFI  , 0, , ,349.66075442158433, -0.0, -904.8692375272824, t2rtr10
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr10 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr10 
+* - ROTDEFI for element TLmq5 at s=9.42043581987536
+ROT-DEFI  , 0, , ,425.9922093103921, -0.0, -971.0425799707954, t2rtr12
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr12 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr12 
+* - ROTDEFI for element TLmq6 at s=10.43065372981304
+ROT-DEFI  , 0, , ,502.32366419919987, -0.0, -1037.2159224143084, t2rtr14
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr14 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr14 
+* - ROTDEFI for element TLmq7 at s=11.44087163975072
+ROT-DEFI  , 0, , ,578.6551190880076, -0.0, -1103.3892648578212, t2rtr16
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr16 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr16 
+* - ROTDEFI for element TLmq8 at s=12.651089549688399
+ROT-DEFI  , 0, , ,670.0984531343561, -0.0, -1182.663412937931, t2rtr18
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr18 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr18 
+* - ROTDEFI for element TLmb3 at s=14.151690810967999
+ROT-DEFI  , 0, , ,761.5417871807045, -0.0, -1261.9375610180412, t2rtr21
+ROT-DEFI  , 200, , -49.0773, , , , t2rtr21 
+ROT-DEFI  , 300, , 0, 0, 0, -10700, t2rtr21 
+* - ROTDEFI for element TLmq9 at s=16.636667605781426
+ROT-DEFI  , 0, , ,870.4772702602552, -0.0, -1511.7463756369505, t2rtr23
+ROT-DEFI  , 200, , -15.1951, , , , t2rtr23 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr23 
+* - ROTDEFI for element TLmq10 at s=17.958601043227077
+ROT-DEFI  , 0, , ,905.1261309263657, -0.0, -1639.3180675788124, t2rtr25
+ROT-DEFI  , 200, , -15.1951, , , , t2rtr25 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr25 
+* - ROTDEFI for element TLmq11 at s=19.36907554318193
+ROT-DEFI  , 0, , ,942.0957188327511, -0.0, -1775.4343146629164, t2rtr27
+ROT-DEFI  , 200, , -15.1951, , , , t2rtr27 
+ROT-DEFI  , 300, , 0, 0, 0, -10400, t2rtr27 
+* - ROTDEFI for element TLmb4 at s=21.854052337995356
+ROT-DEFI  , 0, , ,999.6176486725277, -0.0, -1987.2210739487339, t2rtr29
+ROT-DEFI  , 200, , -15.1951, , , , t2rtr29 
+ROT-DEFI  , 300, , 0, 0, 0, -10700, t2rtr29 

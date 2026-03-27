@@ -1,0 +1,19 @@
+*
+*---- T2R line element rattice  ----
+*
+
+LATTICE, TLMB1, , , TLMB1, , ,t2rtr0
+LATTICE, TLMQ1, , , TLMQ1, , ,t2rtr2
+LATTICE, TLMQ2, , , TLMQ2, , ,t2rtr4
+LATTICE, TLMQ3, , , TLMQ3, , ,t2rtr6
+LATTICE, TLMB2, , , TLMB2, , ,t2rtr8
+LATTICE, TLMQ4, , , TLMQ4, , ,t2rtr10
+LATTICE, TLMQ5, , , TLMQ5, , ,t2rtr12
+LATTICE, TLMQ6, , , TLMQ6, , ,t2rtr14
+LATTICE, TLMQ7, , , TLMQ7, , ,t2rtr16
+LATTICE, TLMQ8, , , TLMQ8, , ,t2rtr18
+LATTICE, TLMB3, , , TLMB3, , ,t2rtr21
+LATTICE, TLMQ9, , , TLMQ9, , ,t2rtr23
+LATTICE, TLMQ10, , , TLMQ10, , ,t2rtr25
+LATTICE, TLMQ11, , , TLMQ11, , ,t2rtr27
+LATTICE, TLMB4, , , TLMB4, , ,t2rtr29

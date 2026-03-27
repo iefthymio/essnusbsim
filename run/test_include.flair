@@ -1,0 +1,571 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 7416a4b21ff09ebf7bf0a3b2c4da9e9b
+Input:
+TITLE
+	ESS-LEnuStorm Simulation
+* General Parameters
+*   beamrad : nominal beam radius to calculate apertures
+#define pbeam 0.816924
+#define ptline 0.7
+#define beam_rad 20
+#define clight 29979245800
+*
+* Facility
+*    target chamber : 3m x 5m
+*    shielding : 4m width
+#define tcc_len 300
+#define tcc_width 350
+#define tcc_shield 400
+#define tcc_o =tcc_width+tcc_shield
+*
+* Decay pipe
+*	length = 80m
+*	radius = 1m
+*	shielding = 4m
+#define tdec_len 8000
+#define tdec_rad 250
+#define tdec_shield 400
+#define tdec_wid =tdec_rad+tdec_shield
+*
+* Beam dump
+*	length 	= 5m
+*	width 	= 3m
+#define bdump_len 500
+#define bdump_wid 300
+*
+* ESSnuSB near detector
+*	distance (from target) = 250m
+#define ndet_dis 25000
+#define ndet_wid 500
+*
+* TTline to leNuSTORM
+* -------------------
+*
+* Magnet prototypes
+#define d1_len 221
+#define d1_vlen =d1_len+0.1
+#define d1_k0 0.428
+#define d1_arad =d1_k0*d1_len/100
+#define d1_adeg =d1_arad*180/pi
+#define d1_b0 =d1_arad*ptline/clight/d1_len*1.0e13
+#define d1_defl =d1_len*tan(d1_arad/2)
+#define d1_pivot '=d1_len - d1_defl/tan(d1_arad)'
+#define d1_apx '=d1_defl + 2*beam_rad'
+#define d1_apy =2*beam_rad
+#define d1_xsiz =d1_apx+60
+#define d1_ysiz =d1_apy+100
+#define q1_len 80
+#define q1_ap 44
+#define q1_fe 40
+#define q1_rad =q1_ap+q1_fe
+#define drift0 200
+#define drift1 50
+#define drift2 20
+#define drift3 35.3
+#define drift4 35.3
+#define drift5 35.3
+#define drift6 35.3
+#define drift7 20
+#define drift8 50
+#define s_d1 =drift0
+#define s_q1 =d1_pivot+drift1
+#define s_q2 =s_q1+q1_len+drift2
+#define s_q3 =s_q2+q1_len+drift3
+#define s_q4 =s_q3+q1_len+drift4
+#define s_q5 =s_q4+q1_len+drift5
+#define s_q6 =s_q5+q1_len+drift6
+#define s_q7 =s_q6+q1_len+drift7
+#define s_d2 =s_q7+q1_len+drift8
+*
+* LEnuSTORM
+*	nstorm_ss_len	= 75m
+*	nstorm_tun_wid = 4m
+#define nstorm_ss_len 7500
+#define nstorm_tun_wid 400
+*
+* Target & Horn
+#define thbox_rad 100
+#define thbox_zmax 100
+#define thbox_zmin -10
+*
+* Target
+#define tgt_rad 1.5
+#define tgt_len 78
+*
+*Set the defaults for precision simulations
+DEFAULTS PRECISIO
+FREE
+*
+*Define the beam characteristics
+BEAM MUON+ $pbeam 0 0 2.5 2.5
+*Define the beam position
+BEAMPOS , 0 0 0
+GEOBEGIN COMBNAME
+SPH blkbody 0 0 0 100000
+SPH void 0 0 0 90000
+RPP tcc_o -$tcc_o $tcc_o -$tcc_o $tcc_o -100 $tcc_len
+RPP tcc -$tcc_width $tcc_width -$tcc_width $tcc_width -50 =tcc_len+1
+RPP tdec_o -$tdec_wid $tdec_wid -$tdec_wid $tdec_wid =tcc_len-1 =tdec_len+1
+RPP tdec -$tdec_rad $tdec_rad -$tdec_rad $tdec_rad =tcc_len-2 =tdec_len-bdump_len+2
+$start_transform -trttl
+RPP ttline =-1.2*d1_xsiz/2 =1.2*d1_xsiz/2 =-1.2*d1_ysiz/2 =1.2*d1_ysiz/2 0 2000
+$end_transform
+YZP ttline_u -$tdec_rad
+YZP ttline_d =-tdec_wid-1000
+*Target & Horn box
+RCC thbox 0 0 $thbox_zmin 0 0 $thbox_zmax $thbox_rad
+RCC target 0 0 0 0 0 $tgt_len $tgt_rad
+#include model_bodies.inp
+*
+*---- Magnet Models -----
+!$start_translat -1000 0 0
+!RPP mbhavol =-d1_xsiz/2-0.1 =d1_xsiz/2+0.1 =-d1_ysiz/2-0.1 =d1_ysiz/2+0.1 -0.1 \
+	 =d1_len+0.1
+!RPP mbhafe =-d1_xsiz/2 =d1_xsiz/2 =-d1_ysiz/2 =d1_ysiz/2 0 $d1_len
+!RPP mbhavac =-d1_apx/2 =d1_apx/2 =-d1_apy/2 =d1_apy/2 0 $d1_len
+!$end_translat
+!$start_translat -1500 0 0
+!RCC mqavol 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+!RCC mqafe 0 0 0 0 0 $q1_len $q1_rad
+!RCC mqavac 0 0 -0.05 0 0 =q1_len+0.1 $q1_ap
+!$end_translat
+*
+* --- insert lenustorm_models.bodies
+*
+!$start_translat -1000 0 -400
+!RPP qfavol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qfafe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qfavac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -550
+!RPP qdavol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qdafe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qdavac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -700
+!RPP qfsvol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qfsfe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qfsvac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -850
+!RPP qdsvol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qdsfe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qdsvac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -1000
+!RPP qdsa1vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qdsa1fe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qdsa1vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -1150
+!RPP qdsa2vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qdsa2fe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qdsa2vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -1300
+!RPP qfsa1vol -78.1 78.1 -78.1 78.1 -0.1 25.1
+!RPP qfsa1fe -78.0 78.0 -78.0 78.0 0 25.0
+!RCC qfsa1vac 0.0 0.0 -0.1 0.0 0.0 25.1 20.0
+!$end_translat
+!$start_translat -1000 0 -1450
+!RPP bvol -45.1 45.1 -40.1 40.1 -0.1 60.1
+!RPP bfe -45.0 45.0 -40.0 40.0 0 60.0
+!RPP bvac -25.0 25.0 -20.0 20.0 -0.1 60.1
+!$end_translat
+*
+* ---- Beam lines ----
+*Transfer line magnets
+$start_transform -trd1
+$start_translat -1000 0 0
+RPP D1rp =-d1_xsiz/2-0.1 =d1_xsiz/2 =-d1_ysiz/2-0.1 =d1_ysiz/2+0.1 -0.1 =d1_len+0.1
+$end_translat
+$end_transform
+$start_transform -trd2
+$start_translat -1000 0 0
+RPP D2rp =-d1_xsiz/2-0.1 =d1_xsiz/2 =-d1_ysiz/2-0.1 =d1_ysiz/2+0.1 -0.1 =d1_len+0.1
+$end_translat
+$end_transform
+$start_transform -trq1
+$start_translat -1500
+RCC Q1rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq2
+$start_translat -1500
+RCC Q2rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq3
+$start_translat -1500
+RCC Q3rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq4
+$start_translat -1500
+RCC Q4rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq5
+$start_translat -1500
+RCC Q5rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq6
+$start_translat -1500
+RCC Q6rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+$start_transform -trq7
+$start_translat -1500
+RCC Q7rp 0 0 -0.1 0 0 =q1_len+0.2 =q1_rad+0.1
+$end_translat
+$end_transform
+*
+!$start_transform -frtr1
+!$start_translat -1000 0 -1150
+!RPP qds2a2.0 -78.1 78.1 -78.1 78.1 -0.1 25.1
+!$end_translat
+!$end_transform
+!$start_transform -frtr3
+!$start_translat -1000 0 -1300
+!RPP qfs2a1.0 -78.1 78.1 -78.1 78.1 -0.1 25.1
+!$end_translat
+!$end_transform
+!$start_transform -frtr5
+!$start_translat -1000 0 -1000
+!RPP qds2a1.0 -78.1 78.1 -78.1 78.1 -0.1 25.1
+!$end_translat
+!$end_transform
+!$start_transform -frtr7
+!$start_translat -1000 0 -700
+!RPP qfs.0 -78.1 78.1 -78.1 78.1 -0.1 25.1
+!$end_translat
+!$end_transform
+*
+END
+REGION BLKBODY 5
+	+blkbody -void
+REGION VOID 5
+	+void -tcc_o -tdec_o -mbhavol -mqavol -qdavol -qfavol -qdsvol -qfsvol -qdsa1vol -qdsa2vol
+	-qfsa1vol -bvol -ttline -D2rp
+REGION SHIELD 5
+	+tcc_o -tcc | +tdec_o -tcc_o -tcc -tdec -(+ttline +ttline_u)
+REGION TCC_CAV 5
+	(+tcc -thbox -D1rp
+	| +tdec -D1rp
+	| (+ttline +ttline_u)) -Q1rp -Q2rp -Q3rp -Q4rp -Q5rp -Q6rp -Q7rp -D2rp
+!REGION TCC_CAV1 5
+	+tcc -thbox
+	| +tdec -D1rp
+	| (+ttline +ttline_u) -Q1rp -Q2rp -Q3rp -Q4rp -Q5rp -Q6rp -Q7rp -D2
+REGION THBOX 5
+	+thbox -target
+REGION TARGET 5
+	+target
+* --- Magent models
+REGION MBHAEnv 5
+	+mbhavol -mbhafe -mbhavac
+REGION MBHAFe 5
+	+mbhafe -mbhavac
+REGION MBHAVac 5
+	+mbhavac
+REGION MQAEnv 5
+	+mqavol -mqafe -mqavac
+REGION MQAFe 5
+	+mqafe -mqavac
+REGION MQAVac 5
+	+mqavac
+* --- include lenustorm_models.regions
+REGION QFAEnv 5
+	+qfavol -qfafe -qfavac
+REGION QFAFe 5
+	+qfafe -qfavac
+REGION QFAVac 5
+	+qfavac
+REGION QDAEnv 5
+	+qdavol -qdafe -qdavac
+REGION QDAFe 5
+	+qdafe -qdavac
+REGION QDAVac 5
+	+qdavac
+REGION QFSEnv 5
+	+qfsvol -qfsfe -qfsvac
+REGION QFSFe 5
+	+qfsfe -qfsvac
+REGION QFSVac 5
+	+qfsvac
+REGION QDSEnv 5
+	+qdsvol -qdsfe -qdsvac
+REGION QDSFe 5
+	+qdsfe -qdsvac
+REGION QDSVac 5
+	+qdsvac
+REGION QDSA1Env 5
+	+qdsa1vol -qdsa1fe -qdsa1vac
+REGION QDSA1Fe 5
+	+qdsa1fe -qdsa1vac
+REGION QDSA1Vac 5
+	+qdsa1vac
+REGION QDSA2Env 5
+	+qdsa2vol -qdsa2fe -qdsa2vac
+REGION QDSA2Fe 5
+	+qdsa2fe -qdsa2vac
+REGION QDSA2Vac 5
+	+qdsa2vac
+REGION QFSA1Env 5
+	+qfsa1vol -qfsa1fe -qfsa1vac
+REGION QFSA1Fe 5
+	+qfsa1fe -qfsa1vac
+REGION QFSA1Vac 5
+	+qfsa1vac
+REGION BEnv 5
+	+bvol -bfe -bvac
+REGION BFe 5
+	+bfe -bvac
+REGION BVac 5
+	+bvac
+*
+REGION D1 5
+	+D1rp
+REGION D2 5
+	+D2rp
+REGION Q1 5
+	+Q1rp
+REGION Q2 5
+	+Q2rp
+REGION Q3 5
+	+Q3rp
+REGION Q4 5
+	+Q4rp
+REGION Q5 5
+	+Q5rp
+REGION Q6 5
+	+Q6rp
+REGION Q7 5
+	+Q7rp
+*
+!REGION QDS2A2.0 5
+	+qds2a2.0
+!REGION QFS2A1.0 5
+	+qfs2a1.0
+!REGION QDS2A1.0 5
+	+qds2a1.0
+!REGION QFS.0 5
+	+qfs.0
+*
+END
+LATTICE trd1 D1,,, MBHAEnv
+LATTICE trd2 D2,,, MBHAEnv
+LATTICE trq1 Q1,,, MQAEnv
+LATTICE trq2 Q2,,, MQAEnv
+LATTICE trq3 Q3,,, MQAEnv
+LATTICE trq4 Q4,,, MQAEnv
+LATTICE trq5 Q5,,, MQAEnv
+LATTICE trq6 Q6,,, MQAEnv
+LATTICE trq7 Q7,,, MQAEnv
+!LATTICE frtr1 QDS2A2.0,,, QDSA2Env
+!LATTICE frtr3 QFS2A1.0,,, QFSA1Env
+!LATTICE frtr5 QDS2A1.0,,, QDSA1Env
+!LATTICE frtr7 QFS.0,,, QFSEnv
+USRBIN Beampart 10 BEAMPART -21 100 100 800 -300 -100 300 400 400 500
+USRBIN Beampar1 10 BEAMPART -22 100 10 1300 -1000 -10 0 400 20 500
+GEOEND
+!Black body - size
+*..+....1....+....2....+....3....+....4....+....5....+....6....+....7..
+ASSIGNMA , BLCKHOLE BLKBODY
+ASSIGNMA , VACUUM VOID
+ASSIGNMA , IRON SHIELD
+ASSIGNMA , HELIUM TCC_CAV
+ASSIGNMA , VACUUM THBOX
+ASSIGNMA , VACUUM TARGET
+ASSIGNMA , HELIUM MBHAEnv BEnv 3
+ASSIGNMA , IRON MBHAFe BFe 3
+ASSIGNMA , VACUUM MBHAVac BVac 3 1
+MGNCREAT D1 2
+MGNFIELD D1 $d1_b0,, 2 D1
+MGNFIELD D1 -$d1_b0,, 2 D2
+!ASSIGNMA , VACUUM MQAEnv
+!ASSIGNMA , VACUUM MQAEnv
+!ASSIGNMA , IRON MQAFe
+!ASSIGNMA , VACUUM MQAVac
+!ASSIGNMA , VACUUM QFAEnv QFSA1Env 3
+!ASSIGNMA , NITROGEN qenv,, 3
+#include model_rotdefi.inp
+*Define the transformations from the replicas to the models
+*           rot.numb.    theta    phi       dx        dy        dz
+!ROT-DEFI trttl 200 0.0 -$d1_adeg 0 0.0 =-(s_d1+d1_pivot)
+*# ---- D1
+!ROT-DEFI trd1 0,,, =-1000+d1_defl/2,, -$s_d1
+*# ---- D2
+!ROT-DEFI trd2,,,, =-1000+d1_defl/2+s_d2*sin(d1_arad),, =-(s_d1+d1_pivot)-s_d2*cos(d1_arad)
+*# ---- Q1
+!ROT-DEFI trq1 0,,, =s_q1*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q1*cos(d1_arad)
+!ROT-DEFI trq1 200,, -$d1_adeg
+!ROT-DEFI trq1 300,,, -1500
+*# ---- Q2
+!ROT-DEFI trq2 0,,, =s_q2*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q2*cos(d1_arad)
+!ROT-DEFI trq2 200,, -$d1_adeg
+!ROT-DEFI trq2 300,,, -1500
+*# ---- Q3
+!ROT-DEFI trq3 0,,, =s_q3*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q3*cos(d1_arad)
+!ROT-DEFI trq3 200,, -$d1_adeg
+!ROT-DEFI trq3 300,,, -1500
+*# ---- Q4
+!ROT-DEFI trq4 0,,, =s_q4*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q4*cos(d1_arad)
+!ROT-DEFI trq4 200,, -$d1_adeg
+!ROT-DEFI trq4 300,,, -1500
+*# ---- Q5
+!ROT-DEFI trq5 0,,, =s_q5*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q5*cos(d1_arad)
+!ROT-DEFI trq5 200,, -$d1_adeg
+!ROT-DEFI trq5 300,,, -1500
+*# ---- Q6
+!ROT-DEFI trq6 0,,, =s_q6*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q6*cos(d1_arad)
+!ROT-DEFI trq6 200,, -$d1_adeg
+!ROT-DEFI trq6 300,,, -1500
+*# ---- Q7
+!ROT-DEFI trq7 0,,, =s_q7*sin(d1_arad),, =-(s_d1+d1_pivot)-s_q7*cos(d1_arad)
+!ROT-DEFI trq7 200,, -$d1_adeg
+!ROT-DEFI trq7 300,,, -1500
+*
+*! - ROTDEFI for element QDS2A2.0 at s=0.9944096426539861
+!ROT-DEFI frtr1 0,,, 995.7722955833584,, -1599.35105379108
+!ROT-DEFI frtr1 200,, 2.4366482
+!ROT-DEFI frtr1 300,, 0 -1000 0 -1150
+*
+*Set the random number seed
+RANDOMIZ , 1.0
+*Set the number of primary histories to be simulated in the run
+START , 1000
+STOP
+EndInput
+
+Page: Input
+plotengine: Gnuplot
+
+# Run information
+Run: <default>
+	Last:     1
+	Status:   3
+	StartRun: 1732642764.561652
+	open:     1
+End
+Geometry: Geometry
+	Frame.bsplit: 0.5309597523219814
+	Frame.tsplit: 0.428936170212766
+	Frame.vsplit: 0.624868282402529
+	Layer: 3D
+		3D: 1
+		3D._visible: 1
+		3D.edgedetect: 1
+		Options.viewport: 0
+		Show: 0
+		Show.lattice: 1
+		Show.voxel: 1
+	End
+End
+
+# Plots information
+Plot: Red
+	Type: Geometry
+	coord: X-Y
+	extends: 3824.893568776354 3447.7232800727443
+	group: Geometry
+	layer: Media
+	origin: 1507.05 777.019 -850
+End
+Plot: Green
+	Type: Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	coord: Z-X
+	extends: 3506.295807690304 2376.415314527744
+	group: Geometry
+	layer: Lattice
+	origin: -998.652 0 1390.62
+End
+Plot: Blue
+	Type: Geometry
+	basisu: 0 0 1
+	coord: Z-Y
+	extends: 2244.1519313359204 955.8849390879252
+	group: Geometry
+	layer: Lattice
+	origin: 0 -778.094 1354.33
+End
+Plot: Magenta
+	Type: Geometry
+	coord: X-Y
+	extends: 891.6100448255988 430.32568135679946
+	group: Geometry
+	layer: Lattice
+	origin: -459.598 -125.094 1000
+End
+Plot: lenustorm_latt_21_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_latt_21.bnn
+	format: .jpg
+	grid: 0
+	hist: 2D Projection
+	int: 385.62197076177904
+	max: 3.46738147E-03
+	min: 2.27669119E-08
+	open: 1
+	proj: Y
+	title: USRBIN lenustorm latt 21
+End
+Plot: lenustorm_latt_plot
+	Type: Geometry
+	basisu: 0 0 1
+	basisv: 1 0 0
+	coord: Z-X
+	extends: 400 200
+	grid: 0
+	kind: Field Intensity
+	open: 1
+	origin: 0 0 390
+	title: Plot Geometry
+	xlabel: x-coord
+	ylabel: y-coord
+End
+Plot: lenustorm_latt_21_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_latt_21.bnn
+	grid: 0
+	hist: 2D Projection
+	int: 385.62197076177904
+	max: 3.46738147E-03
+	min: 2.27669119E-08
+	open: 1
+	proj: Y
+	title: USRBIN lenustorm latt 21
+End
+Plot: lenustorm_latt_21_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_latt_21.bnn
+	grid: 0
+	hist: 2D Projection
+	open: 1
+	title: USRBIN lenustorm latt 21
+End
+Plot: lenustorm_latt_22_plot
+	Type: USRBIN
+	cblog: 1
+	cbtics: 1
+	datafile: lenustorm_latt_22.bnn
+	grid: 0
+	hist: 2D Projection
+	int: 1716.2086516584529
+	max: 2.13229246E-02
+	min: 8.99545327E-08
+	open: 1
+	proj: Y
+	title: USRBIN lenustorm latt 22
+End

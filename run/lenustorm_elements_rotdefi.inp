@@ -1,0 +1,1220 @@
+*
+*---- LEnuSTORM element ROT-DEFI  ----
+*
+
+*! - ROTDEFI for element NSQF1 at s=0.0625
+ROT-DEFI  , 0, , ,908.27825, ,-2515.39181, nstr1
+ROT-DEFI  , 200, , 1.76501, , , , nstr1 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1 
+*! - ROTDEFI for element NSQD1 at s=1.55
+ROT-DEFI  , 0, , ,903.88921, ,-2657.82420, nstr3
+ROT-DEFI  , 200, , 1.76501, , , , nstr3 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr3 
+*! - ROTDEFI for element NSQF2 at s=3.1
+ROT-DEFI  , 0, , ,899.11516, ,-2812.75066, nstr5
+ROT-DEFI  , 200, , 1.76501, , , , nstr5 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr5 
+*! - ROTDEFI for element NSQD2 at s=4.65
+ROT-DEFI  , 0, , ,894.34112, ,-2967.67713, nstr7
+ROT-DEFI  , 200, , 1.76501, , , , nstr7 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr7 
+*! - ROTDEFI for element NSQF3 at s=6.2
+ROT-DEFI  , 0, , ,889.56707, ,-3122.60359, nstr9
+ROT-DEFI  , 200, , 1.76501, , , , nstr9 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr9 
+*! - ROTDEFI for element NSQD3 at s=7.75
+ROT-DEFI  , 0, , ,884.79303, ,-3277.53005, nstr11
+ROT-DEFI  , 200, , 1.76501, , , , nstr11 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr11 
+*! - ROTDEFI for element NSQF4 at s=9.2375
+ROT-DEFI  , 0, , ,880.01898, ,-3432.45651, nstr13
+ROT-DEFI  , 200, , 1.76501, , , , nstr13 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr13 
+*! - ROTDEFI for element NSQF5 at s=9.3625
+ROT-DEFI  , 0, , ,879.63398, ,-3444.95058, nstr16
+ROT-DEFI  , 200, , 1.76501, , , , nstr16 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr16 
+*! - ROTDEFI for element NSQD4 at s=10.787500000000001
+ROT-DEFI  , 0, , ,875.24494, ,-3587.38297, nstr22
+ROT-DEFI  , 200, , 1.76501, , , , nstr22 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr22 
+*! - ROTDEFI for element NSQD5 at s=10.912500000000001
+ROT-DEFI  , 0, , ,874.85993, ,-3599.87704, nstr25
+ROT-DEFI  , 200, , 1.76501, , , , nstr25 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr25 
+*! - ROTDEFI for element NSQF6 at s=12.337500000000002
+ROT-DEFI  , 0, , ,870.47089, ,-3742.30943, nstr31
+ROT-DEFI  , 200, , 1.76501, , , , nstr31 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr31 
+*! - ROTDEFI for element NSQF7 at s=12.462500000000002
+ROT-DEFI  , 0, , ,870.08589, ,-3754.80350, nstr34
+ROT-DEFI  , 200, , 1.76501, , , , nstr34 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr34 
+*! - ROTDEFI for element NSQD6 at s=13.887500000000003
+ROT-DEFI  , 0, , ,865.69684, ,-3897.23589, nstr40
+ROT-DEFI  , 200, , 1.76501, , , , nstr40 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr40 
+*! - ROTDEFI for element NSQD7 at s=14.012500000000003
+ROT-DEFI  , 0, , ,865.31184, ,-3909.72996, nstr43
+ROT-DEFI  , 200, , 1.76501, , , , nstr43 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr43 
+*! - ROTDEFI for element NSQF8 at s=15.437500000000004
+ROT-DEFI  , 0, , ,860.92280, ,-4052.16236, nstr49
+ROT-DEFI  , 200, , 1.76501, , , , nstr49 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr49 
+*! - ROTDEFI for element NSQF9 at s=15.562500000000004
+ROT-DEFI  , 0, , ,860.53780, ,-4064.65643, nstr52
+ROT-DEFI  , 200, , 1.76501, , , , nstr52 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr52 
+*! - ROTDEFI for element NSQD8 at s=16.987500000000004
+ROT-DEFI  , 0, , ,856.14875, ,-4207.08882, nstr58
+ROT-DEFI  , 200, , 1.76501, , , , nstr58 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr58 
+*! - ROTDEFI for element NSQD9 at s=17.112500000000004
+ROT-DEFI  , 0, , ,855.76375, ,-4219.58289, nstr61
+ROT-DEFI  , 200, , 1.76501, , , , nstr61 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr61 
+*! - ROTDEFI for element NSQF10 at s=18.5375
+ROT-DEFI  , 0, , ,851.37471, ,-4362.01528, nstr67
+ROT-DEFI  , 200, , 1.76501, , , , nstr67 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr67 
+*! - ROTDEFI for element NSQF11 at s=18.6625
+ROT-DEFI  , 0, , ,850.98970, ,-4374.50935, nstr70
+ROT-DEFI  , 200, , 1.76501, , , , nstr70 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr70 
+*! - ROTDEFI for element NSQD10 at s=20.0875
+ROT-DEFI  , 0, , ,846.60066, ,-4516.94174, nstr76
+ROT-DEFI  , 200, , 1.76501, , , , nstr76 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr76 
+*! - ROTDEFI for element NSQD11 at s=20.2125
+ROT-DEFI  , 0, , ,846.21566, ,-4529.43581, nstr79
+ROT-DEFI  , 200, , 1.76501, , , , nstr79 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr79 
+*! - ROTDEFI for element NSQF12 at s=21.637499999999996
+ROT-DEFI  , 0, , ,841.82662, ,-4671.86820, nstr85
+ROT-DEFI  , 200, , 1.76501, , , , nstr85 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr85 
+*! - ROTDEFI for element NSQF13 at s=21.762499999999996
+ROT-DEFI  , 0, , ,841.44161, ,-4684.36227, nstr88
+ROT-DEFI  , 200, , 1.76501, , , , nstr88 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr88 
+*! - ROTDEFI for element NSQD12 at s=23.187499999999993
+ROT-DEFI  , 0, , ,837.05257, ,-4826.79466, nstr94
+ROT-DEFI  , 200, , 1.76501, , , , nstr94 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr94 
+*! - ROTDEFI for element NSQD13 at s=23.312499999999993
+ROT-DEFI  , 0, , ,836.66757, ,-4839.28873, nstr97
+ROT-DEFI  , 200, , 1.76501, , , , nstr97 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr97 
+*! - ROTDEFI for element NSQF14 at s=24.73749999999999
+ROT-DEFI  , 0, , ,832.27853, ,-4981.72113, nstr103
+ROT-DEFI  , 200, , 1.76501, , , , nstr103 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr103 
+*! - ROTDEFI for element NSQF15 at s=24.86249999999999
+ROT-DEFI  , 0, , ,831.89352, ,-4994.21519, nstr106
+ROT-DEFI  , 200, , 1.76501, , , , nstr106 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr106 
+*! - ROTDEFI for element NSQD14 at s=26.287499999999987
+ROT-DEFI  , 0, , ,827.50448, ,-5136.64759, nstr112
+ROT-DEFI  , 200, , 1.76501, , , , nstr112 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr112 
+*! - ROTDEFI for element NSQD15 at s=26.412499999999987
+ROT-DEFI  , 0, , ,827.11948, ,-5149.14166, nstr115
+ROT-DEFI  , 200, , 1.76501, , , , nstr115 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr115 
+*! - ROTDEFI for element NSQF16 at s=27.837499999999984
+ROT-DEFI  , 0, , ,822.73043, ,-5291.57405, nstr121
+ROT-DEFI  , 200, , 1.76501, , , , nstr121 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr121 
+*! - ROTDEFI for element NSQF17 at s=27.962499999999984
+ROT-DEFI  , 0, , ,822.34543, ,-5304.06812, nstr124
+ROT-DEFI  , 200, , 1.76501, , , , nstr124 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr124 
+*! - ROTDEFI for element NSQD16 at s=29.38749999999998
+ROT-DEFI  , 0, , ,817.95639, ,-5446.50051, nstr130
+ROT-DEFI  , 200, , 1.76501, , , , nstr130 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr130 
+*! - ROTDEFI for element NSQD17 at s=29.51249999999998
+ROT-DEFI  , 0, , ,817.57138, ,-5458.99458, nstr133
+ROT-DEFI  , 200, , 1.76501, , , , nstr133 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr133 
+*! - ROTDEFI for element NSQF18 at s=30.93749999999998
+ROT-DEFI  , 0, , ,813.18234, ,-5601.42697, nstr139
+ROT-DEFI  , 200, , 1.76501, , , , nstr139 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr139 
+*! - ROTDEFI for element NSQF19 at s=31.06249999999998
+ROT-DEFI  , 0, , ,812.79734, ,-5613.92104, nstr142
+ROT-DEFI  , 200, , 1.76501, , , , nstr142 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr142 
+*! - ROTDEFI for element NSQD18 at s=32.487499999999976
+ROT-DEFI  , 0, , ,808.40830, ,-5756.35343, nstr148
+ROT-DEFI  , 200, , 1.76501, , , , nstr148 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr148 
+*! - ROTDEFI for element NSQD19 at s=32.612499999999976
+ROT-DEFI  , 0, , ,808.02329, ,-5768.84750, nstr151
+ROT-DEFI  , 200, , 1.76501, , , , nstr151 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr151 
+*! - ROTDEFI for element NSQF20 at s=34.03749999999997
+ROT-DEFI  , 0, , ,803.63425, ,-5911.27989, nstr157
+ROT-DEFI  , 200, , 1.76501, , , , nstr157 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr157 
+*! - ROTDEFI for element NSQF21 at s=34.16249999999997
+ROT-DEFI  , 0, , ,803.24925, ,-5923.77396, nstr160
+ROT-DEFI  , 200, , 1.76501, , , , nstr160 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr160 
+*! - ROTDEFI for element NSQD20 at s=35.58749999999997
+ROT-DEFI  , 0, , ,798.86021, ,-6066.20636, nstr166
+ROT-DEFI  , 200, , 1.76501, , , , nstr166 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr166 
+*! - ROTDEFI for element NSQD21 at s=35.71249999999997
+ROT-DEFI  , 0, , ,798.47520, ,-6078.70043, nstr169
+ROT-DEFI  , 200, , 1.76501, , , , nstr169 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr169 
+*! - ROTDEFI for element NSQF22 at s=37.13749999999997
+ROT-DEFI  , 0, , ,794.08616, ,-6221.13282, nstr175
+ROT-DEFI  , 200, , 1.76501, , , , nstr175 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr175 
+*! - ROTDEFI for element NSQF23 at s=37.26249999999997
+ROT-DEFI  , 0, , ,793.70116, ,-6233.62689, nstr178
+ROT-DEFI  , 200, , 1.76501, , , , nstr178 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr178 
+*! - ROTDEFI for element NSQD22 at s=38.687499999999964
+ROT-DEFI  , 0, , ,789.31212, ,-6376.05928, nstr184
+ROT-DEFI  , 200, , 1.76501, , , , nstr184 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr184 
+*! - ROTDEFI for element NSQD23 at s=38.812499999999964
+ROT-DEFI  , 0, , ,788.92711, ,-6388.55335, nstr187
+ROT-DEFI  , 200, , 1.76501, , , , nstr187 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr187 
+*! - ROTDEFI for element NSQF24 at s=40.23749999999996
+ROT-DEFI  , 0, , ,784.53807, ,-6530.98574, nstr193
+ROT-DEFI  , 200, , 1.76501, , , , nstr193 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr193 
+*! - ROTDEFI for element NSQF25 at s=40.36249999999996
+ROT-DEFI  , 0, , ,784.15307, ,-6543.47981, nstr196
+ROT-DEFI  , 200, , 1.76501, , , , nstr196 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr196 
+*! - ROTDEFI for element NSQD24 at s=41.78749999999996
+ROT-DEFI  , 0, , ,779.76402, ,-6685.91220, nstr202
+ROT-DEFI  , 200, , 1.76501, , , , nstr202 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr202 
+*! - ROTDEFI for element NSQD25 at s=41.91249999999996
+ROT-DEFI  , 0, , ,779.37902, ,-6698.40627, nstr205
+ROT-DEFI  , 200, , 1.76501, , , , nstr205 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr205 
+*! - ROTDEFI for element NSQF26 at s=43.337499999999956
+ROT-DEFI  , 0, , ,774.98998, ,-6840.83866, nstr211
+ROT-DEFI  , 200, , 1.76501, , , , nstr211 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr211 
+*! - ROTDEFI for element NSQF27 at s=43.462499999999956
+ROT-DEFI  , 0, , ,774.60497, ,-6853.33273, nstr214
+ROT-DEFI  , 200, , 1.76501, , , , nstr214 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr214 
+*! - ROTDEFI for element NSQD26 at s=44.88749999999995
+ROT-DEFI  , 0, , ,770.21593, ,-6995.76513, nstr220
+ROT-DEFI  , 200, , 1.76501, , , , nstr220 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr220 
+*! - ROTDEFI for element NSQD27 at s=45.01249999999995
+ROT-DEFI  , 0, , ,769.83093, ,-7008.25920, nstr223
+ROT-DEFI  , 200, , 1.76501, , , , nstr223 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr223 
+*! - ROTDEFI for element NSQF28 at s=46.43749999999995
+ROT-DEFI  , 0, , ,765.44189, ,-7150.69159, nstr229
+ROT-DEFI  , 200, , 1.76501, , , , nstr229 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr229 
+*! - ROTDEFI for element NSQF29 at s=46.56249999999995
+ROT-DEFI  , 0, , ,765.05688, ,-7163.18566, nstr232
+ROT-DEFI  , 200, , 1.76501, , , , nstr232 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr232 
+*! - ROTDEFI for element NSQD28 at s=47.98749999999995
+ROT-DEFI  , 0, , ,760.66784, ,-7305.61805, nstr238
+ROT-DEFI  , 200, , 1.76501, , , , nstr238 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr238 
+*! - ROTDEFI for element NSQD29 at s=48.11249999999995
+ROT-DEFI  , 0, , ,760.28284, ,-7318.11212, nstr241
+ROT-DEFI  , 200, , 1.76501, , , , nstr241 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr241 
+*! - ROTDEFI for element NSQF30 at s=49.537499999999945
+ROT-DEFI  , 0, , ,755.89380, ,-7460.54451, nstr247
+ROT-DEFI  , 200, , 1.76501, , , , nstr247 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr247 
+*! - ROTDEFI for element NSQF31 at s=49.662499999999945
+ROT-DEFI  , 0, , ,755.50879, ,-7473.03858, nstr250
+ROT-DEFI  , 200, , 1.76501, , , , nstr250 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr250 
+*! - ROTDEFI for element NSQD30 at s=51.08749999999994
+ROT-DEFI  , 0, , ,751.11975, ,-7615.47097, nstr256
+ROT-DEFI  , 200, , 1.76501, , , , nstr256 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr256 
+*! - ROTDEFI for element NSQD31 at s=51.21249999999994
+ROT-DEFI  , 0, , ,750.73475, ,-7627.96504, nstr259
+ROT-DEFI  , 200, , 1.76501, , , , nstr259 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr259 
+*! - ROTDEFI for element NSQF32 at s=52.63749999999994
+ROT-DEFI  , 0, , ,746.34570, ,-7770.39743, nstr265
+ROT-DEFI  , 200, , 1.76501, , , , nstr265 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr265 
+*! - ROTDEFI for element NSQF33 at s=52.76249999999994
+ROT-DEFI  , 0, , ,745.96070, ,-7782.89150, nstr268
+ROT-DEFI  , 200, , 1.76501, , , , nstr268 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr268 
+*! - ROTDEFI for element NSQD32 at s=54.187499999999936
+ROT-DEFI  , 0, , ,741.57166, ,-7925.32389, nstr274
+ROT-DEFI  , 200, , 1.76501, , , , nstr274 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr274 
+*! - ROTDEFI for element NSQD33 at s=54.312499999999936
+ROT-DEFI  , 0, , ,741.18666, ,-7937.81796, nstr277
+ROT-DEFI  , 200, , 1.76501, , , , nstr277 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr277 
+*! - ROTDEFI for element NSQF34 at s=55.73749999999993
+ROT-DEFI  , 0, , ,736.79761, ,-8080.25036, nstr283
+ROT-DEFI  , 200, , 1.76501, , , , nstr283 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr283 
+*! - ROTDEFI for element NSQF35 at s=55.86249999999993
+ROT-DEFI  , 0, , ,736.41261, ,-8092.74443, nstr286
+ROT-DEFI  , 200, , 1.76501, , , , nstr286 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr286 
+*! - ROTDEFI for element NSQD34 at s=57.28749999999993
+ROT-DEFI  , 0, , ,732.02357, ,-8235.17682, nstr292
+ROT-DEFI  , 200, , 1.76501, , , , nstr292 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr292 
+*! - ROTDEFI for element NSQD35 at s=57.41249999999993
+ROT-DEFI  , 0, , ,731.63856, ,-8247.67089, nstr295
+ROT-DEFI  , 200, , 1.76501, , , , nstr295 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr295 
+*! - ROTDEFI for element NSQF36 at s=58.83749999999993
+ROT-DEFI  , 0, , ,727.24952, ,-8390.10328, nstr301
+ROT-DEFI  , 200, , 1.76501, , , , nstr301 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr301 
+*! - ROTDEFI for element NSQF37 at s=58.96249999999993
+ROT-DEFI  , 0, , ,726.86452, ,-8402.59735, nstr304
+ROT-DEFI  , 200, , 1.76501, , , , nstr304 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr304 
+*! - ROTDEFI for element NSQD36 at s=60.387499999999925
+ROT-DEFI  , 0, , ,722.47548, ,-8545.02974, nstr310
+ROT-DEFI  , 200, , 1.76501, , , , nstr310 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr310 
+*! - ROTDEFI for element NSQD37 at s=60.512499999999925
+ROT-DEFI  , 0, , ,722.09047, ,-8557.52381, nstr313
+ROT-DEFI  , 200, , 1.76501, , , , nstr313 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr313 
+*! - ROTDEFI for element NSQF38 at s=61.93749999999992
+ROT-DEFI  , 0, , ,717.70143, ,-8699.95620, nstr319
+ROT-DEFI  , 200, , 1.76501, , , , nstr319 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr319 
+*! - ROTDEFI for element NSQF39 at s=62.06249999999992
+ROT-DEFI  , 0, , ,717.31643, ,-8712.45027, nstr322
+ROT-DEFI  , 200, , 1.76501, , , , nstr322 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr322 
+*! - ROTDEFI for element NSQD38 at s=63.48749999999992
+ROT-DEFI  , 0, , ,712.92739, ,-8854.88266, nstr328
+ROT-DEFI  , 200, , 1.76501, , , , nstr328 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr328 
+*! - ROTDEFI for element NSQD39 at s=63.61249999999992
+ROT-DEFI  , 0, , ,712.54238, ,-8867.37673, nstr331
+ROT-DEFI  , 200, , 1.76501, , , , nstr331 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr331 
+*! - ROTDEFI for element NSQF40 at s=65.03749999999992
+ROT-DEFI  , 0, , ,708.15334, ,-9009.80913, nstr337
+ROT-DEFI  , 200, , 1.76501, , , , nstr337 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr337 
+*! - ROTDEFI for element NSQF41 at s=65.16249999999992
+ROT-DEFI  , 0, , ,707.76834, ,-9022.30320, nstr340
+ROT-DEFI  , 200, , 1.76501, , , , nstr340 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr340 
+*! - ROTDEFI for element NSQD40 at s=66.58749999999993
+ROT-DEFI  , 0, , ,703.37929, ,-9164.73559, nstr346
+ROT-DEFI  , 200, , 1.76501, , , , nstr346 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr346 
+*! - ROTDEFI for element NSQD41 at s=66.71249999999993
+ROT-DEFI  , 0, , ,702.99429, ,-9177.22966, nstr349
+ROT-DEFI  , 200, , 1.76501, , , , nstr349 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr349 
+*! - ROTDEFI for element NSQF42 at s=68.13749999999995
+ROT-DEFI  , 0, , ,698.60525, ,-9319.66205, nstr355
+ROT-DEFI  , 200, , 1.76501, , , , nstr355 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr355 
+*! - ROTDEFI for element NSQF43 at s=68.26249999999995
+ROT-DEFI  , 0, , ,698.22025, ,-9332.15612, nstr358
+ROT-DEFI  , 200, , 1.76501, , , , nstr358 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr358 
+*! - ROTDEFI for element NSQD42 at s=69.68749999999996
+ROT-DEFI  , 0, , ,693.83120, ,-9474.58851, nstr364
+ROT-DEFI  , 200, , 1.76501, , , , nstr364 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr364 
+*! - ROTDEFI for element NSQD43 at s=69.81249999999996
+ROT-DEFI  , 0, , ,693.44620, ,-9487.08258, nstr367
+ROT-DEFI  , 200, , 1.76501, , , , nstr367 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr367 
+*! - ROTDEFI for element NSQF44 at s=71.23749999999997
+ROT-DEFI  , 0, , ,689.05716, ,-9629.51497, nstr373
+ROT-DEFI  , 200, , 1.76501, , , , nstr373 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr373 
+*! - ROTDEFI for element NSQF45 at s=71.36249999999997
+ROT-DEFI  , 0, , ,688.67215, ,-9642.00904, nstr376
+ROT-DEFI  , 200, , 1.76501, , , , nstr376 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr376 
+*! - ROTDEFI for element NSQD44 at s=72.78749999999998
+ROT-DEFI  , 0, , ,684.28311, ,-9784.44143, nstr382
+ROT-DEFI  , 200, , 1.76501, , , , nstr382 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr382 
+*! - ROTDEFI for element NSQD45 at s=72.91249999999998
+ROT-DEFI  , 0, , ,683.89811, ,-9796.93550, nstr385
+ROT-DEFI  , 200, , 1.76501, , , , nstr385 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr385 
+*! - ROTDEFI for element NSQF46 at s=74.33749999999999
+ROT-DEFI  , 0, , ,679.50907, ,-9939.36790, nstr391
+ROT-DEFI  , 200, , 1.76501, , , , nstr391 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr391 
+*! - ROTDEFI for element NSQF47 at s=74.46249999999999
+ROT-DEFI  , 0, , ,679.12406, ,-9951.86196, nstr394
+ROT-DEFI  , 200, , 1.76501, , , , nstr394 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr394 
+*! - ROTDEFI for element NSQD46 at s=75.8875
+ROT-DEFI  , 0, , ,674.73502, ,-10094.29436, nstr400
+ROT-DEFI  , 200, , 1.76501, , , , nstr400 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr400 
+*! - ROTDEFI for element NSQD47 at s=76.0125
+ROT-DEFI  , 0, , ,674.35002, ,-10106.78843, nstr403
+ROT-DEFI  , 200, , 1.76501, , , , nstr403 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr403 
+*! - ROTDEFI for element NSQF48 at s=77.43750000000001
+ROT-DEFI  , 0, , ,669.96098, ,-10249.22082, nstr409
+ROT-DEFI  , 200, , 1.76501, , , , nstr409 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr409 
+*! - ROTDEFI for element NSQF49 at s=77.56250000000001
+ROT-DEFI  , 0, , ,669.57597, ,-10261.71489, nstr412
+ROT-DEFI  , 200, , 1.76501, , , , nstr412 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr412 
+*! - ROTDEFI for element NSQD48 at s=79.05000000000001
+ROT-DEFI  , 0, , ,665.18693, ,-10404.14728, nstr414
+ROT-DEFI  , 200, , 1.76501, , , , nstr414 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr414 
+*! - ROTDEFI for element NSQF50 at s=80.60000000000001
+ROT-DEFI  , 0, , ,660.41288, ,-10559.07374, nstr416
+ROT-DEFI  , 200, , 1.76501, , , , nstr416 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr416 
+*! - ROTDEFI for element NSQD49 at s=82.15
+ROT-DEFI  , 0, , ,655.63884, ,-10714.00020, nstr418
+ROT-DEFI  , 200, , 1.76501, , , , nstr418 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr418 
+*! - ROTDEFI for element NSQF51 at s=83.7
+ROT-DEFI  , 0, , ,650.86479, ,-10868.92666, nstr420
+ROT-DEFI  , 200, , 1.76501, , , , nstr420 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr420 
+*! - ROTDEFI for element NSQD50 at s=85.25
+ROT-DEFI  , 0, , ,646.09075, ,-11023.85313, nstr422
+ROT-DEFI  , 200, , 1.76501, , , , nstr422 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr422 
+*! - ROTDEFI for element NSQF52 at s=86.7375
+ROT-DEFI  , 0, , ,641.31670, ,-11178.77959, nstr424
+ROT-DEFI  , 200, , 1.76501, , , , nstr424 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr424 
+*! - ROTDEFI for element NSQF53 at s=86.8625
+ROT-DEFI  , 0, , ,640.93170, ,-11191.27366, nstr426
+ROT-DEFI  , 200, , 1.76501, , , , nstr426 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr426 
+*! - ROTDEFI for element NSMB1 at s=87.575
+ROT-DEFI  , 0, , ,639.31468, ,-11243.74875, nstr429
+ROT-DEFI  , 200, , -7.23499, , , , nstr429 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr429 
+*! - ROTDEFI for element NSQD51 at s=88.28750000000001
+ROT-DEFI  , 0, , ,656.76888, ,-11331.55184, nstr432
+ROT-DEFI  , 200, , -16.235, , , , nstr432 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr432 
+*! - ROTDEFI for element NSQD52 at s=88.41250000000001
+ROT-DEFI  , 0, , ,660.26360, ,-11343.55338, nstr433
+ROT-DEFI  , 200, , -16.235, , , , nstr433 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr433 
+*! - ROTDEFI for element NSQF54 at s=89.8375
+ROT-DEFI  , 0, , ,700.10340, ,-11480.37093, nstr435
+ROT-DEFI  , 200, , -16.235, , , , nstr435 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr435 
+*! - ROTDEFI for element NSQF55 at s=89.9625
+ROT-DEFI  , 0, , ,703.59812, ,-11492.37246, nstr438
+ROT-DEFI  , 200, , -16.235, , , , nstr438 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr438 
+*! - ROTDEFI for element NSQD53 at s=91.3875
+ROT-DEFI  , 0, , ,743.43792, ,-11629.19001, nstr440
+ROT-DEFI  , 200, , -16.235, , , , nstr440 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr440 
+*! - ROTDEFI for element NSQD54 at s=91.5125
+ROT-DEFI  , 0, , ,746.93264, ,-11641.19155, nstr441
+ROT-DEFI  , 200, , -16.235, , , , nstr441 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr441 
+*! - ROTDEFI for element NSMB2 at s=92.22500000000001
+ROT-DEFI  , 0, , ,761.61047, ,-11691.59801, nstr444
+ROT-DEFI  , 200, , -25.235, , , , nstr444 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr444 
+*! - ROTDEFI for element NSQF56 at s=92.93750000000001
+ROT-DEFI  , 0, , ,805.34304, ,-11769.71007, nstr447
+ROT-DEFI  , 200, , -34.235, , , , nstr447 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr447 
+*! - ROTDEFI for element NSQF57 at s=93.06250000000001
+ROT-DEFI  , 0, , ,812.37540, ,-11780.04429, nstr450
+ROT-DEFI  , 200, , -34.235, , , , nstr450 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr450 
+*! - ROTDEFI for element NSMB3 at s=93.77500000000002
+ROT-DEFI  , 0, , ,841.91129, ,-11823.44798, nstr453
+ROT-DEFI  , 200, , -43.235, , , , nstr453 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr453 
+*! - ROTDEFI for element NSQD55 at s=94.48750000000003
+ROT-DEFI  , 0, , ,907.64140, ,-11884.22286, nstr456
+ROT-DEFI  , 200, , -52.235, , , , nstr456 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr456 
+*! - ROTDEFI for element NSQD56 at s=94.61250000000003
+ROT-DEFI  , 0, , ,917.52301, ,-11891.87816, nstr457
+ROT-DEFI  , 200, , -52.235, , , , nstr457 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr457 
+*! - ROTDEFI for element NSQF58 at s=96.03750000000002
+ROT-DEFI  , 0, , ,1030.17342, ,-11979.14863, nstr459
+ROT-DEFI  , 200, , -52.235, , , , nstr459 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr459 
+*! - ROTDEFI for element NSQF59 at s=96.16250000000002
+ROT-DEFI  , 0, , ,1040.05504, ,-11986.80394, nstr462
+ROT-DEFI  , 200, , -52.235, , , , nstr462 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr462 
+*! - ROTDEFI for element NSQD57 at s=97.58750000000002
+ROT-DEFI  , 0, , ,1152.70545, ,-12074.07441, nstr464
+ROT-DEFI  , 200, , -52.235, , , , nstr464 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr464 
+*! - ROTDEFI for element NSQD58 at s=97.71250000000002
+ROT-DEFI  , 0, , ,1162.58706, ,-12081.72971, nstr465
+ROT-DEFI  , 200, , -52.235, , , , nstr465 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr465 
+*! - ROTDEFI for element NSMB4 at s=98.42500000000003
+ROT-DEFI  , 0, , ,1204.08985, ,-12113.88199, nstr468
+ROT-DEFI  , 200, , -61.235, , , , nstr468 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr468 
+*! - ROTDEFI for element NSQF60 at s=99.13750000000003
+ROT-DEFI  , 0, , ,1285.38336, ,-12151.37061, nstr471
+ROT-DEFI  , 200, , -70.235, , , , nstr471 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr471 
+*! - ROTDEFI for element NSQF61 at s=99.26250000000003
+ROT-DEFI  , 0, , ,1297.14696, ,-12155.59765, nstr474
+ROT-DEFI  , 200, , -70.235, , , , nstr474 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr474 
+*! - ROTDEFI for element NSMB5 at s=99.97500000000004
+ROT-DEFI  , 0, , ,1346.55405, ,-12173.35122, nstr477
+ROT-DEFI  , 200, , -79.235, , , , nstr477 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr477 
+*! - ROTDEFI for element NSQD59 at s=100.68750000000004
+ROT-DEFI  , 0, , ,1435.45340, ,-12183.88394, nstr480
+ROT-DEFI  , 200, , -88.235, , , , nstr480 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr480 
+*! - ROTDEFI for element NSQD60 at s=100.81250000000004
+ROT-DEFI  , 0, , ,1447.94747, ,-12184.26894, nstr481
+ROT-DEFI  , 200, , -88.235, , , , nstr481 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr481 
+*! - ROTDEFI for element NSQF62 at s=102.23750000000004
+ROT-DEFI  , 0, , ,1590.37986, ,-12188.65799, nstr483
+ROT-DEFI  , 200, , -88.235, , , , nstr483 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr483 
+*! - ROTDEFI for element NSQF63 at s=102.36250000000004
+ROT-DEFI  , 0, , ,1602.87393, ,-12189.04299, nstr486
+ROT-DEFI  , 200, , -88.235, , , , nstr486 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr486 
+*! - ROTDEFI for element NSQD61 at s=103.78750000000004
+ROT-DEFI  , 0, , ,1745.30632, ,-12193.43203, nstr488
+ROT-DEFI  , 200, , -88.235, , , , nstr488 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr488 
+*! - ROTDEFI for element NSQD62 at s=103.91250000000004
+ROT-DEFI  , 0, , ,1757.80039, ,-12193.81704, nstr489
+ROT-DEFI  , 200, , -88.235, , , , nstr489 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr489 
+*! - ROTDEFI for element NSMB6 at s=104.62500000000004
+ROT-DEFI  , 0, , ,1810.27548, ,-12195.43405, nstr492
+ROT-DEFI  , 200, , -97.235, , , , nstr492 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr492 
+*! - ROTDEFI for element NSQF64 at s=105.33750000000005
+ROT-DEFI  , 0, , ,1898.07858, ,-12177.97985, nstr495
+ROT-DEFI  , 200, , -106.235, , , , nstr495 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr495 
+*! - ROTDEFI for element NSQF65 at s=105.46250000000005
+ROT-DEFI  , 0, , ,1910.08012, ,-12174.48513, nstr498
+ROT-DEFI  , 200, , -106.235, , , , nstr498 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr498 
+*! - ROTDEFI for element NSMB7 at s=106.17500000000005
+ROT-DEFI  , 0, , ,1960.48658, ,-12159.80731, nstr501
+ROT-DEFI  , 200, , -115.235, , , , nstr501 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr501 
+*! - ROTDEFI for element NSQD63 at s=106.88750000000006
+ROT-DEFI  , 0, , ,2038.59864, ,-12116.07474, nstr504
+ROT-DEFI  , 200, , -124.235, , , , nstr504 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr504 
+*! - ROTDEFI for element NSQD64 at s=107.01250000000006
+ROT-DEFI  , 0, , ,2048.93285, ,-12109.04238, nstr505
+ROT-DEFI  , 200, , -124.235, , , , nstr505 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr505 
+*! - ROTDEFI for element NSQF66 at s=108.43750000000006
+ROT-DEFI  , 0, , ,2166.74289, ,-12028.87353, nstr507
+ROT-DEFI  , 200, , -124.235, , , , nstr507 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr507 
+*! - ROTDEFI for element NSQF67 at s=108.56250000000006
+ROT-DEFI  , 0, , ,2177.07711, ,-12021.84118, nstr510
+ROT-DEFI  , 200, , -124.235, , , , nstr510 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr510 
+*! - ROTDEFI for element NSQD65 at s=109.98750000000005
+ROT-DEFI  , 0, , ,2294.88715, ,-11941.67233, nstr512
+ROT-DEFI  , 200, , -124.235, , , , nstr512 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr512 
+*! - ROTDEFI for element NSQD66 at s=110.11250000000005
+ROT-DEFI  , 0, , ,2305.22136, ,-11934.63997, nstr513
+ROT-DEFI  , 200, , -124.235, , , , nstr513 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr513 
+*! - ROTDEFI for element NSMB8 at s=110.82500000000006
+ROT-DEFI  , 0, , ,2348.62506, ,-11905.10408, nstr516
+ROT-DEFI  , 200, , -133.235, , , , nstr516 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr516 
+*! - ROTDEFI for element NSQF68 at s=111.53750000000007
+ROT-DEFI  , 0, , ,2409.39994, ,-11839.37397, nstr519
+ROT-DEFI  , 200, , -142.235, , , , nstr519 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr519 
+*! - ROTDEFI for element NSQF69 at s=111.66250000000007
+ROT-DEFI  , 0, , ,2417.05524, ,-11829.49236, nstr522
+ROT-DEFI  , 200, , -142.235, , , , nstr522 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr522 
+*! - ROTDEFI for element NSMB9 at s=112.37500000000007
+ROT-DEFI  , 0, , ,2449.20752, ,-11787.98957, nstr525
+ROT-DEFI  , 200, , -151.235, , , , nstr525 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr525 
+*! - ROTDEFI for element NSQD67 at s=113.08750000000008
+ROT-DEFI  , 0, , ,2486.69614, ,-11706.69606, nstr528
+ROT-DEFI  , 200, , -160.235, , , , nstr528 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr528 
+*! - ROTDEFI for element NSQD68 at s=113.21250000000008
+ROT-DEFI  , 0, , ,2490.92318, ,-11694.93246, nstr529
+ROT-DEFI  , 200, , -160.235, , , , nstr529 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr529 
+*! - ROTDEFI for element NSQF70 at s=114.63750000000007
+ROT-DEFI  , 0, , ,2539.11144, ,-11560.82750, nstr531
+ROT-DEFI  , 200, , -160.235, , , , nstr531 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr531 
+*! - ROTDEFI for element NSQF71 at s=114.76250000000007
+ROT-DEFI  , 0, , ,2543.33848, ,-11549.06391, nstr534
+ROT-DEFI  , 200, , -160.235, , , , nstr534 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr534 
+*! - ROTDEFI for element NSQD69 at s=116.18750000000007
+ROT-DEFI  , 0, , ,2591.52674, ,-11414.95894, nstr536
+ROT-DEFI  , 200, , -160.235, , , , nstr536 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr536 
+*! - ROTDEFI for element NSQD70 at s=116.31250000000007
+ROT-DEFI  , 0, , ,2595.75378, ,-11403.19535, nstr537
+ROT-DEFI  , 200, , -160.235, , , , nstr537 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr537 
+*! - ROTDEFI for element NSMB10 at s=117.02500000000008
+ROT-DEFI  , 0, , ,2613.50734, ,-11353.78825, nstr540
+ROT-DEFI  , 200, , -169.235, , , , nstr540 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr540 
+*! - ROTDEFI for element NSQF72 at s=117.73750000000008
+ROT-DEFI  , 0, , ,2624.04006, ,-11264.88890, nstr543
+ROT-DEFI  , 200, , -178.235, , , , nstr543 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr543 
+*! - ROTDEFI for element NSQF73 at s=117.86250000000008
+ROT-DEFI  , 0, , ,2624.42507, ,-11252.39483, nstr545
+ROT-DEFI  , 200, , -178.235, , , , nstr545 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr545 
+*! - ROTDEFI for element NSQD71 at s=119.35000000000008
+ROT-DEFI  , 0, , ,2628.81411, ,-11109.96244, nstr547
+ROT-DEFI  , 200, , -178.235, , , , nstr547 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr547 
+*! - ROTDEFI for element NSQF74 at s=120.90000000000008
+ROT-DEFI  , 0, , ,2633.58816, ,-10955.03598, nstr549
+ROT-DEFI  , 200, , -178.235, , , , nstr549 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr549 
+*! - ROTDEFI for element NSQD72 at s=122.45000000000007
+ROT-DEFI  , 0, , ,2638.36220, ,-10800.10952, nstr551
+ROT-DEFI  , 200, , -178.235, , , , nstr551 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr551 
+*! - ROTDEFI for element NSQF75 at s=124.00000000000007
+ROT-DEFI  , 0, , ,2643.13625, ,-10645.18306, nstr553
+ROT-DEFI  , 200, , -178.235, , , , nstr553 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr553 
+*! - ROTDEFI for element NSQD73 at s=125.55000000000007
+ROT-DEFI  , 0, , ,2647.91029, ,-10490.25660, nstr555
+ROT-DEFI  , 200, , -178.235, , , , nstr555 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr555 
+*! - ROTDEFI for element NSQF76 at s=127.03750000000007
+ROT-DEFI  , 0, , ,2652.68434, ,-10335.33013, nstr557
+ROT-DEFI  , 200, , -178.235, , , , nstr557 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr557 
+*! - ROTDEFI for element NSQF77 at s=127.16250000000007
+ROT-DEFI  , 0, , ,2653.06934, ,-10322.83607, nstr560
+ROT-DEFI  , 200, , -178.235, , , , nstr560 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr560 
+*! - ROTDEFI for element NSQD74 at s=128.58750000000006
+ROT-DEFI  , 0, , ,2657.45838, ,-10180.40367, nstr566
+ROT-DEFI  , 200, , -178.235, , , , nstr566 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr566 
+*! - ROTDEFI for element NSQD75 at s=128.71250000000006
+ROT-DEFI  , 0, , ,2657.84339, ,-10167.90960, nstr569
+ROT-DEFI  , 200, , -178.235, , , , nstr569 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr569 
+*! - ROTDEFI for element NSQF78 at s=130.13750000000007
+ROT-DEFI  , 0, , ,2662.23243, ,-10025.47721, nstr575
+ROT-DEFI  , 200, , -178.235, , , , nstr575 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr575 
+*! - ROTDEFI for element NSQF79 at s=130.26250000000007
+ROT-DEFI  , 0, , ,2662.61743, ,-10012.98314, nstr578
+ROT-DEFI  , 200, , -178.235, , , , nstr578 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr578 
+*! - ROTDEFI for element NSQD76 at s=131.68750000000009
+ROT-DEFI  , 0, , ,2667.00647, ,-9870.55075, nstr584
+ROT-DEFI  , 200, , -178.235, , , , nstr584 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr584 
+*! - ROTDEFI for element NSQD77 at s=131.81250000000009
+ROT-DEFI  , 0, , ,2667.39148, ,-9858.05668, nstr587
+ROT-DEFI  , 200, , -178.235, , , , nstr587 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr587 
+*! - ROTDEFI for element NSQF80 at s=133.2375000000001
+ROT-DEFI  , 0, , ,2671.78052, ,-9715.62429, nstr593
+ROT-DEFI  , 200, , -178.235, , , , nstr593 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr593 
+*! - ROTDEFI for element NSQF81 at s=133.3625000000001
+ROT-DEFI  , 0, , ,2672.16552, ,-9703.13022, nstr596
+ROT-DEFI  , 200, , -178.235, , , , nstr596 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr596 
+*! - ROTDEFI for element NSQD78 at s=134.7875000000001
+ROT-DEFI  , 0, , ,2676.55457, ,-9560.69783, nstr602
+ROT-DEFI  , 200, , -178.235, , , , nstr602 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr602 
+*! - ROTDEFI for element NSQD79 at s=134.9125000000001
+ROT-DEFI  , 0, , ,2676.93957, ,-9548.20376, nstr605
+ROT-DEFI  , 200, , -178.235, , , , nstr605 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr605 
+*! - ROTDEFI for element NSQF82 at s=136.33750000000012
+ROT-DEFI  , 0, , ,2681.32861, ,-9405.77137, nstr611
+ROT-DEFI  , 200, , -178.235, , , , nstr611 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr611 
+*! - ROTDEFI for element NSQF83 at s=136.46250000000012
+ROT-DEFI  , 0, , ,2681.71361, ,-9393.27730, nstr614
+ROT-DEFI  , 200, , -178.235, , , , nstr614 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr614 
+*! - ROTDEFI for element NSQD80 at s=137.88750000000013
+ROT-DEFI  , 0, , ,2686.10266, ,-9250.84490, nstr620
+ROT-DEFI  , 200, , -178.235, , , , nstr620 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr620 
+*! - ROTDEFI for element NSQD81 at s=138.01250000000013
+ROT-DEFI  , 0, , ,2686.48766, ,-9238.35083, nstr623
+ROT-DEFI  , 200, , -178.235, , , , nstr623 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr623 
+*! - ROTDEFI for element NSQF84 at s=139.43750000000014
+ROT-DEFI  , 0, , ,2690.87670, ,-9095.91844, nstr629
+ROT-DEFI  , 200, , -178.235, , , , nstr629 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr629 
+*! - ROTDEFI for element NSQF85 at s=139.56250000000014
+ROT-DEFI  , 0, , ,2691.26171, ,-9083.42437, nstr632
+ROT-DEFI  , 200, , -178.235, , , , nstr632 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr632 
+*! - ROTDEFI for element NSQD82 at s=140.98750000000015
+ROT-DEFI  , 0, , ,2695.65075, ,-8940.99198, nstr638
+ROT-DEFI  , 200, , -178.235, , , , nstr638 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr638 
+*! - ROTDEFI for element NSQD83 at s=141.11250000000015
+ROT-DEFI  , 0, , ,2696.03575, ,-8928.49791, nstr641
+ROT-DEFI  , 200, , -178.235, , , , nstr641 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr641 
+*! - ROTDEFI for element NSQF86 at s=142.53750000000016
+ROT-DEFI  , 0, , ,2700.42479, ,-8786.06552, nstr647
+ROT-DEFI  , 200, , -178.235, , , , nstr647 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr647 
+*! - ROTDEFI for element NSQF87 at s=142.66250000000016
+ROT-DEFI  , 0, , ,2700.80980, ,-8773.57145, nstr650
+ROT-DEFI  , 200, , -178.235, , , , nstr650 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr650 
+*! - ROTDEFI for element NSQD84 at s=144.08750000000018
+ROT-DEFI  , 0, , ,2705.19884, ,-8631.13906, nstr656
+ROT-DEFI  , 200, , -178.235, , , , nstr656 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr656 
+*! - ROTDEFI for element NSQD85 at s=144.21250000000018
+ROT-DEFI  , 0, , ,2705.58384, ,-8618.64499, nstr659
+ROT-DEFI  , 200, , -178.235, , , , nstr659 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr659 
+*! - ROTDEFI for element NSQF88 at s=145.6375000000002
+ROT-DEFI  , 0, , ,2709.97288, ,-8476.21260, nstr665
+ROT-DEFI  , 200, , -178.235, , , , nstr665 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr665 
+*! - ROTDEFI for element NSQF89 at s=145.7625000000002
+ROT-DEFI  , 0, , ,2710.35789, ,-8463.71853, nstr668
+ROT-DEFI  , 200, , -178.235, , , , nstr668 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr668 
+*! - ROTDEFI for element NSQD86 at s=147.1875000000002
+ROT-DEFI  , 0, , ,2714.74693, ,-8321.28613, nstr674
+ROT-DEFI  , 200, , -178.235, , , , nstr674 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr674 
+*! - ROTDEFI for element NSQD87 at s=147.3125000000002
+ROT-DEFI  , 0, , ,2715.13193, ,-8308.79207, nstr677
+ROT-DEFI  , 200, , -178.235, , , , nstr677 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr677 
+*! - ROTDEFI for element NSQF90 at s=148.7375000000002
+ROT-DEFI  , 0, , ,2719.52098, ,-8166.35967, nstr683
+ROT-DEFI  , 200, , -178.235, , , , nstr683 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr683 
+*! - ROTDEFI for element NSQF91 at s=148.8625000000002
+ROT-DEFI  , 0, , ,2719.90598, ,-8153.86560, nstr686
+ROT-DEFI  , 200, , -178.235, , , , nstr686 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr686 
+*! - ROTDEFI for element NSQD88 at s=150.28750000000022
+ROT-DEFI  , 0, , ,2724.29502, ,-8011.43321, nstr692
+ROT-DEFI  , 200, , -178.235, , , , nstr692 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr692 
+*! - ROTDEFI for element NSQD89 at s=150.41250000000022
+ROT-DEFI  , 0, , ,2724.68003, ,-7998.93914, nstr695
+ROT-DEFI  , 200, , -178.235, , , , nstr695 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr695 
+*! - ROTDEFI for element NSQF92 at s=151.83750000000023
+ROT-DEFI  , 0, , ,2729.06907, ,-7856.50675, nstr701
+ROT-DEFI  , 200, , -178.235, , , , nstr701 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr701 
+*! - ROTDEFI for element NSQF93 at s=151.96250000000023
+ROT-DEFI  , 0, , ,2729.45407, ,-7844.01268, nstr704
+ROT-DEFI  , 200, , -178.235, , , , nstr704 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr704 
+*! - ROTDEFI for element NSQD90 at s=153.38750000000024
+ROT-DEFI  , 0, , ,2733.84311, ,-7701.58029, nstr710
+ROT-DEFI  , 200, , -178.235, , , , nstr710 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr710 
+*! - ROTDEFI for element NSQD91 at s=153.51250000000024
+ROT-DEFI  , 0, , ,2734.22812, ,-7689.08622, nstr713
+ROT-DEFI  , 200, , -178.235, , , , nstr713 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr713 
+*! - ROTDEFI for element NSQF94 at s=154.93750000000026
+ROT-DEFI  , 0, , ,2738.61716, ,-7546.65383, nstr719
+ROT-DEFI  , 200, , -178.235, , , , nstr719 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr719 
+*! - ROTDEFI for element NSQF95 at s=155.06250000000026
+ROT-DEFI  , 0, , ,2739.00216, ,-7534.15976, nstr722
+ROT-DEFI  , 200, , -178.235, , , , nstr722 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr722 
+*! - ROTDEFI for element NSQD92 at s=156.48750000000027
+ROT-DEFI  , 0, , ,2743.39120, ,-7391.72737, nstr728
+ROT-DEFI  , 200, , -178.235, , , , nstr728 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr728 
+*! - ROTDEFI for element NSQD93 at s=156.61250000000027
+ROT-DEFI  , 0, , ,2743.77621, ,-7379.23330, nstr731
+ROT-DEFI  , 200, , -178.235, , , , nstr731 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr731 
+*! - ROTDEFI for element NSQF96 at s=158.03750000000028
+ROT-DEFI  , 0, , ,2748.16525, ,-7236.80090, nstr737
+ROT-DEFI  , 200, , -178.235, , , , nstr737 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr737 
+*! - ROTDEFI for element NSQF97 at s=158.16250000000028
+ROT-DEFI  , 0, , ,2748.55025, ,-7224.30683, nstr740
+ROT-DEFI  , 200, , -178.235, , , , nstr740 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr740 
+*! - ROTDEFI for element NSQD94 at s=159.5875000000003
+ROT-DEFI  , 0, , ,2752.93930, ,-7081.87444, nstr746
+ROT-DEFI  , 200, , -178.235, , , , nstr746 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr746 
+*! - ROTDEFI for element NSQD95 at s=159.7125000000003
+ROT-DEFI  , 0, , ,2753.32430, ,-7069.38037, nstr749
+ROT-DEFI  , 200, , -178.235, , , , nstr749 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr749 
+*! - ROTDEFI for element NSQF98 at s=161.1375000000003
+ROT-DEFI  , 0, , ,2757.71334, ,-6926.94798, nstr755
+ROT-DEFI  , 200, , -178.235, , , , nstr755 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr755 
+*! - ROTDEFI for element NSQF99 at s=161.2625000000003
+ROT-DEFI  , 0, , ,2758.09834, ,-6914.45391, nstr758
+ROT-DEFI  , 200, , -178.235, , , , nstr758 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr758 
+*! - ROTDEFI for element NSQD96 at s=162.6875000000003
+ROT-DEFI  , 0, , ,2762.48739, ,-6772.02152, nstr764
+ROT-DEFI  , 200, , -178.235, , , , nstr764 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr764 
+*! - ROTDEFI for element NSQD97 at s=162.8125000000003
+ROT-DEFI  , 0, , ,2762.87239, ,-6759.52745, nstr767
+ROT-DEFI  , 200, , -178.235, , , , nstr767 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr767 
+*! - ROTDEFI for element NSQF100 at s=164.23750000000032
+ROT-DEFI  , 0, , ,2767.26143, ,-6617.09506, nstr773
+ROT-DEFI  , 200, , -178.235, , , , nstr773 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr773 
+*! - ROTDEFI for element NSQF101 at s=164.36250000000032
+ROT-DEFI  , 0, , ,2767.64644, ,-6604.60099, nstr776
+ROT-DEFI  , 200, , -178.235, , , , nstr776 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr776 
+*! - ROTDEFI for element NSQD98 at s=165.78750000000034
+ROT-DEFI  , 0, , ,2772.03548, ,-6462.16860, nstr782
+ROT-DEFI  , 200, , -178.235, , , , nstr782 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr782 
+*! - ROTDEFI for element NSQD99 at s=165.91250000000034
+ROT-DEFI  , 0, , ,2772.42048, ,-6449.67453, nstr785
+ROT-DEFI  , 200, , -178.235, , , , nstr785 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr785 
+*! - ROTDEFI for element NSQF102 at s=167.33750000000035
+ROT-DEFI  , 0, , ,2776.80952, ,-6307.24213, nstr791
+ROT-DEFI  , 200, , -178.235, , , , nstr791 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr791 
+*! - ROTDEFI for element NSQF103 at s=167.46250000000035
+ROT-DEFI  , 0, , ,2777.19453, ,-6294.74806, nstr794
+ROT-DEFI  , 200, , -178.235, , , , nstr794 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr794 
+*! - ROTDEFI for element NSQD100 at s=168.88750000000036
+ROT-DEFI  , 0, , ,2781.58357, ,-6152.31567, nstr800
+ROT-DEFI  , 200, , -178.235, , , , nstr800 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr800 
+*! - ROTDEFI for element NSQD101 at s=169.01250000000036
+ROT-DEFI  , 0, , ,2781.96857, ,-6139.82160, nstr803
+ROT-DEFI  , 200, , -178.235, , , , nstr803 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr803 
+*! - ROTDEFI for element NSQF104 at s=170.43750000000037
+ROT-DEFI  , 0, , ,2786.35761, ,-5997.38921, nstr809
+ROT-DEFI  , 200, , -178.235, , , , nstr809 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr809 
+*! - ROTDEFI for element NSQF105 at s=170.56250000000037
+ROT-DEFI  , 0, , ,2786.74262, ,-5984.89514, nstr812
+ROT-DEFI  , 200, , -178.235, , , , nstr812 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr812 
+*! - ROTDEFI for element NSQD102 at s=171.98750000000038
+ROT-DEFI  , 0, , ,2791.13166, ,-5842.46275, nstr818
+ROT-DEFI  , 200, , -178.235, , , , nstr818 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr818 
+*! - ROTDEFI for element NSQD103 at s=172.11250000000038
+ROT-DEFI  , 0, , ,2791.51666, ,-5829.96868, nstr821
+ROT-DEFI  , 200, , -178.235, , , , nstr821 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr821 
+*! - ROTDEFI for element NSQF106 at s=173.5375000000004
+ROT-DEFI  , 0, , ,2795.90571, ,-5687.53629, nstr827
+ROT-DEFI  , 200, , -178.235, , , , nstr827 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr827 
+*! - ROTDEFI for element NSQF107 at s=173.6625000000004
+ROT-DEFI  , 0, , ,2796.29071, ,-5675.04222, nstr830
+ROT-DEFI  , 200, , -178.235, , , , nstr830 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr830 
+*! - ROTDEFI for element NSQD104 at s=175.0875000000004
+ROT-DEFI  , 0, , ,2800.67975, ,-5532.60983, nstr836
+ROT-DEFI  , 200, , -178.235, , , , nstr836 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr836 
+*! - ROTDEFI for element NSQD105 at s=175.2125000000004
+ROT-DEFI  , 0, , ,2801.06475, ,-5520.11576, nstr839
+ROT-DEFI  , 200, , -178.235, , , , nstr839 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr839 
+*! - ROTDEFI for element NSQF108 at s=176.63750000000041
+ROT-DEFI  , 0, , ,2805.45380, ,-5377.68337, nstr845
+ROT-DEFI  , 200, , -178.235, , , , nstr845 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr845 
+*! - ROTDEFI for element NSQF109 at s=176.76250000000041
+ROT-DEFI  , 0, , ,2805.83880, ,-5365.18930, nstr848
+ROT-DEFI  , 200, , -178.235, , , , nstr848 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr848 
+*! - ROTDEFI for element NSQD106 at s=178.18750000000043
+ROT-DEFI  , 0, , ,2810.22784, ,-5222.75690, nstr854
+ROT-DEFI  , 200, , -178.235, , , , nstr854 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr854 
+*! - ROTDEFI for element NSQD107 at s=178.31250000000043
+ROT-DEFI  , 0, , ,2810.61285, ,-5210.26283, nstr857
+ROT-DEFI  , 200, , -178.235, , , , nstr857 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr857 
+*! - ROTDEFI for element NSQF110 at s=179.73750000000044
+ROT-DEFI  , 0, , ,2815.00189, ,-5067.83044, nstr863
+ROT-DEFI  , 200, , -178.235, , , , nstr863 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr863 
+*! - ROTDEFI for element NSQF111 at s=179.86250000000044
+ROT-DEFI  , 0, , ,2815.38689, ,-5055.33637, nstr866
+ROT-DEFI  , 200, , -178.235, , , , nstr866 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr866 
+*! - ROTDEFI for element NSQD108 at s=181.28750000000045
+ROT-DEFI  , 0, , ,2819.77593, ,-4912.90398, nstr872
+ROT-DEFI  , 200, , -178.235, , , , nstr872 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr872 
+*! - ROTDEFI for element NSQD109 at s=181.41250000000045
+ROT-DEFI  , 0, , ,2820.16094, ,-4900.40991, nstr875
+ROT-DEFI  , 200, , -178.235, , , , nstr875 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr875 
+*! - ROTDEFI for element NSQF112 at s=182.83750000000046
+ROT-DEFI  , 0, , ,2824.54998, ,-4757.97752, nstr881
+ROT-DEFI  , 200, , -178.235, , , , nstr881 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr881 
+*! - ROTDEFI for element NSQF113 at s=182.96250000000046
+ROT-DEFI  , 0, , ,2824.93498, ,-4745.48345, nstr884
+ROT-DEFI  , 200, , -178.235, , , , nstr884 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr884 
+*! - ROTDEFI for element NSQD110 at s=184.38750000000047
+ROT-DEFI  , 0, , ,2829.32402, ,-4603.05106, nstr890
+ROT-DEFI  , 200, , -178.235, , , , nstr890 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr890 
+*! - ROTDEFI for element NSQD111 at s=184.51250000000047
+ROT-DEFI  , 0, , ,2829.70903, ,-4590.55699, nstr893
+ROT-DEFI  , 200, , -178.235, , , , nstr893 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr893 
+*! - ROTDEFI for element NSQF114 at s=185.93750000000048
+ROT-DEFI  , 0, , ,2834.09807, ,-4448.12460, nstr899
+ROT-DEFI  , 200, , -178.235, , , , nstr899 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr899 
+*! - ROTDEFI for element NSQF115 at s=186.06250000000048
+ROT-DEFI  , 0, , ,2834.48307, ,-4435.63053, nstr902
+ROT-DEFI  , 200, , -178.235, , , , nstr902 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr902 
+*! - ROTDEFI for element NSQD112 at s=187.4875000000005
+ROT-DEFI  , 0, , ,2838.87212, ,-4293.19813, nstr908
+ROT-DEFI  , 200, , -178.235, , , , nstr908 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr908 
+*! - ROTDEFI for element NSQD113 at s=187.6125000000005
+ROT-DEFI  , 0, , ,2839.25712, ,-4280.70406, nstr911
+ROT-DEFI  , 200, , -178.235, , , , nstr911 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr911 
+*! - ROTDEFI for element NSQF116 at s=189.0375000000005
+ROT-DEFI  , 0, , ,2843.64616, ,-4138.27167, nstr917
+ROT-DEFI  , 200, , -178.235, , , , nstr917 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr917 
+*! - ROTDEFI for element NSQF117 at s=189.1625000000005
+ROT-DEFI  , 0, , ,2844.03117, ,-4125.77760, nstr920
+ROT-DEFI  , 200, , -178.235, , , , nstr920 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr920 
+*! - ROTDEFI for element NSQD114 at s=190.58750000000052
+ROT-DEFI  , 0, , ,2848.42021, ,-3983.34521, nstr926
+ROT-DEFI  , 200, , -178.235, , , , nstr926 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr926 
+*! - ROTDEFI for element NSQD115 at s=190.71250000000052
+ROT-DEFI  , 0, , ,2848.80521, ,-3970.85114, nstr929
+ROT-DEFI  , 200, , -178.235, , , , nstr929 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr929 
+*! - ROTDEFI for element NSQF118 at s=192.13750000000053
+ROT-DEFI  , 0, , ,2853.19425, ,-3828.41875, nstr935
+ROT-DEFI  , 200, , -178.235, , , , nstr935 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr935 
+*! - ROTDEFI for element NSQF119 at s=192.26250000000053
+ROT-DEFI  , 0, , ,2853.57926, ,-3815.92468, nstr938
+ROT-DEFI  , 200, , -178.235, , , , nstr938 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr938 
+*! - ROTDEFI for element NSQD116 at s=193.68750000000054
+ROT-DEFI  , 0, , ,2857.96830, ,-3673.49229, nstr944
+ROT-DEFI  , 200, , -178.235, , , , nstr944 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr944 
+*! - ROTDEFI for element NSQD117 at s=193.81250000000054
+ROT-DEFI  , 0, , ,2858.35330, ,-3660.99822, nstr947
+ROT-DEFI  , 200, , -178.235, , , , nstr947 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr947 
+*! - ROTDEFI for element NSQF120 at s=195.23750000000055
+ROT-DEFI  , 0, , ,2862.74234, ,-3518.56583, nstr953
+ROT-DEFI  , 200, , -178.235, , , , nstr953 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr953 
+*! - ROTDEFI for element NSQF121 at s=195.36250000000055
+ROT-DEFI  , 0, , ,2863.12735, ,-3506.07176, nstr956
+ROT-DEFI  , 200, , -178.235, , , , nstr956 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr956 
+*! - ROTDEFI for element NSQD118 at s=196.85000000000056
+ROT-DEFI  , 0, , ,2867.51639, ,-3363.63936, nstr958
+ROT-DEFI  , 200, , -178.235, , , , nstr958 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr958 
+*! - ROTDEFI for element NSQF122 at s=198.40000000000057
+ROT-DEFI  , 0, , ,2872.29043, ,-3208.71290, nstr960
+ROT-DEFI  , 200, , -178.235, , , , nstr960 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr960 
+*! - ROTDEFI for element NSQD119 at s=199.95000000000059
+ROT-DEFI  , 0, , ,2877.06448, ,-3053.78644, nstr962
+ROT-DEFI  , 200, , -178.235, , , , nstr962 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr962 
+*! - ROTDEFI for element NSQF123 at s=201.5000000000006
+ROT-DEFI  , 0, , ,2881.83853, ,-2898.85998, nstr964
+ROT-DEFI  , 200, , -178.235, , , , nstr964 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr964 
+*! - ROTDEFI for element NSQD120 at s=203.0500000000006
+ROT-DEFI  , 0, , ,2886.61257, ,-2743.93352, nstr966
+ROT-DEFI  , 200, , -178.235, , , , nstr966 
+ROT-DEFI  , 300, , 0, 0, 0, -11300, nstr966 
+*! - ROTDEFI for element NSQF124 at s=204.53750000000062
+ROT-DEFI  , 0, , ,2891.38662, ,-2589.00706, nstr968
+ROT-DEFI  , 200, , -178.235, , , , nstr968 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr968 
+*! - ROTDEFI for element NSQF125 at s=204.66250000000062
+ROT-DEFI  , 0, , ,2891.77162, ,-2576.51299, nstr970
+ROT-DEFI  , 200, , -178.235, , , , nstr970 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr970 
+*! - ROTDEFI for element NSMB11 at s=205.37500000000063
+ROT-DEFI  , 0, , ,2893.38864, ,-2524.03790, nstr973
+ROT-DEFI  , 200, , 172.765, , , , nstr973 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr973 
+*! - ROTDEFI for element NSQD121 at s=206.08750000000063
+ROT-DEFI  , 0, , ,2875.93444, ,-2436.23480, nstr976
+ROT-DEFI  , 200, , 163.765, , , , nstr976 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr976 
+*! - ROTDEFI for element NSQD122 at s=206.21250000000063
+ROT-DEFI  , 0, , ,2872.43972, ,-2424.23326, nstr977
+ROT-DEFI  , 200, , 163.765, , , , nstr977 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr977 
+*! - ROTDEFI for element NSQF126 at s=207.63750000000064
+ROT-DEFI  , 0, , ,2832.59992, ,-2287.41572, nstr979
+ROT-DEFI  , 200, , 163.765, , , , nstr979 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr979 
+*! - ROTDEFI for element NSQF127 at s=207.76250000000064
+ROT-DEFI  , 0, , ,2829.10520, ,-2275.41418, nstr982
+ROT-DEFI  , 200, , 163.765, , , , nstr982 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr982 
+*! - ROTDEFI for element NSQD123 at s=209.18750000000065
+ROT-DEFI  , 0, , ,2789.26539, ,-2138.59664, nstr984
+ROT-DEFI  , 200, , 163.765, , , , nstr984 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr984 
+*! - ROTDEFI for element NSQD124 at s=209.31250000000065
+ROT-DEFI  , 0, , ,2785.77068, ,-2126.59510, nstr985
+ROT-DEFI  , 200, , 163.765, , , , nstr985 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr985 
+*! - ROTDEFI for element NSMB12 at s=210.02500000000066
+ROT-DEFI  , 0, , ,2771.09285, ,-2076.18864, nstr988
+ROT-DEFI  , 200, , 154.765, , , , nstr988 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr988 
+*! - ROTDEFI for element NSQF128 at s=210.73750000000067
+ROT-DEFI  , 0, , ,2727.36028, ,-1998.07657, nstr991
+ROT-DEFI  , 200, , 145.765, , , , nstr991 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr991 
+*! - ROTDEFI for element NSQF129 at s=210.86250000000067
+ROT-DEFI  , 0, , ,2720.32792, ,-1987.74236, nstr994
+ROT-DEFI  , 200, , 145.765, , , , nstr994 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr994 
+*! - ROTDEFI for element NSMB13 at s=211.57500000000067
+ROT-DEFI  , 0, , ,2690.79203, ,-1944.33866, nstr997
+ROT-DEFI  , 200, , 136.765, , , , nstr997 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr997 
+*! - ROTDEFI for element NSQD125 at s=212.28750000000068
+ROT-DEFI  , 0, , ,2625.06192, ,-1883.56378, nstr1000
+ROT-DEFI  , 200, , 127.765, , , , nstr1000 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1000 
+*! - ROTDEFI for element NSQD126 at s=212.41250000000068
+ROT-DEFI  , 0, , ,2615.18031, ,-1875.90848, nstr1001
+ROT-DEFI  , 200, , 127.765, , , , nstr1001 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1001 
+*! - ROTDEFI for element NSQF130 at s=213.8375000000007
+ROT-DEFI  , 0, , ,2502.52990, ,-1788.63801, nstr1003
+ROT-DEFI  , 200, , 127.765, , , , nstr1003 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1003 
+*! - ROTDEFI for element NSQF131 at s=213.9625000000007
+ROT-DEFI  , 0, , ,2492.64828, ,-1780.98271, nstr1006
+ROT-DEFI  , 200, , 127.765, , , , nstr1006 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1006 
+*! - ROTDEFI for element NSQD127 at s=215.3875000000007
+ROT-DEFI  , 0, , ,2379.99787, ,-1693.71224, nstr1008
+ROT-DEFI  , 200, , 127.765, , , , nstr1008 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1008 
+*! - ROTDEFI for element NSQD128 at s=215.5125000000007
+ROT-DEFI  , 0, , ,2370.11626, ,-1686.05693, nstr1009
+ROT-DEFI  , 200, , 127.765, , , , nstr1009 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1009 
+*! - ROTDEFI for element NSMB14 at s=216.2250000000007
+ROT-DEFI  , 0, , ,2328.61347, ,-1653.90466, nstr1012
+ROT-DEFI  , 200, , 118.765, , , , nstr1012 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1012 
+*! - ROTDEFI for element NSQF132 at s=216.9375000000007
+ROT-DEFI  , 0, , ,2247.31996, ,-1616.41603, nstr1015
+ROT-DEFI  , 200, , 109.765, , , , nstr1015 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1015 
+*! - ROTDEFI for element NSQF133 at s=217.0625000000007
+ROT-DEFI  , 0, , ,2235.55636, ,-1612.18899, nstr1018
+ROT-DEFI  , 200, , 109.765, , , , nstr1018 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1018 
+*! - ROTDEFI for element NSMB15 at s=217.77500000000072
+ROT-DEFI  , 0, , ,2186.14927, ,-1594.43542, nstr1021
+ROT-DEFI  , 200, , 100.765, , , , nstr1021 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1021 
+*! - ROTDEFI for element NSQD129 at s=218.48750000000072
+ROT-DEFI  , 0, , ,2097.24992, ,-1583.90270, nstr1024
+ROT-DEFI  , 200, , 91.765, , , , nstr1024 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1024 
+*! - ROTDEFI for element NSQD130 at s=218.61250000000072
+ROT-DEFI  , 0, , ,2084.75585, ,-1583.51770, nstr1025
+ROT-DEFI  , 200, , 91.765, , , , nstr1025 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1025 
+*! - ROTDEFI for element NSQF134 at s=220.03750000000073
+ROT-DEFI  , 0, , ,1942.32346, ,-1579.12866, nstr1027
+ROT-DEFI  , 200, , 91.765, , , , nstr1027 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1027 
+*! - ROTDEFI for element NSQF135 at s=220.16250000000073
+ROT-DEFI  , 0, , ,1929.82939, ,-1578.74365, nstr1030
+ROT-DEFI  , 200, , 91.765, , , , nstr1030 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1030 
+*! - ROTDEFI for element NSQD131 at s=221.58750000000074
+ROT-DEFI  , 0, , ,1787.39700, ,-1574.35461, nstr1032
+ROT-DEFI  , 200, , 91.765, , , , nstr1032 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1032 
+*! - ROTDEFI for element NSQD132 at s=221.71250000000074
+ROT-DEFI  , 0, , ,1774.90293, ,-1573.96961, nstr1033
+ROT-DEFI  , 200, , 91.765, , , , nstr1033 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1033 
+*! - ROTDEFI for element NSMB16 at s=222.42500000000075
+ROT-DEFI  , 0, , ,1722.42784, ,-1572.35259, nstr1036
+ROT-DEFI  , 200, , 82.765, , , , nstr1036 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1036 
+*! - ROTDEFI for element NSQF136 at s=223.13750000000076
+ROT-DEFI  , 0, , ,1634.62474, ,-1589.80679, nstr1039
+ROT-DEFI  , 200, , 73.765, , , , nstr1039 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1039 
+*! - ROTDEFI for element NSQF137 at s=223.26250000000076
+ROT-DEFI  , 0, , ,1622.62320, ,-1593.30151, nstr1042
+ROT-DEFI  , 200, , 73.765, , , , nstr1042 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1042 
+*! - ROTDEFI for element NSMB17 at s=223.97500000000076
+ROT-DEFI  , 0, , ,1572.21674, ,-1607.97933, nstr1045
+ROT-DEFI  , 200, , 64.765, , , , nstr1045 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1045 
+*! - ROTDEFI for element NSQD133 at s=224.68750000000077
+ROT-DEFI  , 0, , ,1494.10468, ,-1651.71191, nstr1048
+ROT-DEFI  , 200, , 55.765, , , , nstr1048 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1048 
+*! - ROTDEFI for element NSQD134 at s=224.81250000000077
+ROT-DEFI  , 0, , ,1483.77046, ,-1658.74426, nstr1049
+ROT-DEFI  , 200, , 55.765, , , , nstr1049 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1049 
+*! - ROTDEFI for element NSQF138 at s=226.23750000000078
+ROT-DEFI  , 0, , ,1365.96042, ,-1738.91311, nstr1051
+ROT-DEFI  , 200, , 55.765, , , , nstr1051 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1051 
+*! - ROTDEFI for element NSQF139 at s=226.36250000000078
+ROT-DEFI  , 0, , ,1355.62621, ,-1745.94547, nstr1054
+ROT-DEFI  , 200, , 55.765, , , , nstr1054 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1054 
+*! - ROTDEFI for element NSQD135 at s=227.7875000000008
+ROT-DEFI  , 0, , ,1237.81617, ,-1826.11432, nstr1056
+ROT-DEFI  , 200, , 55.765, , , , nstr1056 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1056 
+*! - ROTDEFI for element NSQD136 at s=227.9125000000008
+ROT-DEFI  , 0, , ,1227.48196, ,-1833.14667, nstr1057
+ROT-DEFI  , 200, , 55.765, , , , nstr1057 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1057 
+*! - ROTDEFI for element NSMB18 at s=228.6250000000008
+ROT-DEFI  , 0, , ,1184.07826, ,-1862.68257, nstr1060
+ROT-DEFI  , 200, , 46.765, , , , nstr1060 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1060 
+*! - ROTDEFI for element NSQF140 at s=229.3375000000008
+ROT-DEFI  , 0, , ,1123.30338, ,-1928.41267, nstr1063
+ROT-DEFI  , 200, , 37.765, , , , nstr1063 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1063 
+*! - ROTDEFI for element NSQF141 at s=229.4625000000008
+ROT-DEFI  , 0, , ,1115.64808, ,-1938.29429, nstr1066
+ROT-DEFI  , 200, , 37.765, , , , nstr1066 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1066 
+*! - ROTDEFI for element NSMB19 at s=230.1750000000008
+ROT-DEFI  , 0, , ,1083.49580, ,-1979.79707, nstr1069
+ROT-DEFI  , 200, , 28.765, , , , nstr1069 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1069 
+*! - ROTDEFI for element NSQD137 at s=230.8875000000008
+ROT-DEFI  , 0, , ,1046.00718, ,-2061.09059, nstr1072
+ROT-DEFI  , 200, , 19.765, , , , nstr1072 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1072 
+*! - ROTDEFI for element NSQD138 at s=231.0125000000008
+ROT-DEFI  , 0, , ,1041.78014, ,-2072.85418, nstr1073
+ROT-DEFI  , 200, , 19.765, , , , nstr1073 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1073 
+*! - ROTDEFI for element NSQF142 at s=232.43750000000082
+ROT-DEFI  , 0, , ,993.59188, ,-2206.95915, nstr1075
+ROT-DEFI  , 200, , 19.765, , , , nstr1075 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1075 
+*! - ROTDEFI for element NSQF143 at s=232.56250000000082
+ROT-DEFI  , 0, , ,989.36484, ,-2218.72274, nstr1078
+ROT-DEFI  , 200, , 19.765, , , , nstr1078 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1078 
+*! - ROTDEFI for element NSQD139 at s=233.98750000000084
+ROT-DEFI  , 0, , ,941.17658, ,-2352.82771, nstr1080
+ROT-DEFI  , 200, , 19.765, , , , nstr1080 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1080 
+*! - ROTDEFI for element NSQD140 at s=234.11250000000084
+ROT-DEFI  , 0, , ,936.94954, ,-2364.59130, nstr1081
+ROT-DEFI  , 200, , 19.765, , , , nstr1081 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1081 
+*! - ROTDEFI for element NSMB20 at s=234.82500000000084
+ROT-DEFI  , 0, , ,919.19598, ,-2413.99839, nstr1084
+ROT-DEFI  , 200, , 10.765, , , , nstr1084 
+ROT-DEFI  , 300, , 0, 0, 0, -11600, nstr1084 
+*! - ROTDEFI for element NSQF144 at s=235.53750000000085
+ROT-DEFI  , 0, , ,908.66325, ,-2502.89774, nstr1087
+ROT-DEFI  , 200, , 1.76501, , , , nstr1087 
+ROT-DEFI  , 300, , 0, 0, 0, -11000, nstr1087 

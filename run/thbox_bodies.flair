@@ -1,0 +1,17 @@
+# flair project file
+Version: 300
+Mode: fluka
+md5: 816ca177d5866ce3c4b5235e0551cbcc
+Input:
+*
+*---- Target & Horn Assembly  ----
+*
+RPP thbox -100 100 -100 100 -10.0 100.0
+RCC target 0 0 0 0 0 78.0 1.5
+EndInput
+
+Page: Flair
+
+# Run information
+Run: <default>
+End

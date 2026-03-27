@@ -1,0 +1,1524 @@
+*
+*---- LEnuSTORM element replicas  ----
+*
+
+$start_transform -nstr1
+$start_translat 0 0 -11000
+RPP     nsqf1 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr3
+$start_translat 0 0 -11300
+RPP     nsqd1 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr5
+$start_translat 0 0 -11300
+RPP     nsqf2 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr7
+$start_translat 0 0 -11300
+RPP     nsqd2 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr9
+$start_translat 0 0 -11300
+RPP     nsqf3 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr11
+$start_translat 0 0 -11300
+RPP     nsqd3 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr13
+$start_translat 0 0 -11000
+RPP     nsqf4 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr16
+$start_translat 0 0 -11000
+RPP     nsqf5 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr22
+$start_translat 0 0 -11000
+RPP     nsqd4 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr25
+$start_translat 0 0 -11000
+RPP     nsqd5 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr31
+$start_translat 0 0 -11000
+RPP     nsqf6 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr34
+$start_translat 0 0 -11000
+RPP     nsqf7 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr40
+$start_translat 0 0 -11000
+RPP     nsqd6 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr43
+$start_translat 0 0 -11000
+RPP     nsqd7 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr49
+$start_translat 0 0 -11000
+RPP     nsqf8 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr52
+$start_translat 0 0 -11000
+RPP     nsqf9 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr58
+$start_translat 0 0 -11000
+RPP     nsqd8 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr61
+$start_translat 0 0 -11000
+RPP     nsqd9 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr67
+$start_translat 0 0 -11000
+RPP     nsqf10 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr70
+$start_translat 0 0 -11000
+RPP     nsqf11 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr76
+$start_translat 0 0 -11000
+RPP     nsqd10 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr79
+$start_translat 0 0 -11000
+RPP     nsqd11 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr85
+$start_translat 0 0 -11000
+RPP     nsqf12 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr88
+$start_translat 0 0 -11000
+RPP     nsqf13 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr94
+$start_translat 0 0 -11000
+RPP     nsqd12 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr97
+$start_translat 0 0 -11000
+RPP     nsqd13 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr103
+$start_translat 0 0 -11000
+RPP     nsqf14 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr106
+$start_translat 0 0 -11000
+RPP     nsqf15 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr112
+$start_translat 0 0 -11000
+RPP     nsqd14 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr115
+$start_translat 0 0 -11000
+RPP     nsqd15 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr121
+$start_translat 0 0 -11000
+RPP     nsqf16 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr124
+$start_translat 0 0 -11000
+RPP     nsqf17 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr130
+$start_translat 0 0 -11000
+RPP     nsqd16 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr133
+$start_translat 0 0 -11000
+RPP     nsqd17 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr139
+$start_translat 0 0 -11000
+RPP     nsqf18 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr142
+$start_translat 0 0 -11000
+RPP     nsqf19 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr148
+$start_translat 0 0 -11000
+RPP     nsqd18 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr151
+$start_translat 0 0 -11000
+RPP     nsqd19 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr157
+$start_translat 0 0 -11000
+RPP     nsqf20 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr160
+$start_translat 0 0 -11000
+RPP     nsqf21 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr166
+$start_translat 0 0 -11000
+RPP     nsqd20 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr169
+$start_translat 0 0 -11000
+RPP     nsqd21 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr175
+$start_translat 0 0 -11000
+RPP     nsqf22 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr178
+$start_translat 0 0 -11000
+RPP     nsqf23 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr184
+$start_translat 0 0 -11000
+RPP     nsqd22 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr187
+$start_translat 0 0 -11000
+RPP     nsqd23 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr193
+$start_translat 0 0 -11000
+RPP     nsqf24 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr196
+$start_translat 0 0 -11000
+RPP     nsqf25 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr202
+$start_translat 0 0 -11000
+RPP     nsqd24 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr205
+$start_translat 0 0 -11000
+RPP     nsqd25 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr211
+$start_translat 0 0 -11000
+RPP     nsqf26 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr214
+$start_translat 0 0 -11000
+RPP     nsqf27 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr220
+$start_translat 0 0 -11000
+RPP     nsqd26 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr223
+$start_translat 0 0 -11000
+RPP     nsqd27 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr229
+$start_translat 0 0 -11000
+RPP     nsqf28 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr232
+$start_translat 0 0 -11000
+RPP     nsqf29 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr238
+$start_translat 0 0 -11000
+RPP     nsqd28 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr241
+$start_translat 0 0 -11000
+RPP     nsqd29 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr247
+$start_translat 0 0 -11000
+RPP     nsqf30 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr250
+$start_translat 0 0 -11000
+RPP     nsqf31 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr256
+$start_translat 0 0 -11000
+RPP     nsqd30 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr259
+$start_translat 0 0 -11000
+RPP     nsqd31 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr265
+$start_translat 0 0 -11000
+RPP     nsqf32 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr268
+$start_translat 0 0 -11000
+RPP     nsqf33 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr274
+$start_translat 0 0 -11000
+RPP     nsqd32 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr277
+$start_translat 0 0 -11000
+RPP     nsqd33 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr283
+$start_translat 0 0 -11000
+RPP     nsqf34 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr286
+$start_translat 0 0 -11000
+RPP     nsqf35 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr292
+$start_translat 0 0 -11000
+RPP     nsqd34 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr295
+$start_translat 0 0 -11000
+RPP     nsqd35 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr301
+$start_translat 0 0 -11000
+RPP     nsqf36 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr304
+$start_translat 0 0 -11000
+RPP     nsqf37 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr310
+$start_translat 0 0 -11000
+RPP     nsqd36 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr313
+$start_translat 0 0 -11000
+RPP     nsqd37 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr319
+$start_translat 0 0 -11000
+RPP     nsqf38 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr322
+$start_translat 0 0 -11000
+RPP     nsqf39 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr328
+$start_translat 0 0 -11000
+RPP     nsqd38 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr331
+$start_translat 0 0 -11000
+RPP     nsqd39 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr337
+$start_translat 0 0 -11000
+RPP     nsqf40 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr340
+$start_translat 0 0 -11000
+RPP     nsqf41 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr346
+$start_translat 0 0 -11000
+RPP     nsqd40 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr349
+$start_translat 0 0 -11000
+RPP     nsqd41 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr355
+$start_translat 0 0 -11000
+RPP     nsqf42 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr358
+$start_translat 0 0 -11000
+RPP     nsqf43 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr364
+$start_translat 0 0 -11000
+RPP     nsqd42 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr367
+$start_translat 0 0 -11000
+RPP     nsqd43 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr373
+$start_translat 0 0 -11000
+RPP     nsqf44 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr376
+$start_translat 0 0 -11000
+RPP     nsqf45 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr382
+$start_translat 0 0 -11000
+RPP     nsqd44 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr385
+$start_translat 0 0 -11000
+RPP     nsqd45 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr391
+$start_translat 0 0 -11000
+RPP     nsqf46 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr394
+$start_translat 0 0 -11000
+RPP     nsqf47 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr400
+$start_translat 0 0 -11000
+RPP     nsqd46 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr403
+$start_translat 0 0 -11000
+RPP     nsqd47 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr409
+$start_translat 0 0 -11000
+RPP     nsqf48 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr412
+$start_translat 0 0 -11000
+RPP     nsqf49 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr414
+$start_translat 0 0 -11300
+RPP     nsqd48 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr416
+$start_translat 0 0 -11300
+RPP     nsqf50 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr418
+$start_translat 0 0 -11300
+RPP     nsqd49 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr420
+$start_translat 0 0 -11300
+RPP     nsqf51 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr422
+$start_translat 0 0 -11300
+RPP     nsqd50 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr424
+$start_translat 0 0 -11000
+RPP     nsqf52 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr426
+$start_translat 0 0 -11000
+RPP     nsqf53 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr429
+$start_translat 0 0 -11600
+RPP     nsmb1 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr432
+$start_translat 0 0 -11000
+RPP     nsqd51 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr433
+$start_translat 0 0 -11000
+RPP     nsqd52 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr435
+$start_translat 0 0 -11000
+RPP     nsqf54 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr438
+$start_translat 0 0 -11000
+RPP     nsqf55 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr440
+$start_translat 0 0 -11000
+RPP     nsqd53 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr441
+$start_translat 0 0 -11000
+RPP     nsqd54 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr444
+$start_translat 0 0 -11600
+RPP     nsmb2 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr447
+$start_translat 0 0 -11000
+RPP     nsqf56 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr450
+$start_translat 0 0 -11000
+RPP     nsqf57 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr453
+$start_translat 0 0 -11600
+RPP     nsmb3 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr456
+$start_translat 0 0 -11000
+RPP     nsqd55 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr457
+$start_translat 0 0 -11000
+RPP     nsqd56 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr459
+$start_translat 0 0 -11000
+RPP     nsqf58 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr462
+$start_translat 0 0 -11000
+RPP     nsqf59 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr464
+$start_translat 0 0 -11000
+RPP     nsqd57 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr465
+$start_translat 0 0 -11000
+RPP     nsqd58 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr468
+$start_translat 0 0 -11600
+RPP     nsmb4 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr471
+$start_translat 0 0 -11000
+RPP     nsqf60 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr474
+$start_translat 0 0 -11000
+RPP     nsqf61 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr477
+$start_translat 0 0 -11600
+RPP     nsmb5 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr480
+$start_translat 0 0 -11000
+RPP     nsqd59 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr481
+$start_translat 0 0 -11000
+RPP     nsqd60 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr483
+$start_translat 0 0 -11000
+RPP     nsqf62 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr486
+$start_translat 0 0 -11000
+RPP     nsqf63 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr488
+$start_translat 0 0 -11000
+RPP     nsqd61 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr489
+$start_translat 0 0 -11000
+RPP     nsqd62 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr492
+$start_translat 0 0 -11600
+RPP     nsmb6 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr495
+$start_translat 0 0 -11000
+RPP     nsqf64 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr498
+$start_translat 0 0 -11000
+RPP     nsqf65 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr501
+$start_translat 0 0 -11600
+RPP     nsmb7 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr504
+$start_translat 0 0 -11000
+RPP     nsqd63 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr505
+$start_translat 0 0 -11000
+RPP     nsqd64 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr507
+$start_translat 0 0 -11000
+RPP     nsqf66 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr510
+$start_translat 0 0 -11000
+RPP     nsqf67 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr512
+$start_translat 0 0 -11000
+RPP     nsqd65 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr513
+$start_translat 0 0 -11000
+RPP     nsqd66 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr516
+$start_translat 0 0 -11600
+RPP     nsmb8 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr519
+$start_translat 0 0 -11000
+RPP     nsqf68 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr522
+$start_translat 0 0 -11000
+RPP     nsqf69 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr525
+$start_translat 0 0 -11600
+RPP     nsmb9 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr528
+$start_translat 0 0 -11000
+RPP     nsqd67 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr529
+$start_translat 0 0 -11000
+RPP     nsqd68 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr531
+$start_translat 0 0 -11000
+RPP     nsqf70 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr534
+$start_translat 0 0 -11000
+RPP     nsqf71 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr536
+$start_translat 0 0 -11000
+RPP     nsqd69 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr537
+$start_translat 0 0 -11000
+RPP     nsqd70 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr540
+$start_translat 0 0 -11600
+RPP     nsmb10 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr543
+$start_translat 0 0 -11000
+RPP     nsqf72 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr545
+$start_translat 0 0 -11000
+RPP     nsqf73 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr547
+$start_translat 0 0 -11300
+RPP     nsqd71 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr549
+$start_translat 0 0 -11300
+RPP     nsqf74 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr551
+$start_translat 0 0 -11300
+RPP     nsqd72 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr553
+$start_translat 0 0 -11300
+RPP     nsqf75 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr555
+$start_translat 0 0 -11300
+RPP     nsqd73 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr557
+$start_translat 0 0 -11000
+RPP     nsqf76 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr560
+$start_translat 0 0 -11000
+RPP     nsqf77 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr566
+$start_translat 0 0 -11000
+RPP     nsqd74 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr569
+$start_translat 0 0 -11000
+RPP     nsqd75 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr575
+$start_translat 0 0 -11000
+RPP     nsqf78 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr578
+$start_translat 0 0 -11000
+RPP     nsqf79 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr584
+$start_translat 0 0 -11000
+RPP     nsqd76 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr587
+$start_translat 0 0 -11000
+RPP     nsqd77 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr593
+$start_translat 0 0 -11000
+RPP     nsqf80 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr596
+$start_translat 0 0 -11000
+RPP     nsqf81 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr602
+$start_translat 0 0 -11000
+RPP     nsqd78 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr605
+$start_translat 0 0 -11000
+RPP     nsqd79 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr611
+$start_translat 0 0 -11000
+RPP     nsqf82 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr614
+$start_translat 0 0 -11000
+RPP     nsqf83 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr620
+$start_translat 0 0 -11000
+RPP     nsqd80 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr623
+$start_translat 0 0 -11000
+RPP     nsqd81 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr629
+$start_translat 0 0 -11000
+RPP     nsqf84 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr632
+$start_translat 0 0 -11000
+RPP     nsqf85 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr638
+$start_translat 0 0 -11000
+RPP     nsqd82 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr641
+$start_translat 0 0 -11000
+RPP     nsqd83 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr647
+$start_translat 0 0 -11000
+RPP     nsqf86 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr650
+$start_translat 0 0 -11000
+RPP     nsqf87 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr656
+$start_translat 0 0 -11000
+RPP     nsqd84 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr659
+$start_translat 0 0 -11000
+RPP     nsqd85 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr665
+$start_translat 0 0 -11000
+RPP     nsqf88 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr668
+$start_translat 0 0 -11000
+RPP     nsqf89 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr674
+$start_translat 0 0 -11000
+RPP     nsqd86 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr677
+$start_translat 0 0 -11000
+RPP     nsqd87 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr683
+$start_translat 0 0 -11000
+RPP     nsqf90 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr686
+$start_translat 0 0 -11000
+RPP     nsqf91 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr692
+$start_translat 0 0 -11000
+RPP     nsqd88 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr695
+$start_translat 0 0 -11000
+RPP     nsqd89 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr701
+$start_translat 0 0 -11000
+RPP     nsqf92 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr704
+$start_translat 0 0 -11000
+RPP     nsqf93 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr710
+$start_translat 0 0 -11000
+RPP     nsqd90 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr713
+$start_translat 0 0 -11000
+RPP     nsqd91 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr719
+$start_translat 0 0 -11000
+RPP     nsqf94 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr722
+$start_translat 0 0 -11000
+RPP     nsqf95 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr728
+$start_translat 0 0 -11000
+RPP     nsqd92 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr731
+$start_translat 0 0 -11000
+RPP     nsqd93 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr737
+$start_translat 0 0 -11000
+RPP     nsqf96 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr740
+$start_translat 0 0 -11000
+RPP     nsqf97 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr746
+$start_translat 0 0 -11000
+RPP     nsqd94 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr749
+$start_translat 0 0 -11000
+RPP     nsqd95 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr755
+$start_translat 0 0 -11000
+RPP     nsqf98 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr758
+$start_translat 0 0 -11000
+RPP     nsqf99 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr764
+$start_translat 0 0 -11000
+RPP     nsqd96 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr767
+$start_translat 0 0 -11000
+RPP     nsqd97 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr773
+$start_translat 0 0 -11000
+RPP     nsqf100 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr776
+$start_translat 0 0 -11000
+RPP     nsqf101 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr782
+$start_translat 0 0 -11000
+RPP     nsqd98 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr785
+$start_translat 0 0 -11000
+RPP     nsqd99 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr791
+$start_translat 0 0 -11000
+RPP     nsqf102 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr794
+$start_translat 0 0 -11000
+RPP     nsqf103 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr800
+$start_translat 0 0 -11000
+RPP     nsqd100 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr803
+$start_translat 0 0 -11000
+RPP     nsqd101 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr809
+$start_translat 0 0 -11000
+RPP     nsqf104 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr812
+$start_translat 0 0 -11000
+RPP     nsqf105 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr818
+$start_translat 0 0 -11000
+RPP     nsqd102 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr821
+$start_translat 0 0 -11000
+RPP     nsqd103 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr827
+$start_translat 0 0 -11000
+RPP     nsqf106 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr830
+$start_translat 0 0 -11000
+RPP     nsqf107 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr836
+$start_translat 0 0 -11000
+RPP     nsqd104 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr839
+$start_translat 0 0 -11000
+RPP     nsqd105 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr845
+$start_translat 0 0 -11000
+RPP     nsqf108 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr848
+$start_translat 0 0 -11000
+RPP     nsqf109 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr854
+$start_translat 0 0 -11000
+RPP     nsqd106 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr857
+$start_translat 0 0 -11000
+RPP     nsqd107 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr863
+$start_translat 0 0 -11000
+RPP     nsqf110 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr866
+$start_translat 0 0 -11000
+RPP     nsqf111 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr872
+$start_translat 0 0 -11000
+RPP     nsqd108 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr875
+$start_translat 0 0 -11000
+RPP     nsqd109 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr881
+$start_translat 0 0 -11000
+RPP     nsqf112 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr884
+$start_translat 0 0 -11000
+RPP     nsqf113 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr890
+$start_translat 0 0 -11000
+RPP     nsqd110 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr893
+$start_translat 0 0 -11000
+RPP     nsqd111 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr899
+$start_translat 0 0 -11000
+RPP     nsqf114 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr902
+$start_translat 0 0 -11000
+RPP     nsqf115 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr908
+$start_translat 0 0 -11000
+RPP     nsqd112 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr911
+$start_translat 0 0 -11000
+RPP     nsqd113 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr917
+$start_translat 0 0 -11000
+RPP     nsqf116 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr920
+$start_translat 0 0 -11000
+RPP     nsqf117 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr926
+$start_translat 0 0 -11000
+RPP     nsqd114 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr929
+$start_translat 0 0 -11000
+RPP     nsqd115 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr935
+$start_translat 0 0 -11000
+RPP     nsqf118 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr938
+$start_translat 0 0 -11000
+RPP     nsqf119 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr944
+$start_translat 0 0 -11000
+RPP     nsqd116 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr947
+$start_translat 0 0 -11000
+RPP     nsqd117 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr953
+$start_translat 0 0 -11000
+RPP     nsqf120 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr956
+$start_translat 0 0 -11000
+RPP     nsqf121 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr958
+$start_translat 0 0 -11300
+RPP     nsqd118 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr960
+$start_translat 0 0 -11300
+RPP     nsqf122 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr962
+$start_translat 0 0 -11300
+RPP     nsqd119 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr964
+$start_translat 0 0 -11300
+RPP     nsqf123 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr966
+$start_translat 0 0 -11300
+RPP     nsqd120 -39.1 39.1 -39.1 39.1 -0.1 25.1
+$end_translat
+$end_transform
+$start_transform -nstr968
+$start_translat 0 0 -11000
+RPP     nsqf124 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr970
+$start_translat 0 0 -11000
+RPP     nsqf125 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr973
+$start_translat 0 0 -11600
+RPP     nsmb11 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr976
+$start_translat 0 0 -11000
+RPP     nsqd121 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr977
+$start_translat 0 0 -11000
+RPP     nsqd122 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr979
+$start_translat 0 0 -11000
+RPP     nsqf126 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr982
+$start_translat 0 0 -11000
+RPP     nsqf127 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr984
+$start_translat 0 0 -11000
+RPP     nsqd123 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr985
+$start_translat 0 0 -11000
+RPP     nsqd124 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr988
+$start_translat 0 0 -11600
+RPP     nsmb12 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr991
+$start_translat 0 0 -11000
+RPP     nsqf128 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr994
+$start_translat 0 0 -11000
+RPP     nsqf129 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr997
+$start_translat 0 0 -11600
+RPP     nsmb13 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1000
+$start_translat 0 0 -11000
+RPP     nsqd125 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1001
+$start_translat 0 0 -11000
+RPP     nsqd126 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1003
+$start_translat 0 0 -11000
+RPP     nsqf130 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1006
+$start_translat 0 0 -11000
+RPP     nsqf131 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1008
+$start_translat 0 0 -11000
+RPP     nsqd127 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1009
+$start_translat 0 0 -11000
+RPP     nsqd128 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1012
+$start_translat 0 0 -11600
+RPP     nsmb14 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1015
+$start_translat 0 0 -11000
+RPP     nsqf132 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1018
+$start_translat 0 0 -11000
+RPP     nsqf133 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1021
+$start_translat 0 0 -11600
+RPP     nsmb15 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1024
+$start_translat 0 0 -11000
+RPP     nsqd129 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1025
+$start_translat 0 0 -11000
+RPP     nsqd130 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1027
+$start_translat 0 0 -11000
+RPP     nsqf134 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1030
+$start_translat 0 0 -11000
+RPP     nsqf135 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1032
+$start_translat 0 0 -11000
+RPP     nsqd131 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1033
+$start_translat 0 0 -11000
+RPP     nsqd132 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1036
+$start_translat 0 0 -11600
+RPP     nsmb16 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1039
+$start_translat 0 0 -11000
+RPP     nsqf136 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1042
+$start_translat 0 0 -11000
+RPP     nsqf137 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1045
+$start_translat 0 0 -11600
+RPP     nsmb17 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1048
+$start_translat 0 0 -11000
+RPP     nsqd133 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1049
+$start_translat 0 0 -11000
+RPP     nsqd134 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1051
+$start_translat 0 0 -11000
+RPP     nsqf138 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1054
+$start_translat 0 0 -11000
+RPP     nsqf139 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1056
+$start_translat 0 0 -11000
+RPP     nsqd135 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1057
+$start_translat 0 0 -11000
+RPP     nsqd136 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1060
+$start_translat 0 0 -11600
+RPP     nsmb18 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1063
+$start_translat 0 0 -11000
+RPP     nsqf140 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1066
+$start_translat 0 0 -11000
+RPP     nsqf141 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1069
+$start_translat 0 0 -11600
+RPP     nsmb19 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1072
+$start_translat 0 0 -11000
+RPP     nsqd137 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1073
+$start_translat 0 0 -11000
+RPP     nsqd138 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1075
+$start_translat 0 0 -11000
+RPP     nsqf142 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1078
+$start_translat 0 0 -11000
+RPP     nsqf143 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1080
+$start_translat 0 0 -11000
+RPP     nsqd139 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1081
+$start_translat 0 0 -11000
+RPP     nsqd140 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform
+$start_transform -nstr1084
+$start_translat 0 0 -11600
+RPP     nsmb20 -63.447516836516726 63.447516836516726 -63.447516836516726 63.447516836516726 -0.1 49.2815821541733
+$end_translat
+$end_transform
+$start_transform -nstr1087
+$start_translat 0 0 -11000
+RPP     nsqf144 -39.1 39.1 -39.1 39.1 -0.1 12.6
+$end_translat
+$end_transform

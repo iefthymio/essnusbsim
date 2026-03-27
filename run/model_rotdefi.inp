@@ -1,0 +1,58 @@
+*Define the transformations from the replicas to the models
+*           rot.numb.    theta    phi       dx        dy        dz
+!@what.6=-(s_d1+d1_pivot)
+ROT-DEFI  , 200, 0.0, -$d1_adeg, 0, 0.0, -339.429589070911, trttl
+*# ---- D1
+!@what.4=-1000+d1_defl/2
+ROT-DEFI  , 0, , , -943.4604599210812, , -$s_d1, trd1
+*# ---- D2
+!@what.4=-1000+d1_defl/2+s_d2*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_d2*cos(d1_arad)
+ROT-DEFI  , , , , -148.15802342532993, , -913.1267439055024, trd2
+*# ---- Q1
+!@what.4=s_q1*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q1*cos(d1_arad)
+ROT-DEFI  , 0, , , 153.62968383935888, , -450.2514707504459, trq1
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq1
+ROT-DEFI  , 300, , , -1500,  , ,trq1
+*# ---- Q2
+!@what.4=s_q2*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q2*cos(d1_arad)
+ROT-DEFI  , 0, , , 234.73089120240138, , -508.7544122513378, trq2
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq2
+ROT-DEFI  , 300, , , -1500,  , ,trq2
+*# ---- Q3
+!@what.4=s_q3*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q3*cos(d1_arad)
+ROT-DEFI  , 0, , , 328.2405832919894, , -576.2083038018661, trq3
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq3
+ROT-DEFI  , 300, , , -1500,  , ,trq3
+*# ---- Q4
+!@what.4=s_q4*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q4*cos(d1_arad)
+ROT-DEFI  , 0, , , 421.75027538157747, , -643.6621953523945, trq4
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq4
+ROT-DEFI  , 300, , , -1500,  , ,trq4
+*# ---- Q5
+!@what.4=s_q5*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q5*cos(d1_arad)
+ROT-DEFI  , 0, , , 515.2599674711655, , -711.1160869029227, trq5
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq5
+ROT-DEFI  , 300, , , -1500,  , ,trq5
+*# ---- Q6
+!@what.4=s_q6*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q6*cos(d1_arad)
+ROT-DEFI  , 0, , , 608.7696595607534, , -778.5699784534511, trq6
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq6
+ROT-DEFI  , 300, , , -1500,  , ,trq6
+*# ---- Q7
+!@what.4=s_q7*sin(d1_arad)
+!@what.6=-(s_d1+d1_pivot)-s_q7*cos(d1_arad)
+ROT-DEFI  , 0, , , 689.870866923796, , -837.072919954343, trq7
+ROT-DEFI  , 200, , -$d1_adeg,  , , ,trq7
+ROT-DEFI  , 300, , , -1500,  , ,trq7
+*
+*! - ROTDEFI for element QDS2A2.0 at s=0.9944096426539861
+ROT-DEFI  , 0, , , 995.7722955833584, , -1599.35105379108, frtr1
+ROT-DEFI  , 200, , 2.4366482,  , , ,frtr1
+ROT-DEFI  , 300, , 0, -1000, 0, -1150, frtr1

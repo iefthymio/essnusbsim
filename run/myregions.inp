@@ -1,0 +1,39 @@
+*
+*---- Magnet models regions  ----
+*
+MB150Env     5 +mb150vol -mb150fe -mb150vac
+MB150Fe      5 +mb150fe -mb150vac
+MB150Vac     5 +mb150vac
+QM80Env      5 +qm80vol -qm80fe -qm80vac
+QM80Fe       5 +qm80fe -qm80vac
+QM80Vac      5 +qm80vac
+MB138Env     5 +mb138vol -mb138fe -mb138vac
+MB138Fe      5 +mb138fe -mb138vac
+MB138Vac     5 +mb138vac
+QM12Env      5 +qm12vol -qm12fe -qm12vac
+QM12Fe       5 +qm12fe -qm12vac
+QM12Vac      5 +qm12vac
+QM25Env      5 +qm25vol -qm25fe -qm25vac
+QM25Fe       5 +qm25fe -qm25vac
+QM25Vac      5 +qm25vac
+MB50Env      5 +mb50vol -mb50fe -mb50vac
+MB50Fe       5 +mb50fe -mb50vac
+MB50Vac      5 +mb50vac
+*
+*---- TT line element regions ----
+*
+TLMB1        5 +tlmb1
+TLMQ1        5 +tlmq1
+TLMQ2        5 +tlmq2
+TLMQ3        5 +tlmq3
+TLMB2        5 +tlmb2
+TLMQ4        5 +tlmq4
+TLMQ5        5 +tlmq5
+TLMQ6        5 +tlmq6
+TLMQ7        5 +tlmq7
+TLMQ8        5 +tlmq8
+TLMB3        5 +tlmb3
+TLMQ9        5 +tlmq9
+TLMQ10       5 +tlmq10
+TLMQ11       5 +tlmq11
+TLMB4        5 +tlmb4

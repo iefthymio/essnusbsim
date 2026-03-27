@@ -1,0 +1,79 @@
+*
+*---- T2R line element replicas  ----
+*
+
+$start_transform -t2rtr0
+$start_translat 0 0 -10100
+RPP     tlmb1 -92.05963207745455 92.05963207745455 -92.05963207745455 92.05963207745455 -0.1 145.5562740221094
+$end_translat
+$end_transform
+$start_transform -t2rtr2
+$start_translat 0 0 -10400
+RPP     tlmq1 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr4
+$start_translat 0 0 -10400
+RPP     tlmq2 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr6
+$start_translat 0 0 -10400
+RPP     tlmq3 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr8
+$start_translat 0 0 -10100
+RPP     tlmb2 -92.05963207745455 92.05963207745455 -92.05963207745455 92.05963207745455 -0.1 145.5562740221094
+$end_translat
+$end_transform
+$start_transform -t2rtr10
+$start_translat 0 0 -10400
+RPP     tlmq4 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr12
+$start_translat 0 0 -10400
+RPP     tlmq5 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr14
+$start_translat 0 0 -10400
+RPP     tlmq6 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr16
+$start_translat 0 0 -10400
+RPP     tlmq7 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr18
+$start_translat 0 0 -10400
+RPP     tlmq8 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr21
+$start_translat 0 0 -10700
+RPP     tlmb3 -101.68247264280984 101.68247264280984 -101.68247264280984 101.68247264280984 -0.1 130.27139444773096
+$end_translat
+$end_transform
+$start_transform -t2rtr23
+$start_translat 0 0 -10400
+RPP     tlmq9 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr25
+$start_translat 0 0 -10400
+RPP     tlmq10 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr27
+$start_translat 0 0 -10400
+RPP     tlmq11 -39.1 39.1 -39.1 39.1 -0.1 80.1
+$end_translat
+$end_transform
+$start_transform -t2rtr29
+$start_translat 0 0 -10700
+RPP     tlmb4 -101.68247264280984 101.68247264280984 -101.68247264280984 101.68247264280984 -0.1 130.27139444773096
+$end_translat
+$end_transform
