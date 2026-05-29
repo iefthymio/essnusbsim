@@ -1,0 +1,67 @@
+name: Run generate inputs pipeline
+
+on:
+  push:
+    branches : [main]
+  pull_request:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install nbconvert jupyter
+
+      # 4. Run preprocessing
+      - name: Preprocess data
+        run: |
+          python scripts/preprocess.py
+
+      # 5. Run main analysis
+      - name: Run analysis
+        run: |
+          python scripts/run_analysis.py
+
+      # 6. Validate outputs
+      - name: Validate results
+        run: |
+          python scripts/validate.py
+
+      # 7. Execute notebook (for reproducible report)
+      - name: Run notebook
+        run: |
+          jupyter nbconvert \
+            --to html \
+            --execute \
+            --output report.html \
+            notebooks/report.ipynb
+
+      # 8. Move report to structured folder
+      - name: Organize reports
+        run: |
+          mkdir -p reports/html
+          mv report.html reports/html/
+
+      # 9. Upload artifacts (results + reports)
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-output
+          path: |
+            reports/
+            results/
