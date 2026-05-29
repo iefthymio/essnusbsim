@@ -1,23 +1,33 @@
-# T2R and LEnuSTORM Simulation
+# ESSnuSB+ Simulation 
 
-ESSnuSB+ Simulation Studies for the LEnuSTORM stage
+Combined simulation of Target, T2R and LEnuSTORM structures
 
 # Structure
 ```bash
 project/
-├── fluka0/         # initial FLUKA simulation code for target and decay pipe
-├── pprod/          # FLUKA files for particle production out of the target
-├── raytrace_cpp/   # tracking code developed for LAGUNA-LBNO CN2PY design studies
-├── src/            # beam optics and FLUKA files. FLAIR should be executed from this directory
+
+├── data/           # input files (.json) for the TL and NUSTORM 
 ├── dev/            # where to generate the FLUKA input files
-├── refinp/         # historical files fromp past simulations for reference
+├── docs/           # presentations and docs
 ├── fastsim/        # auxiliarry simulations 
-├── run/            # obsolete dir - should be deleted
-└── README.md
-└── InitPlots.py
-└── README_init.md  # initial README kept for reference 
-└── FLUKA-sim.pptx  # help file for the FLUKA simulation of the beam lines
+├── notebooks/      # exploration notebooks for geometry build and testing
+├── reports/        # html 
+├── run/            # what to download and run
+├── scripts/        # automation scripts to run for CI
+├── src/            # beam optics and FLUKA files. FLAIR should be executed from this directory
+├── tests/          # test of scripts
+
+
 ```
+
+## Automation CI integration
+
+The files in `.github/workflows/ci.yml`
+
+Runs pipeline scripts to generate new input files at each commit. 
+
+Note : it runs only on [main] branch
+
 
 ## Script to generate the FLUKA Simulation Input
 
