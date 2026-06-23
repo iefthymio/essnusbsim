@@ -20,7 +20,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-import essbeamsim as essbsim
+from . import helpers as hlp
 
 import re
 
@@ -60,11 +60,11 @@ def plot_layout(trline, ringdf, layout_params):
     _inj_point = trline.__getattribute__("lenustorm_inj")
     _angle = trline.__getattribute__("ring_orientation")
     
-    ring_coord_transform = essbsim.create_transform(_inj_point[1]*100, _inj_point[0]*100, _angle)
+    ring_coord_transform = hlp.create_transform(_inj_point[1]*100, _inj_point[0]*100, _angle)
     print(ring_coord_transform)
 
     ring_2d = ringdf[['Z_cm','X_cm']].to_numpy()
-    transformed = essbsim.apply_transform(ring_coord_transform, np.array(ring_2d).T)
+    transformed = hlp.apply_transform(ring_coord_transform, np.array(ring_2d).T)
     ringdf['Z_wc'] = transformed[0]
     ringdf['X_wc'] = transformed[1]
 
@@ -135,7 +135,7 @@ def plot_ttline(theline):
         print(f" -- {el['name']} : xy ={el['coord'][1]:.3f}, {el['coord'][0]}  {el['angle']}")
         _center = (el['coord'][1], el['coord'][0])
 
-        bottom_left = essbsim.compute_corner_from_center(_center, _length_tot, _width, el['angle'] )
+        bottom_left = hlp.compute_corner_from_center(_center, _length_tot, _width, el['angle'] )
         # print(f'\t --- {bottom_left=}')
         ax.add_patch(
             patches.Rectangle(
@@ -143,7 +143,7 @@ def plot_ttline(theline):
                 edgecolor='lightgrey', facecolor='brown', linewidth=1, linestyle='--'
             )
         )
-        bottom_left = essbsim.compute_corner_from_center(_center, _length, _width, el['angle'] )
+        bottom_left = hlp.compute_corner_from_center(_center, _length, _width, el['angle'] )
         # print(f'\t --- {bottom_left=}')
         ax.add_patch(
             patches.Rectangle(

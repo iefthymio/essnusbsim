@@ -1,10 +1,14 @@
 #
-# -Configuration file for FLUKA Simulation
+# -Configuration file for ESSnuSB Simulation
 #
 # Units in:  m s
 #
 # Note: the {0,0,0} point for the simulation corresponds to the target upstream
 
+# 
+t2roptics       : '20251216-t2r-ie.json'
+nustormoptics   : 'ring-mb3.json'
+#
 trg_to_lblnd    : 320     # = 250+60 in Nicks last drawing he claims 338 m from the decay tunnel start to ND front face, add 10m for nuSTORM clearance
 ss_to_lemmond   : 50
 #

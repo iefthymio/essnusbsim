@@ -102,6 +102,57 @@ def compute_corner_from_center(center, width, height, rad):
     # Return adjusted position
     return center[0] + dx, center[1] + dy
 
+def get_kvalue(r):
+    if r.element_type == 'Bend':
+        return r.k0l/r.length
+    elif r.element_type == 'Quadrupole':
+        return r.k1l/r.length
+    else:
+        return 0.0
+
+def _get_kvalue(r):
+    if r.element_type == 'Bend':
+        return r.element.k0
+    elif r.element_type == 'Quadrupole' :
+        return r.element.k1
+    else:
+        return 0
+    
+def get_flukadf(df, lineid='TL', verbose=False):
+    ''' Prepare the beam elements DF for FLUKA'''
+
+    df['length'] = df['s_end'] - df['s_start']
+    df['kvalue'] = df.apply(lambda x: get_kvalue(x), axis=1)
+
+    mask = ((df.element_type != 'Drift') & (df.kvalue != 0)) | (df.element_type == 'Marker')
+
+    df = df[mask].copy()
+    
+    df['length_cm'] = df['length'].apply(lambda x: x*100)
+    df['X_cm']      = df['X'].apply(lambda x: x*100)
+    df['Y_cm']      = df['Y'].apply(lambda x: x*100)
+    df['Z_cm']      = df['Z'].apply(lambda x: x*100)
+    df['theta_deg'] = df['theta'].apply(lambda x: x*180/np.pi)
+    
+    df['belement'] = lineid + df["name"].str[:2] + (df.groupby(df["name"].str[:2]).cumcount() + 1).astype(str)
+    df['model'] = np.select(
+        [
+            df['element_type'] == 'Bend',
+            df['element_type'] == 'Quadrupole'
+        ],
+        [
+            'MB' + (df['length'] * 100).round().astype(int).astype(str),
+            'QM' + (df['length'] * 100).round().astype(int).astype(str)
+        ],
+        default= np.nan
+        )
+    if verbose:
+        mask = df.element_type.isin(['Bend', 'Quadrupole'])
+        print(f' -- belements: {set(df["belement"][mask].unique())}')
+        print(f' -- models: {set(df["model"][mask].unique())}')
+
+    return df
+
 class TTLINE:
     bend_iron_yoke_side = 0.30   # iron width in the dipoles beyond the aperture
         

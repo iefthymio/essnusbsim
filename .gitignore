@@ -10,13 +10,17 @@
 *.lis
 *.bnx
 *.eps
+*.pptx
 
 *.*~
 *.pickle
 *.bnn
 *.jpg
-myfluka
+
 ran*
+
+data/intermediate/
+
 
 **/.vscode/
 run/*

@@ -1,0 +1,6997 @@
+{
+ "__class__": "Line",
+ "xtrack_version": "0.99.6",
+ "elements": {
+  "D": {
+   "__class__": "Drift"
+  },
+  "D.005": {
+   "__class__": "Drift",
+   "length": 0.2,
+   "prototype": "D"
+  },
+  "Q": {
+   "__class__": "Quadrupole",
+   "length": 0.125,
+   "order": 5
+  },
+  "S": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5
+  },
+  "start_cell.A": {
+   "__class__": "Marker"
+  },
+  "mid_cell.A": {
+   "__class__": "Marker"
+  },
+  "QF.A": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "QD.A": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "D.SEX": {
+   "__class__": "Drift",
+   "length": 0.15,
+   "prototype": "D"
+  },
+  "B": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5
+  },
+  "SF.0": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SF.1": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SF.2": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SF.3": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SF.4": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SD.0": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SD.1": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SD.2": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SD.3": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "SD.4": {
+   "__class__": "Sextupole",
+   "length": 0.15,
+   "order": 5,
+   "prototype": "S"
+  },
+  "start_cell.S": {
+   "__class__": "Marker"
+  },
+  "mid_cell.S": {
+   "__class__": "Marker"
+  },
+  "QF.S": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "QD.S": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "PI_QF.S": {
+   "__class__": "Quadrupole",
+   "k1": -1.0,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "PI_QD.S": {
+   "__class__": "Quadrupole",
+   "k1": 1.0,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "Q"
+  },
+  "matching_start": {
+   "__class__": "Marker"
+  },
+  "D.S2A": {
+   "__class__": "Drift",
+   "length": 1.1
+  },
+  "QD.M0": {
+   "__class__": "Quadrupole",
+   "k1": 3.7580800507782106,
+   "length": 0.25,
+   "order": 5
+  },
+  "QF.M0": {
+   "__class__": "Quadrupole",
+   "k1": -3.7092350662676314,
+   "length": 0.25,
+   "order": 5
+  },
+  "QD.M1": {
+   "__class__": "Quadrupole",
+   "k1": 3.5973983621020174,
+   "length": 0.25,
+   "order": 5
+  },
+  "QF.M1": {
+   "__class__": "Quadrupole",
+   "k1": -3.7536268434088513,
+   "length": 0.25,
+   "order": 5
+  },
+  "QD.M2": {
+   "__class__": "Quadrupole",
+   "k1": 3.453754760340388,
+   "length": 0.25,
+   "order": 5
+  },
+  "||drift_1": {
+   "__class__": "Drift",
+   "length": 0.20000000000000007
+  },
+  "||drift_2": {
+   "__class__": "Drift",
+   "length": 0.20000000000000018
+  },
+  "||drift_3": {
+   "__class__": "Drift",
+   "length": 1.1
+  },
+  "QD.M0.0": {
+   "__class__": "Quadrupole",
+   "k1": 3.7580800507782106,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M0"
+  },
+  "QD.M0.1": {
+   "__class__": "Quadrupole",
+   "k1": 3.7580800507782106,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M0"
+  },
+  "QD.M0.2": {
+   "__class__": "Quadrupole",
+   "k1": 3.7580800507782106,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M0"
+  },
+  "QD.M0.3": {
+   "__class__": "Quadrupole",
+   "k1": 3.7580800507782106,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M0"
+  },
+  "QD.M1.0": {
+   "__class__": "Quadrupole",
+   "k1": 3.5973983621020174,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M1"
+  },
+  "QD.M1.1": {
+   "__class__": "Quadrupole",
+   "k1": 3.5973983621020174,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M1"
+  },
+  "QD.M1.2": {
+   "__class__": "Quadrupole",
+   "k1": 3.5973983621020174,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M1"
+  },
+  "QD.M1.3": {
+   "__class__": "Quadrupole",
+   "k1": 3.5973983621020174,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M1"
+  },
+  "B.0": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.1": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.2": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.3": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.4": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.5": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.6": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.7": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.8": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.9": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.10": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.11": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.12": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.13": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.14": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.15": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.16": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.17": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.18": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "B.19": {
+   "__class__": "Bend",
+   "angle": 0.3141592653589793,
+   "length": 0.7,
+   "order": 5,
+   "prototype": "B"
+  },
+  "QD.M2.0": {
+   "__class__": "Quadrupole",
+   "k1": 3.453754760340388,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M2"
+  },
+  "QD.M2.1": {
+   "__class__": "Quadrupole",
+   "k1": 3.453754760340388,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M2"
+  },
+  "QD.M2.2": {
+   "__class__": "Quadrupole",
+   "k1": 3.453754760340388,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M2"
+  },
+  "QD.M2.3": {
+   "__class__": "Quadrupole",
+   "k1": 3.453754760340388,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QD.M2"
+  },
+  "matching_start.0": {
+   "__class__": "Marker",
+   "prototype": "matching_start"
+  },
+  "matching_start.1": {
+   "__class__": "Marker",
+   "prototype": "matching_start"
+  },
+  "matching_start.2": {
+   "__class__": "Marker",
+   "prototype": "matching_start"
+  },
+  "matching_start.3": {
+   "__class__": "Marker",
+   "prototype": "matching_start"
+  },
+  "mid_cell.S.0": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.1": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.2": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.3": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.4": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.5": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.6": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.7": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.8": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.9": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.10": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.11": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.12": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.13": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.14": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.15": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.16": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.17": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.18": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.19": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.20": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.21": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.22": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.23": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.24": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.25": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.26": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.27": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.28": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.29": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.30": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.31": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.32": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.33": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.34": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.35": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.36": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.37": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.38": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.39": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.40": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.41": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.42": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.43": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.44": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.45": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.46": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.47": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.48": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.49": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.50": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.51": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.52": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.53": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.54": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.55": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.56": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.57": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.58": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.59": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.60": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.61": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.62": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.63": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.64": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.65": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.66": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.67": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.68": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.69": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.70": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.71": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.72": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.73": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.74": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.75": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.76": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.77": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.78": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.79": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.80": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.81": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.82": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.83": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.84": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.85": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.86": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.87": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.88": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.89": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.90": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.91": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.92": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.93": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.94": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "mid_cell.S.95": {
+   "__class__": "Marker",
+   "prototype": "mid_cell.S"
+  },
+  "QF.M0.0": {
+   "__class__": "Quadrupole",
+   "k1": -3.7092350662676314,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M0"
+  },
+  "QF.M0.1": {
+   "__class__": "Quadrupole",
+   "k1": -3.7092350662676314,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M0"
+  },
+  "QF.M0.2": {
+   "__class__": "Quadrupole",
+   "k1": -3.7092350662676314,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M0"
+  },
+  "QF.M0.3": {
+   "__class__": "Quadrupole",
+   "k1": -3.7092350662676314,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M0"
+  },
+  "QF.S.0": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.1": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.2": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.3": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.4": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.5": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.6": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.7": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.8": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.9": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.10": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.11": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.12": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.13": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.14": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.15": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.16": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.17": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.18": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.19": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.20": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.21": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.22": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.23": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.24": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.25": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.26": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.27": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.28": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.29": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.30": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.31": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.32": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.33": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.34": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.35": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.36": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.37": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.38": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.39": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.40": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.41": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.42": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.43": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.44": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.45": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.46": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.47": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.48": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.49": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.50": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.51": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.52": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.53": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.54": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.55": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.56": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.57": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.58": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.59": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.60": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.61": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.62": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.63": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.64": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.65": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.66": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.67": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.68": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.69": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.70": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.71": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.72": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.73": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.74": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.75": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.76": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.77": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.78": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.79": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.80": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.81": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.82": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.83": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.84": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.85": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.86": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.87": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.88": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.89": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.90": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.91": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.92": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.93": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.94": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.95": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.96": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.97": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.98": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "QF.S.99": {
+   "__class__": "Quadrupole",
+   "k1": -3.691348664285132,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.S"
+  },
+  "D.S2A.0": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.1": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.2": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.3": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.4": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.5": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.6": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.7": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.8": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.9": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.10": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.11": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.12": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.13": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.14": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.15": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.16": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.17": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.18": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.19": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.20": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.21": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.22": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "D.S2A.23": {
+   "__class__": "Drift",
+   "length": 1.1,
+   "prototype": "D.S2A"
+  },
+  "start_cell.S.0": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.1": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.2": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.3": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.4": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.5": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.6": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.7": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.8": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.9": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.10": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.11": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.12": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.13": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.14": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.15": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.16": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.17": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.18": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.19": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.20": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.21": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.22": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.23": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.24": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.25": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.26": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.27": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.28": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.29": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.30": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.31": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.32": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.33": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.34": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.35": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.36": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.37": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.38": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.39": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.40": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.41": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.42": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.43": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.44": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.45": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.46": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.47": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.48": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.49": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.50": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.51": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.52": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.53": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.54": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.55": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.56": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.57": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.58": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.59": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.60": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.61": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.62": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.63": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.64": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.65": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.66": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.67": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.68": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.69": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.70": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.71": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.72": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.73": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.74": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.75": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.76": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.77": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.78": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.79": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.80": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.81": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.82": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.83": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.84": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.85": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.86": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.87": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.88": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.89": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.90": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.91": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.92": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.93": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.94": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.S.95": {
+   "__class__": "Marker",
+   "prototype": "start_cell.S"
+  },
+  "start_cell.A.0": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.1": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.2": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.3": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.4": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.5": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.6": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.7": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.8": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.9": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.10": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.11": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.12": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.13": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.14": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.15": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.16": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.17": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.18": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "start_cell.A.19": {
+   "__class__": "Marker",
+   "prototype": "start_cell.A"
+  },
+  "QD.A.0": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.1": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.2": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.3": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.4": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.5": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.6": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.7": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.8": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.9": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.10": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.11": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.12": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.13": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.14": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.15": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.16": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.17": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.18": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.19": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.20": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.21": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.22": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.23": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.24": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.25": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.26": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.27": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.28": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.29": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.30": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.31": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.32": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.33": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.34": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.35": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.36": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.37": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.38": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QD.A.39": {
+   "__class__": "Quadrupole",
+   "k1": 3.40194406271481,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.A"
+  },
+  "QF.M1.0": {
+   "__class__": "Quadrupole",
+   "k1": -3.7536268434088513,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M1"
+  },
+  "QF.M1.1": {
+   "__class__": "Quadrupole",
+   "k1": -3.7536268434088513,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M1"
+  },
+  "QF.M1.2": {
+   "__class__": "Quadrupole",
+   "k1": -3.7536268434088513,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M1"
+  },
+  "QF.M1.3": {
+   "__class__": "Quadrupole",
+   "k1": -3.7536268434088513,
+   "length": 0.25,
+   "order": 5,
+   "prototype": "QF.M1"
+  },
+  "QF.A.0": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.1": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.2": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.3": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.4": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.5": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.6": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.7": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.8": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.9": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.10": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.11": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.12": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.13": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.14": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.15": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.16": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.17": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.18": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.19": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.20": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.21": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.22": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.23": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.24": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.25": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.26": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.27": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.28": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.29": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.30": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.31": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.32": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.33": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.34": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.35": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.36": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.37": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.38": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.39": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.40": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.41": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.42": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QF.A.43": {
+   "__class__": "Quadrupole",
+   "k1": -3.797568688552298,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QF.A"
+  },
+  "QD.S.0": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.1": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.2": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.3": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.4": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.5": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.6": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.7": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.8": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.9": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.10": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.11": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.12": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.13": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.14": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.15": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.16": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.17": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.18": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.19": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.20": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.21": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.22": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.23": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.24": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.25": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.26": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.27": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.28": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.29": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.30": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.31": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.32": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.33": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.34": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.35": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.36": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.37": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.38": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.39": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.40": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.41": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.42": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.43": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.44": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.45": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.46": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.47": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.48": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.49": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.50": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.51": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.52": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.53": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.54": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.55": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.56": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.57": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.58": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.59": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.60": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.61": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.62": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.63": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.64": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.65": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.66": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.67": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.68": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.69": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.70": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.71": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.72": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.73": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.74": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.75": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.76": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.77": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.78": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.79": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.80": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.81": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.82": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.83": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.84": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.85": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.86": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.87": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.88": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.89": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.90": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.91": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.92": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.93": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.94": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  },
+  "QD.S.95": {
+   "__class__": "Quadrupole",
+   "k1": 3.791348664318255,
+   "length": 0.125,
+   "order": 5,
+   "prototype": "QD.S"
+  }
+ },
+ "element_names": [
+  "start_cell.S.0",
+  "QF.S.0",
+  "||drift_3",
+  "QD.S.0",
+  "mid_cell.S.0",
+  "mid_cell.S.1",
+  "QD.S.1",
+  "||drift_3",
+  "QF.S.1",
+  "start_cell.S.1",
+  "start_cell.S.2",
+  "QF.S.2",
+  "||drift_3",
+  "QD.S.2",
+  "mid_cell.S.2",
+  "mid_cell.S.3",
+  "QD.S.3",
+  "||drift_3",
+  "QF.S.3",
+  "start_cell.S.3",
+  "start_cell.S.4",
+  "QF.S.4",
+  "||drift_3",
+  "QD.S.4",
+  "mid_cell.S.4",
+  "mid_cell.S.5",
+  "QD.S.5",
+  "||drift_3",
+  "QF.S.5",
+  "start_cell.S.5",
+  "start_cell.S.6",
+  "QF.S.6",
+  "||drift_3",
+  "QD.S.6",
+  "mid_cell.S.6",
+  "mid_cell.S.7",
+  "QD.S.7",
+  "||drift_3",
+  "QF.S.7",
+  "start_cell.S.7",
+  "start_cell.S.8",
+  "QF.S.8",
+  "||drift_3",
+  "QD.S.8",
+  "mid_cell.S.8",
+  "mid_cell.S.9",
+  "QD.S.9",
+  "||drift_3",
+  "QF.S.9",
+  "start_cell.S.9",
+  "start_cell.S.10",
+  "QF.S.10",
+  "||drift_3",
+  "QD.S.10",
+  "mid_cell.S.10",
+  "mid_cell.S.11",
+  "QD.S.11",
+  "||drift_3",
+  "QF.S.11",
+  "start_cell.S.11",
+  "start_cell.S.12",
+  "QF.S.12",
+  "||drift_3",
+  "QD.S.12",
+  "mid_cell.S.12",
+  "mid_cell.S.13",
+  "QD.S.13",
+  "||drift_3",
+  "QF.S.13",
+  "start_cell.S.13",
+  "start_cell.S.14",
+  "QF.S.14",
+  "||drift_3",
+  "QD.S.14",
+  "mid_cell.S.14",
+  "mid_cell.S.15",
+  "QD.S.15",
+  "||drift_3",
+  "QF.S.15",
+  "start_cell.S.15",
+  "start_cell.S.16",
+  "QF.S.16",
+  "||drift_3",
+  "QD.S.16",
+  "mid_cell.S.16",
+  "mid_cell.S.17",
+  "QD.S.17",
+  "||drift_3",
+  "QF.S.17",
+  "start_cell.S.17",
+  "start_cell.S.18",
+  "QF.S.18",
+  "||drift_3",
+  "QD.S.18",
+  "mid_cell.S.18",
+  "mid_cell.S.19",
+  "QD.S.19",
+  "||drift_3",
+  "QF.S.19",
+  "start_cell.S.19",
+  "start_cell.S.20",
+  "QF.S.20",
+  "||drift_3",
+  "QD.S.20",
+  "mid_cell.S.20",
+  "mid_cell.S.21",
+  "QD.S.21",
+  "||drift_3",
+  "QF.S.21",
+  "start_cell.S.21",
+  "start_cell.S.22",
+  "QF.S.22",
+  "||drift_3",
+  "QD.S.22",
+  "mid_cell.S.22",
+  "mid_cell.S.23",
+  "QD.S.23",
+  "||drift_3",
+  "QF.S.23",
+  "start_cell.S.23",
+  "matching_start.0",
+  "QF.S.24",
+  "D.S2A.0",
+  "QD.M0.0",
+  "D.S2A.1",
+  "QF.M0.0",
+  "D.S2A.2",
+  "QD.M1.0",
+  "D.S2A.3",
+  "QF.M1.0",
+  "D.S2A.4",
+  "QD.M2.0",
+  "D.S2A.5",
+  "QF.A.0",
+  "start_cell.A.0",
+  "QF.A.1",
+  "||drift_1",
+  "B.0",
+  "||drift_2",
+  "QD.A.0",
+  "QD.A.1",
+  "||drift_3",
+  "QF.A.2",
+  "QF.A.3",
+  "||drift_3",
+  "QD.A.2",
+  "QD.A.3",
+  "||drift_2",
+  "B.1",
+  "||drift_1",
+  "QF.A.4",
+  "start_cell.A.1",
+  "start_cell.A.2",
+  "QF.A.5",
+  "||drift_1",
+  "B.2",
+  "||drift_2",
+  "QD.A.4",
+  "QD.A.5",
+  "||drift_3",
+  "QF.A.6",
+  "QF.A.7",
+  "||drift_3",
+  "QD.A.6",
+  "QD.A.7",
+  "||drift_2",
+  "B.3",
+  "||drift_1",
+  "QF.A.8",
+  "start_cell.A.3",
+  "start_cell.A.4",
+  "QF.A.9",
+  "||drift_1",
+  "B.4",
+  "||drift_2",
+  "QD.A.8",
+  "QD.A.9",
+  "||drift_3",
+  "QF.A.10",
+  "QF.A.11",
+  "||drift_3",
+  "QD.A.10",
+  "QD.A.11",
+  "||drift_2",
+  "B.5",
+  "||drift_1",
+  "QF.A.12",
+  "start_cell.A.5",
+  "start_cell.A.6",
+  "QF.A.13",
+  "||drift_1",
+  "B.6",
+  "||drift_2",
+  "QD.A.12",
+  "QD.A.13",
+  "||drift_3",
+  "QF.A.14",
+  "QF.A.15",
+  "||drift_3",
+  "QD.A.14",
+  "QD.A.15",
+  "||drift_2",
+  "B.7",
+  "||drift_1",
+  "QF.A.16",
+  "start_cell.A.7",
+  "start_cell.A.8",
+  "QF.A.17",
+  "||drift_1",
+  "B.8",
+  "||drift_2",
+  "QD.A.16",
+  "QD.A.17",
+  "||drift_3",
+  "QF.A.18",
+  "QF.A.19",
+  "||drift_3",
+  "QD.A.18",
+  "QD.A.19",
+  "||drift_2",
+  "B.9",
+  "||drift_1",
+  "QF.A.20",
+  "start_cell.A.9",
+  "QF.A.21",
+  "D.S2A.6",
+  "QD.M2.1",
+  "D.S2A.7",
+  "QF.M1.1",
+  "D.S2A.8",
+  "QD.M1.1",
+  "D.S2A.9",
+  "QF.M0.1",
+  "D.S2A.10",
+  "QD.M0.1",
+  "D.S2A.11",
+  "QF.S.25",
+  "matching_start.1",
+  "start_cell.S.24",
+  "QF.S.26",
+  "||drift_3",
+  "QD.S.24",
+  "mid_cell.S.24",
+  "mid_cell.S.25",
+  "QD.S.25",
+  "||drift_3",
+  "QF.S.27",
+  "start_cell.S.25",
+  "start_cell.S.26",
+  "QF.S.28",
+  "||drift_3",
+  "QD.S.26",
+  "mid_cell.S.26",
+  "mid_cell.S.27",
+  "QD.S.27",
+  "||drift_3",
+  "QF.S.29",
+  "start_cell.S.27",
+  "start_cell.S.28",
+  "QF.S.30",
+  "||drift_3",
+  "QD.S.28",
+  "mid_cell.S.28",
+  "mid_cell.S.29",
+  "QD.S.29",
+  "||drift_3",
+  "QF.S.31",
+  "start_cell.S.29",
+  "start_cell.S.30",
+  "QF.S.32",
+  "||drift_3",
+  "QD.S.30",
+  "mid_cell.S.30",
+  "mid_cell.S.31",
+  "QD.S.31",
+  "||drift_3",
+  "QF.S.33",
+  "start_cell.S.31",
+  "start_cell.S.32",
+  "QF.S.34",
+  "||drift_3",
+  "QD.S.32",
+  "mid_cell.S.32",
+  "mid_cell.S.33",
+  "QD.S.33",
+  "||drift_3",
+  "QF.S.35",
+  "start_cell.S.33",
+  "start_cell.S.34",
+  "QF.S.36",
+  "||drift_3",
+  "QD.S.34",
+  "mid_cell.S.34",
+  "mid_cell.S.35",
+  "QD.S.35",
+  "||drift_3",
+  "QF.S.37",
+  "start_cell.S.35",
+  "start_cell.S.36",
+  "QF.S.38",
+  "||drift_3",
+  "QD.S.36",
+  "mid_cell.S.36",
+  "mid_cell.S.37",
+  "QD.S.37",
+  "||drift_3",
+  "QF.S.39",
+  "start_cell.S.37",
+  "start_cell.S.38",
+  "QF.S.40",
+  "||drift_3",
+  "QD.S.38",
+  "mid_cell.S.38",
+  "mid_cell.S.39",
+  "QD.S.39",
+  "||drift_3",
+  "QF.S.41",
+  "start_cell.S.39",
+  "start_cell.S.40",
+  "QF.S.42",
+  "||drift_3",
+  "QD.S.40",
+  "mid_cell.S.40",
+  "mid_cell.S.41",
+  "QD.S.41",
+  "||drift_3",
+  "QF.S.43",
+  "start_cell.S.41",
+  "start_cell.S.42",
+  "QF.S.44",
+  "||drift_3",
+  "QD.S.42",
+  "mid_cell.S.42",
+  "mid_cell.S.43",
+  "QD.S.43",
+  "||drift_3",
+  "QF.S.45",
+  "start_cell.S.43",
+  "start_cell.S.44",
+  "QF.S.46",
+  "||drift_3",
+  "QD.S.44",
+  "mid_cell.S.44",
+  "mid_cell.S.45",
+  "QD.S.45",
+  "||drift_3",
+  "QF.S.47",
+  "start_cell.S.45",
+  "start_cell.S.46",
+  "QF.S.48",
+  "||drift_3",
+  "QD.S.46",
+  "mid_cell.S.46",
+  "mid_cell.S.47",
+  "QD.S.47",
+  "||drift_3",
+  "QF.S.49",
+  "start_cell.S.47",
+  "start_cell.S.48",
+  "QF.S.50",
+  "||drift_3",
+  "QD.S.48",
+  "mid_cell.S.48",
+  "mid_cell.S.49",
+  "QD.S.49",
+  "||drift_3",
+  "QF.S.51",
+  "start_cell.S.49",
+  "start_cell.S.50",
+  "QF.S.52",
+  "||drift_3",
+  "QD.S.50",
+  "mid_cell.S.50",
+  "mid_cell.S.51",
+  "QD.S.51",
+  "||drift_3",
+  "QF.S.53",
+  "start_cell.S.51",
+  "start_cell.S.52",
+  "QF.S.54",
+  "||drift_3",
+  "QD.S.52",
+  "mid_cell.S.52",
+  "mid_cell.S.53",
+  "QD.S.53",
+  "||drift_3",
+  "QF.S.55",
+  "start_cell.S.53",
+  "start_cell.S.54",
+  "QF.S.56",
+  "||drift_3",
+  "QD.S.54",
+  "mid_cell.S.54",
+  "mid_cell.S.55",
+  "QD.S.55",
+  "||drift_3",
+  "QF.S.57",
+  "start_cell.S.55",
+  "start_cell.S.56",
+  "QF.S.58",
+  "||drift_3",
+  "QD.S.56",
+  "mid_cell.S.56",
+  "mid_cell.S.57",
+  "QD.S.57",
+  "||drift_3",
+  "QF.S.59",
+  "start_cell.S.57",
+  "start_cell.S.58",
+  "QF.S.60",
+  "||drift_3",
+  "QD.S.58",
+  "mid_cell.S.58",
+  "mid_cell.S.59",
+  "QD.S.59",
+  "||drift_3",
+  "QF.S.61",
+  "start_cell.S.59",
+  "start_cell.S.60",
+  "QF.S.62",
+  "||drift_3",
+  "QD.S.60",
+  "mid_cell.S.60",
+  "mid_cell.S.61",
+  "QD.S.61",
+  "||drift_3",
+  "QF.S.63",
+  "start_cell.S.61",
+  "start_cell.S.62",
+  "QF.S.64",
+  "||drift_3",
+  "QD.S.62",
+  "mid_cell.S.62",
+  "mid_cell.S.63",
+  "QD.S.63",
+  "||drift_3",
+  "QF.S.65",
+  "start_cell.S.63",
+  "start_cell.S.64",
+  "QF.S.66",
+  "||drift_3",
+  "QD.S.64",
+  "mid_cell.S.64",
+  "mid_cell.S.65",
+  "QD.S.65",
+  "||drift_3",
+  "QF.S.67",
+  "start_cell.S.65",
+  "start_cell.S.66",
+  "QF.S.68",
+  "||drift_3",
+  "QD.S.66",
+  "mid_cell.S.66",
+  "mid_cell.S.67",
+  "QD.S.67",
+  "||drift_3",
+  "QF.S.69",
+  "start_cell.S.67",
+  "start_cell.S.68",
+  "QF.S.70",
+  "||drift_3",
+  "QD.S.68",
+  "mid_cell.S.68",
+  "mid_cell.S.69",
+  "QD.S.69",
+  "||drift_3",
+  "QF.S.71",
+  "start_cell.S.69",
+  "start_cell.S.70",
+  "QF.S.72",
+  "||drift_3",
+  "QD.S.70",
+  "mid_cell.S.70",
+  "mid_cell.S.71",
+  "QD.S.71",
+  "||drift_3",
+  "QF.S.73",
+  "start_cell.S.71",
+  "matching_start.2",
+  "QF.S.74",
+  "D.S2A.12",
+  "QD.M0.2",
+  "D.S2A.13",
+  "QF.M0.2",
+  "D.S2A.14",
+  "QD.M1.2",
+  "D.S2A.15",
+  "QF.M1.2",
+  "D.S2A.16",
+  "QD.M2.2",
+  "D.S2A.17",
+  "QF.A.22",
+  "start_cell.A.10",
+  "QF.A.23",
+  "||drift_1",
+  "B.10",
+  "||drift_2",
+  "QD.A.20",
+  "QD.A.21",
+  "||drift_3",
+  "QF.A.24",
+  "QF.A.25",
+  "||drift_3",
+  "QD.A.22",
+  "QD.A.23",
+  "||drift_2",
+  "B.11",
+  "||drift_1",
+  "QF.A.26",
+  "start_cell.A.11",
+  "start_cell.A.12",
+  "QF.A.27",
+  "||drift_1",
+  "B.12",
+  "||drift_2",
+  "QD.A.24",
+  "QD.A.25",
+  "||drift_3",
+  "QF.A.28",
+  "QF.A.29",
+  "||drift_3",
+  "QD.A.26",
+  "QD.A.27",
+  "||drift_2",
+  "B.13",
+  "||drift_1",
+  "QF.A.30",
+  "start_cell.A.13",
+  "start_cell.A.14",
+  "QF.A.31",
+  "||drift_1",
+  "B.14",
+  "||drift_2",
+  "QD.A.28",
+  "QD.A.29",
+  "||drift_3",
+  "QF.A.32",
+  "QF.A.33",
+  "||drift_3",
+  "QD.A.30",
+  "QD.A.31",
+  "||drift_2",
+  "B.15",
+  "||drift_1",
+  "QF.A.34",
+  "start_cell.A.15",
+  "start_cell.A.16",
+  "QF.A.35",
+  "||drift_1",
+  "B.16",
+  "||drift_2",
+  "QD.A.32",
+  "QD.A.33",
+  "||drift_3",
+  "QF.A.36",
+  "QF.A.37",
+  "||drift_3",
+  "QD.A.34",
+  "QD.A.35",
+  "||drift_2",
+  "B.17",
+  "||drift_1",
+  "QF.A.38",
+  "start_cell.A.17",
+  "start_cell.A.18",
+  "QF.A.39",
+  "||drift_1",
+  "B.18",
+  "||drift_2",
+  "QD.A.36",
+  "QD.A.37",
+  "||drift_3",
+  "QF.A.40",
+  "QF.A.41",
+  "||drift_3",
+  "QD.A.38",
+  "QD.A.39",
+  "||drift_2",
+  "B.19",
+  "||drift_1",
+  "QF.A.42",
+  "start_cell.A.19",
+  "QF.A.43",
+  "D.S2A.18",
+  "QD.M2.3",
+  "D.S2A.19",
+  "QF.M1.3",
+  "D.S2A.20",
+  "QD.M1.3",
+  "D.S2A.21",
+  "QF.M0.3",
+  "D.S2A.22",
+  "QD.M0.3",
+  "D.S2A.23",
+  "QF.S.75",
+  "matching_start.3",
+  "start_cell.S.72",
+  "QF.S.76",
+  "||drift_3",
+  "QD.S.72",
+  "mid_cell.S.72",
+  "mid_cell.S.73",
+  "QD.S.73",
+  "||drift_3",
+  "QF.S.77",
+  "start_cell.S.73",
+  "start_cell.S.74",
+  "QF.S.78",
+  "||drift_3",
+  "QD.S.74",
+  "mid_cell.S.74",
+  "mid_cell.S.75",
+  "QD.S.75",
+  "||drift_3",
+  "QF.S.79",
+  "start_cell.S.75",
+  "start_cell.S.76",
+  "QF.S.80",
+  "||drift_3",
+  "QD.S.76",
+  "mid_cell.S.76",
+  "mid_cell.S.77",
+  "QD.S.77",
+  "||drift_3",
+  "QF.S.81",
+  "start_cell.S.77",
+  "start_cell.S.78",
+  "QF.S.82",
+  "||drift_3",
+  "QD.S.78",
+  "mid_cell.S.78",
+  "mid_cell.S.79",
+  "QD.S.79",
+  "||drift_3",
+  "QF.S.83",
+  "start_cell.S.79",
+  "start_cell.S.80",
+  "QF.S.84",
+  "||drift_3",
+  "QD.S.80",
+  "mid_cell.S.80",
+  "mid_cell.S.81",
+  "QD.S.81",
+  "||drift_3",
+  "QF.S.85",
+  "start_cell.S.81",
+  "start_cell.S.82",
+  "QF.S.86",
+  "||drift_3",
+  "QD.S.82",
+  "mid_cell.S.82",
+  "mid_cell.S.83",
+  "QD.S.83",
+  "||drift_3",
+  "QF.S.87",
+  "start_cell.S.83",
+  "start_cell.S.84",
+  "QF.S.88",
+  "||drift_3",
+  "QD.S.84",
+  "mid_cell.S.84",
+  "mid_cell.S.85",
+  "QD.S.85",
+  "||drift_3",
+  "QF.S.89",
+  "start_cell.S.85",
+  "start_cell.S.86",
+  "QF.S.90",
+  "||drift_3",
+  "QD.S.86",
+  "mid_cell.S.86",
+  "mid_cell.S.87",
+  "QD.S.87",
+  "||drift_3",
+  "QF.S.91",
+  "start_cell.S.87",
+  "start_cell.S.88",
+  "QF.S.92",
+  "||drift_3",
+  "QD.S.88",
+  "mid_cell.S.88",
+  "mid_cell.S.89",
+  "QD.S.89",
+  "||drift_3",
+  "QF.S.93",
+  "start_cell.S.89",
+  "start_cell.S.90",
+  "QF.S.94",
+  "||drift_3",
+  "QD.S.90",
+  "mid_cell.S.90",
+  "mid_cell.S.91",
+  "QD.S.91",
+  "||drift_3",
+  "QF.S.95",
+  "start_cell.S.91",
+  "start_cell.S.92",
+  "QF.S.96",
+  "||drift_3",
+  "QD.S.92",
+  "mid_cell.S.92",
+  "mid_cell.S.93",
+  "QD.S.93",
+  "||drift_3",
+  "QF.S.97",
+  "start_cell.S.93",
+  "start_cell.S.94",
+  "QF.S.98",
+  "||drift_3",
+  "QD.S.94",
+  "mid_cell.S.94",
+  "mid_cell.S.95",
+  "QD.S.95",
+  "||drift_3",
+  "QF.S.99",
+  "start_cell.S.95"
+ ],
+ "config": {
+  "XTRACK_MULTIPOLE_NO_SYNRAD": true,
+  "XFIELDS_BB3D_NO_BEAMSTR": true,
+  "XFIELDS_BB3D_NO_BHABHA": true,
+  "XTRACK_GLOBAL_XY_LIMIT": 1.0
+ },
+ "_extra_config": {
+  "skip_end_turn_actions": false,
+  "reset_s_at_end_turn": true,
+  "matrix_responsiveness_tol": 1e-15,
+  "matrix_stability_tol": 0.002,
+  "dt_update_time_dependent_vars": 0.0,
+  "_t_last_update_time_dependent_vars": null,
+  "_radiation_model": null,
+  "_beamstrahlung_model": null,
+  "_bhabha_model": null,
+  "_spin_model": null,
+  "_needs_rng": false,
+  "enable_time_dependent_vars": false,
+  "twiss_default": {},
+  "steering_monitors_x": null,
+  "steering_monitors_y": null,
+  "steering_correctors_x": null,
+  "steering_correctors_y": null,
+  "corrector_limits_x": null,
+  "corrector_limits_y": null,
+  "end_compose_on_reload": true
+ },
+ "mode": "normal",
+ "composer": {
+  "__class__": "Builder",
+  "components": [],
+  "refer": "center",
+  "s_tol": 1e-06
+ },
+ "particle_ref": {
+  "at_turn": [
+   0
+  ],
+  "gamma0": [
+   5.766055444277617
+  ],
+  "_rng_s1": [
+   0
+  ],
+  "state": [
+   1
+  ],
+  "y": [
+   0.0
+  ],
+  "t_sim": 7.315845766297048e-07,
+  "spin_z": [
+   0.0
+  ],
+  "particle_id": [
+   0
+  ],
+  "mass0": 105658375.5,
+  "chi": [
+   1.0
+  ],
+  "at_element": [
+   0
+  ],
+  "spin_x": [
+   0.0
+  ],
+  "_rng_s4": [
+   0
+  ],
+  "parent_particle_id": [
+   0
+  ],
+  "start_tracking_at_element": -1,
+  "rvv": [
+   1.0
+  ],
+  "p0c": [
+   600000000.0
+  ],
+  "s": [
+   0.0
+  ],
+  "anomalous_magnetic_moment": [
+   0.0
+  ],
+  "spin_y": [
+   0.0
+  ],
+  "zeta": [
+   0.0
+  ],
+  "px": [
+   0.0
+  ],
+  "beta0": [
+   0.9848464123549855
+  ],
+  "delta": [
+   0.0
+  ],
+  "q0": 1.0,
+  "weight": [
+   1.0
+  ],
+  "rpp": [
+   1.0
+  ],
+  "x": [
+   0.0
+  ],
+  "charge_ratio": [
+   1.0
+  ],
+  "_rng_s3": [
+   0
+  ],
+  "ptau": [
+   0.0
+  ],
+  "pdg_id": [
+   0
+  ],
+  "py": [
+   0.0
+  ],
+  "_rng_s2": [
+   0
+  ],
+  "ay": [
+   0.0
+  ],
+  "ax": [
+   0.0
+  ]
+ },
+ "_var_management_data": {
+  "var_values": {
+   "t_turn_s": 0.0,
+   "__vary_default": {},
+   "lquad": 0.25,
+   "lcell": 2.7,
+   "lbend": 0.7,
+   "lsex": 0.15,
+   "lqs": 0.1,
+   "k1fa": -3.797568688552298,
+   "k1da": 3.40194406271481,
+   "a_edge": 0,
+   "k2f0": 0,
+   "k2f1": 0,
+   "k2f2": 0,
+   "k2f3": 0,
+   "k2f4": 0,
+   "k2d0": 0,
+   "k2d1": 0,
+   "k2d2": 0,
+   "k2d3": 0,
+   "k2d4": 0,
+   "k1fs": -3.941348664285132,
+   "k1ds": 3.9413486643182547,
+   "tune_knob": 0.0,
+   "tunex_knob": 0.25,
+   "tuney_knob": -0.15,
+   "l_drift_m_S2A": 1.1,
+   "k1dm0": 3.7580800507782106,
+   "k1fm0": -3.7092350662676314,
+   "k1dm1": 3.5973983621020174,
+   "k1fm1": -3.7536268434088513,
+   "k1dm2": 3.453754760340388,
+   "k1fs_pi": -1,
+   "k1ds_pi": 1
+  },
+  "functions": {
+   "_funcs": {}
+  }
+ },
+ "_var_manager": [
+  [
+   "element_refs['Q'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['S'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['QF.A'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QD.A'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['SF.0'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SF.0'].k2",
+   "vars['k2f0']"
+  ],
+  [
+   "element_refs['SF.1'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SF.1'].k2",
+   "vars['k2f1']"
+  ],
+  [
+   "element_refs['SF.2'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SF.2'].k2",
+   "vars['k2f2']"
+  ],
+  [
+   "element_refs['SF.3'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SF.3'].k2",
+   "vars['k2f3']"
+  ],
+  [
+   "element_refs['SF.4'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SF.4'].k2",
+   "vars['k2f4']"
+  ],
+  [
+   "element_refs['SD.0'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SD.0'].k2",
+   "vars['k2d0']"
+  ],
+  [
+   "element_refs['SD.1'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SD.1'].k2",
+   "vars['k2d1']"
+  ],
+  [
+   "element_refs['SD.2'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SD.2'].k2",
+   "vars['k2d2']"
+  ],
+  [
+   "element_refs['SD.3'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SD.3'].k2",
+   "vars['k2d3']"
+  ],
+  [
+   "element_refs['SD.4'].length",
+   "vars['lsex']"
+  ],
+  [
+   "element_refs['SD.4'].k2",
+   "vars['k2d4']"
+  ],
+  [
+   "element_refs['QF.S'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QD.S'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['PI_QF.S'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['PI_QF.S'].k1",
+   "vars['k1fs_pi']"
+  ],
+  [
+   "element_refs['PI_QD.S'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['PI_QD.S'].k1",
+   "vars['k1ds_pi']"
+  ],
+  [
+   "element_refs['D.S2A'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['QD.M0'].k1",
+   "vars['k1dm0']"
+  ],
+  [
+   "element_refs['QD.M0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M0'].k1",
+   "vars['k1fm0']"
+  ],
+  [
+   "element_refs['QF.M0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M1'].k1",
+   "vars['k1dm1']"
+  ],
+  [
+   "element_refs['QD.M1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M1'].k1",
+   "vars['k1fm1']"
+  ],
+  [
+   "element_refs['QF.M1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M2'].k1",
+   "vars['k1dm2']"
+  ],
+  [
+   "element_refs['QD.M2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M0.0'].k1",
+   "vars['k1dm0']"
+  ],
+  [
+   "element_refs['QD.M0.0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M0.1'].k1",
+   "vars['k1dm0']"
+  ],
+  [
+   "element_refs['QD.M0.1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M0.2'].k1",
+   "vars['k1dm0']"
+  ],
+  [
+   "element_refs['QD.M0.2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M0.3'].k1",
+   "vars['k1dm0']"
+  ],
+  [
+   "element_refs['QD.M0.3'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M1.0'].k1",
+   "vars['k1dm1']"
+  ],
+  [
+   "element_refs['QD.M1.0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M1.1'].k1",
+   "vars['k1dm1']"
+  ],
+  [
+   "element_refs['QD.M1.1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M1.2'].k1",
+   "vars['k1dm1']"
+  ],
+  [
+   "element_refs['QD.M1.2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M1.3'].k1",
+   "vars['k1dm1']"
+  ],
+  [
+   "element_refs['QD.M1.3'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M2.0'].k1",
+   "vars['k1dm2']"
+  ],
+  [
+   "element_refs['QD.M2.0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M2.1'].k1",
+   "vars['k1dm2']"
+  ],
+  [
+   "element_refs['QD.M2.1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M2.2'].k1",
+   "vars['k1dm2']"
+  ],
+  [
+   "element_refs['QD.M2.2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QD.M2.3'].k1",
+   "vars['k1dm2']"
+  ],
+  [
+   "element_refs['QD.M2.3'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M0.0'].k1",
+   "vars['k1fm0']"
+  ],
+  [
+   "element_refs['QF.M0.0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M0.1'].k1",
+   "vars['k1fm0']"
+  ],
+  [
+   "element_refs['QF.M0.1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M0.2'].k1",
+   "vars['k1fm0']"
+  ],
+  [
+   "element_refs['QF.M0.2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M0.3'].k1",
+   "vars['k1fm0']"
+  ],
+  [
+   "element_refs['QF.M0.3'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.S.0'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.0'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.1'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.1'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.2'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.2'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.3'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.3'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.4'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.4'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.5'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.5'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.6'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.6'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.7'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.7'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.8'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.8'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.9'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.9'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.10'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.10'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.11'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.11'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.12'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.12'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.13'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.13'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.14'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.14'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.15'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.15'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.16'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.16'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.17'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.17'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.18'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.18'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.19'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.19'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.20'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.20'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.21'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.21'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.22'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.22'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.23'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.23'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.24'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.24'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.25'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.25'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.26'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.26'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.27'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.27'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.28'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.28'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.29'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.29'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.30'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.30'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.31'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.31'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.32'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.32'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.33'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.33'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.34'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.34'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.35'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.35'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.36'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.36'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.37'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.37'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.38'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.38'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.39'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.39'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.40'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.40'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.41'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.41'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.42'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.42'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.43'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.43'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.44'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.44'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.45'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.45'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.46'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.46'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.47'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.47'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.48'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.48'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.49'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.49'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.50'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.50'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.51'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.51'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.52'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.52'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.53'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.53'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.54'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.54'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.55'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.55'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.56'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.56'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.57'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.57'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.58'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.58'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.59'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.59'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.60'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.60'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.61'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.61'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.62'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.62'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.63'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.63'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.64'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.64'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.65'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.65'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.66'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.66'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.67'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.67'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.68'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.68'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.69'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.69'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.70'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.70'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.71'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.71'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.72'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.72'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.73'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.73'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.74'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.74'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.75'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.75'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.76'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.76'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.77'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.77'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.78'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.78'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.79'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.79'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.80'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.80'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.81'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.81'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.82'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.82'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.83'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.83'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.84'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.84'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.85'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.85'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.86'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.86'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.87'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.87'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.88'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.88'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.89'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.89'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.90'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.90'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.91'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.91'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.92'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.92'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.93'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.93'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.94'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.94'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.95'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.95'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.96'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.96'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.97'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.97'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.98'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.98'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['QF.S.99'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.S.99'].k1",
+   "(vars['k1fs'] + vars['tunex_knob'])"
+  ],
+  [
+   "element_refs['D.S2A.0'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.1'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.2'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.3'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.4'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.5'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.6'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.7'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.8'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.9'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.10'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.11'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.12'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.13'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.14'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.15'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.16'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.17'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.18'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.19'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.20'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.21'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.22'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['D.S2A.23'].length",
+   "vars['l_drift_m_S2A']"
+  ],
+  [
+   "element_refs['QD.A.0'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.0'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.1'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.1'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.2'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.2'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.3'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.3'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.4'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.4'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.5'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.5'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.6'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.6'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.7'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.7'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.8'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.8'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.9'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.9'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.10'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.10'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.11'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.11'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.12'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.12'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.13'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.13'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.14'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.14'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.15'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.15'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.16'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.16'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.17'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.17'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.18'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.18'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.19'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.19'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.20'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.20'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.21'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.21'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.22'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.22'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.23'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.23'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.24'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.24'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.25'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.25'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.26'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.26'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.27'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.27'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.28'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.28'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.29'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.29'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.30'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.30'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.31'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.31'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.32'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.32'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.33'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.33'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.34'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.34'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.35'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.35'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.36'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.36'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.37'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.37'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.38'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.38'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QD.A.39'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.A.39'].k1",
+   "vars['k1da']"
+  ],
+  [
+   "element_refs['QF.M1.0'].k1",
+   "vars['k1fm1']"
+  ],
+  [
+   "element_refs['QF.M1.0'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M1.1'].k1",
+   "vars['k1fm1']"
+  ],
+  [
+   "element_refs['QF.M1.1'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M1.2'].k1",
+   "vars['k1fm1']"
+  ],
+  [
+   "element_refs['QF.M1.2'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.M1.3'].k1",
+   "vars['k1fm1']"
+  ],
+  [
+   "element_refs['QF.M1.3'].length",
+   "vars['lquad']"
+  ],
+  [
+   "element_refs['QF.A.0'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.0'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.1'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.1'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.2'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.2'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.3'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.3'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.4'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.4'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.5'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.5'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.6'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.6'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.7'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.7'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.8'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.8'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.9'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.9'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.10'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.10'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.11'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.11'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.12'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.12'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.13'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.13'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.14'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.14'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.15'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.15'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.16'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.16'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.17'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.17'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.18'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.18'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.19'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.19'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.20'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.20'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.21'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.21'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.22'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.22'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.23'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.23'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.24'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.24'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.25'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.25'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.26'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.26'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.27'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.27'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.28'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.28'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.29'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.29'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.30'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.30'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.31'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.31'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.32'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.32'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.33'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.33'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.34'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.34'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.35'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.35'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.36'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.36'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.37'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.37'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.38'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.38'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.39'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.39'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.40'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.40'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.41'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.41'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.42'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.42'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QF.A.43'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QF.A.43'].k1",
+   "vars['k1fa']"
+  ],
+  [
+   "element_refs['QD.S.0'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.0'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.1'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.1'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.2'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.2'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.3'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.3'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.4'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.4'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.5'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.5'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.6'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.6'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.7'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.7'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.8'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.8'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.9'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.9'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.10'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.10'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.11'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.11'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.12'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.12'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.13'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.13'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.14'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.14'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.15'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.15'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.16'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.16'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.17'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.17'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.18'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.18'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.19'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.19'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.20'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.20'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.21'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.21'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.22'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.22'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.23'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.23'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.24'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.24'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.25'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.25'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.26'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.26'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.27'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.27'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.28'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.28'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.29'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.29'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.30'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.30'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.31'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.31'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.32'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.32'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.33'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.33'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.34'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.34'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.35'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.35'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.36'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.36'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.37'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.37'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.38'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.38'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.39'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.39'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.40'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.40'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.41'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.41'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.42'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.42'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.43'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.43'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.44'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.44'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.45'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.45'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.46'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.46'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.47'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.47'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.48'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.48'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.49'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.49'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.50'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.50'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.51'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.51'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.52'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.52'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.53'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.53'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.54'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.54'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.55'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.55'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.56'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.56'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.57'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.57'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.58'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.58'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.59'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.59'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.60'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.60'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.61'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.61'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.62'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.62'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.63'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.63'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.64'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.64'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.65'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.65'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.66'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.66'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.67'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.67'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.68'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.68'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.69'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.69'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.70'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.70'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.71'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.71'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.72'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.72'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.73'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.73'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.74'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.74'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.75'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.75'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.76'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.76'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.77'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.77'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.78'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.78'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.79'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.79'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.80'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.80'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.81'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.81'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.82'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.82'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.83'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.83'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.84'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.84'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.85'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.85'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.86'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.86'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.87'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.87'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.88'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.88'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.89'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.89'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.90'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.90'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.91'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.91'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.92'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.92'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.93'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.93'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.94'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.94'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ],
+  [
+   "element_refs['QD.S.95'].length",
+   "(vars['lquad'] / 2.0)"
+  ],
+  [
+   "element_refs['QD.S.95'].k1",
+   "(vars['k1ds'] + vars['tuney_knob'])"
+  ]
+ ],
+ "env_particles": {},
+ "metadata": {}
+}

@@ -28,7 +28,7 @@ fi
 # Loop through each file in the file list
 while IFS= read -r file; do
     # Skip empty lines or lines with only whitespace
-    if [[ -z "$file" ]]; then
+    if [[ -z "$file" ]] || [[ "$file" =~ \#.* ]]; then
         continue
     fi
 
@@ -39,6 +39,8 @@ while IFS= read -r file; do
     # Find and delete all files in the destination directory with the same base name
     echo "Removing files with base name '$base_name' in $destination_directory"
     find "$destination_directory" -type f -name "$base_name.inp" -exec rm {} \;
+    find "$destination_directory" -type f -name "$base_name.inp\~" -exec rm {} \;
+
     find "$destination_directory" -type f -name "$base_name.flair" -exec rm {} \;
 
     # Copy the file to the destination directory
